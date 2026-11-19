@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19 15:19 UTC",
+ "checked": "2026-11-19 22:39 UTC",
  "started": false,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -147,6 +147,7 @@
    "board": "Little",
    "note": "",
    "sources": [
+    "WikiSync",
     "Temple",
     "Hiscores"
    ],
@@ -198,7 +199,7 @@
      "kc": 10
     }
    ],
-   "log_items": 135,
+   "log_items": 136,
    "has_baseline": false,
    "log_since": "",
    "going": [
@@ -304,7 +305,7 @@
     },
     {
      "name": "Zulrah",
-     "kc": 1652
+     "kc": 1656
     },
     {
      "name": "Vardorvis",
