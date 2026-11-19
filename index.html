@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Little Boy Bingo Plan</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one reading column, priority groups as labelled bands, each holding a scrollable table */
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --fg:#1b2330; --muted:#5d6878; --line:#d9dee6;
+  --accent:#b8740f; --accent-soft:#f6e7cf;
+  --yes:#1f7a4a; --yes-bg:#dcf1e5; --maybe:#8a6a00; --maybe-bg:#f7edc8;
+  --low:#9a4b1c; --low-bg:#f8e2d4; --no:#a3263a; --no-bg:#f7dade; --skip:#55606e; --skip-bg:#e6e9ee;
+  --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body:"Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#12161d; --surface:#1a2029; --fg:#e6eaf0; --muted:#9aa5b4; --line:#2c3440;
+  --accent:#e6a43a; --accent-soft:#3a2d17;
+  --yes:#6fd39b; --yes-bg:#173527; --maybe:#e8c75a; --maybe-bg:#3a3214;
+  --low:#f0a273; --low-bg:#3d2517; --no:#f08797; --no-bg:#3f1c23; --skip:#aab4c2; --skip-bg:#272e38;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#12161d; --surface:#1a2029; --fg:#e6eaf0; --muted:#9aa5b4; --line:#2c3440;
+  --accent:#e6a43a; --accent-soft:#3a2d17;
+  --yes:#6fd39b; --yes-bg:#173527; --maybe:#e8c75a; --maybe-bg:#3a3214;
+  --low:#f0a273; --low-bg:#3d2517; --no:#f08797; --no-bg:#3f1c23; --skip:#aab4c2; --skip-bg:#272e38;
+  color-scheme:dark;
+}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:32px 56px}
+.wrap{max-width:1080px;margin:0 auto;display:grid;gap:28px}
+h1,h2{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.15}
+h1{font-size:clamp(28px,5vw,42px);font-weight:800;letter-spacing:-0.01em}
+h2{font-size:21px;font-weight:600}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.lede{color:var(--muted);max-width:68ch;margin:6px 0 0}
+header{display:grid;gap:6px}
+.summary{display:flex;flex-wrap:wrap;gap:10px}
+.chip{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:13px;display:flex;gap:8px;align-items:baseline}
+.chip b{font-family:var(--mono);font-size:16px;font-variant-numeric:tabular-nums}
+section.group{display:grid;gap:10px}
+.group-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px}
+.group-head p{margin:0;color:var(--muted);font-size:14px;max-width:70ch}
+.tablebox{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;min-width:860px;font-size:14px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:0}
+th{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:600;background:var(--bg)}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--muted)}
+td.tile{font-weight:600;min-width:150px}
+td.tile .star{color:var(--accent)}
+td.status{color:var(--muted);min-width:150px}
+td.notes{min-width:220px}
+.pill{display:inline-block;font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;white-space:nowrap}
+.yes{color:var(--yes);background:var(--yes-bg)} .maybe{color:var(--maybe);background:var(--maybe-bg)}
+.low{color:var(--low);background:var(--low-bg)} .no{color:var(--no);background:var(--no-bg)} .skip{color:var(--skip);background:var(--skip-bg)}
+.tag{display:inline-block;font-size:11px;font-weight:600;color:var(--accent);background:var(--accent-soft);border-radius:4px;padding:1px 6px;margin:2px 4px 0 0}
+tr.done td{opacity:.5} tr.done td.tile{text-decoration:line-through}
+input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent);cursor:pointer}
+input[type=checkbox]:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.cols{display:grid;grid-template-columns:1fr;gap:16px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:8px;min-width:0}
+.panel h2{font-size:17px}
+.panel ul{margin:0;padding-left:18px;display:grid;gap:6px}
+.panel p{margin:0;color:var(--muted);font-size:14px}
+footer{color:var(--muted);font-size:13px}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+<style>html{color-scheme:light}body{margin:0;font-size:15px}</style>
+</head>
+<body>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Spooky clan bingo · Little Boy team · Kitten Lissy</div>
+  <h1>Little Boy Bingo Plan</h1>
+  <p class="lede">All 25 tiles in priority order: the two tiles everyone must do, then God Wars and the Dagannoth Kings (which also finish the Fremennik Elite), then a raid, then everything else by how likely it is. Status comes from the TempleOSRS collection log and WikiSync, synced 19 Nov. Tick a tile when it's done; ticks stay in this browser only.</p>
+</header>
+
+<div class="summary" aria-label="Summary">
+  <div class="chip"><b>2</b> tiles everyone must do</div>
+  <div class="chip"><b>6</b> realistic for you</div>
+  <div class="chip"><b>15</b> luck or team-dependent</div>
+  <div class="chip"><b>1</b> skipped (barrel)</div>
+  <div class="chip"><b>1</b> not possible solo</div>
+</div>
+
+<section class="group">
+  <div class="group-head"><h2>1 · Everyone must do</h2><p>The only two tiles that need every Little Boy member. Get yours out of the way so the team isn't waiting on you.</p></div>
+  <div class="tablebox"><table>
+    <thead><tr><th>Done</th><th>#</th><th>Tile</th><th>What you need</th><th>Your status</th><th>Possible?</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr data-tile="21"><td><input type="checkbox" id="t21" aria-label="Tile 21 done"></td><td class="num">21</td><td class="tile">Beefy Tile</td><td>Cow slippers, one per team member</td><td class="status">None yet</td><td><span class="pill yes">Yes</span></td><td class="notes">Brutus in the Lumbridge cow field, 1/150. Low risk.</td></tr>
+      <tr data-tile="13"><td><input type="checkbox" id="t13" aria-label="Tile 13 done"></td><td class="num">13</td><td class="tile">Hot Stuff</td><td>A fire cape, every member</td><td class="status">Fire cape ×2 in log</td><td><span class="pill yes">Yes</span></td><td class="notes">Ask the organisers whether old capes count. If not, one more Jad run.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section class="group">
+  <div class="group-head"><h2>2 · God Wars and Dagannoth Kings</h2><p>These finish your Fremennik Elite (the only two tasks left) while putting drops toward four bingo tiles.</p></div>
+  <div class="tablebox"><table>
+    <thead><tr><th>Done</th><th>#</th><th>Tile</th><th>What you need</th><th>Your status</th><th>Possible?</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr data-tile="6"><td><input type="checkbox" id="t6" aria-label="Tile 6 done"></td><td class="num">6</td><td class="tile"><span class="star">☆</span> Godly Gamer</td><td>Any 2 God Wars uniques (shards don't count)</td><td class="status">None yet</td><td><span class="pill maybe">Maybe</span></td><td class="notes"><span class="tag">Fremennik Elite</span> One kill of each general ticks the diary. Pairs with your Bandos hilt hunt.</td></tr>
+      <tr data-tile="19"><td><input type="checkbox" id="t19" aria-label="Tile 19 done"></td><td class="num">19</td><td class="tile"><span class="star">☆</span> You GODa be kidding me</td><td>2 more God Wars uniques, from a different boss than tile 6</td><td class="status">None yet</td><td><span class="pill maybe">Maybe</span></td><td class="notes">Rotating generals for the diary sets this up.</td></tr>
+      <tr data-tile="17"><td><input type="checkbox" id="t17" aria-label="Tile 17 done"></td><td class="num">17</td><td class="tile">Dropping Defence Matters</td><td>DWH, BGS from scratch, or elder maul</td><td class="status">None yet</td><td><span class="pill maybe">Maybe</span></td><td class="notes">Bandos hilt plus 3 shards makes a BGS from scratch.</td></tr>
+      <tr data-tile="8"><td><input type="checkbox" id="t8" aria-label="Tile 8 done"></td><td class="num">8</td><td class="tile"><span class="star">☆</span> Daggan These Nuts</td><td>All four DK rings (warrior, berserker, archer, seers)</td><td class="status">None yet</td><td><span class="pill maybe">Maybe</span></td><td class="notes"><span class="tag">Fremennik Elite</span> Rex: berserker + warrior. Prime: seers. Supreme: archer. 85 Agility shortcut on Waterbirth (you have 86), or bring the team.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section class="group">
+  <div class="group-head"><h2>3 · A raid</h2><p>Your stats are fine for a learner raid; experience is the gap. Start with low-level ToA with clanmates.</p></div>
+  <div class="tablebox"><table>
+    <thead><tr><th>Done</th><th>#</th><th>Tile</th><th>What you need</th><th>Your status</th><th>Possible?</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr data-tile="4"><td><input type="checkbox" id="t4" aria-label="Tile 4 done"></td><td class="num">4</td><td class="tile">ZE PANTY RAID</td><td>Any raid unique (ToA gems count, thread doesn't)</td><td class="status">No raids yet</td><td><span class="pill maybe">Maybe</span></td><td class="notes">Easiest raid tile thanks to ToA gems. <span class="tag">Kourend Elite</span> if you do a CoX.</td></tr>
+      <tr data-tile="18"><td><input type="checkbox" id="t18" aria-label="Tile 18 done"></td><td class="num">18</td><td class="tile">Getting the hang of this</td><td>A raid purple in your own name</td><td class="status">No raids yet</td><td><span class="pill maybe">Maybe</span></td><td class="notes">Same raids as tile 4; the purple has to be yours.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section class="group">
+  <div class="group-head"><h2>4 · Quick fillers</h2><p>Steady, low-stress tiles to do between the bigger trips.</p></div>
+  <div class="tablebox"><table>
+    <thead><tr><th>Done</th><th>#</th><th>Tile</th><th>What you need</th><th>Your status</th><th>Possible?</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr data-tile="12"><td><input type="checkbox" id="t12" aria-label="Tile 12 done"></td><td class="num">12</td><td class="tile">Big mean Greenie or Mr Mammal?</td><td>Hill giant club or Bryophyta's essence</td><td class="status">None yet</td><td><span class="pill yes">Yes</span></td><td class="notes">Obor or Bryophyta, quick free-to-play bosses.</td></tr>
+      <tr data-tile="11"><td><input type="checkbox" id="t11" aria-label="Tile 11 done"></td><td class="num">11</td><td class="tile">Tell it ToMe Straight</td><td>Any tome</td><td class="status">Tome of fire ×3 (from before)</td><td><span class="pill yes">Yes</span></td><td class="notes">Wintertodt (333 kills).</td></tr>
+      <tr data-tile="7"><td><input type="checkbox" id="t7" aria-label="Tile 7 done"></td><td class="num">7</td><td class="tile">Hueycoatl and the News</td><td>Huey unique (not seeds, 3 hides minimum)</td><td class="status">None yet</td><td><span class="pill yes">Yes</span></td><td class="notes">Friendly group boss. A tome of earth also counts for tile 11.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section class="group">
+  <div class="group-head"><h2>5 · Steady grinds and rare drops</h2><p>Doable at your stats, but each needs time or luck.</p></div>
+  <div class="tablebox"><table>
+    <thead><tr><th>Done</th><th>#</th><th>Tile</th><th>What you need</th><th>Your status</th><th>Possible?</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr data-tile="2"><td><input type="checkbox" id="t2" aria-label="Tile 2 done"></td><td class="num">2</td><td class="tile"><span class="star">☆</span> Titan your Belt</td><td>Both Twinflame staff pieces</td><td class="status">None yet</td><td><span class="pill maybe">Maybe</span></td><td class="notes">Royal Titans suit your stats; you need both crowns.</td></tr>
+      <tr data-tile="9"><td><input type="checkbox" id="t9" aria-label="Tile 9 done"></td><td class="num">9</td><td class="tile">Perilous Times</td><td>A full Moons set, all from one set</td><td class="status">4 Lunar Chests</td><td><span class="pill maybe">Maybe</span></td><td class="notes">Steady, but needs a complete matching set.</td></tr>
+      <tr data-tile="10"><td><input type="checkbox" id="t10" aria-label="Tile 10 done"></td><td class="num">10</td><td class="tile">Can I Barrow some of your time?</td><td>A full Barrows set, all from one set</td><td class="status">Ahrim's hood, Guthan's platebody (different sets)</td><td><span class="pill maybe">Maybe</span></td><td class="notes">22 chests in; one full set takes luck.</td></tr>
+      <tr data-tile="15"><td><input type="checkbox" id="t15" aria-label="Tile 15 done"></td><td class="num">15</td><td class="tile">Big Ass Spider</td><td>2 Sarachnis cudgels, or jar, or pet</td><td class="status">None yet</td><td><span class="pill maybe">Maybe</span></td><td class="notes">Easy boss, rare drops.</td></tr>
+      <tr data-tile="23"><td><input type="checkbox" id="t23" aria-label="Tile 23 done"></td><td class="num">23</td><td class="tile">Dragon Slayer</td><td>Dragonbone necklace or 20 Vorkath heads</td><td class="status">1 head, 12 Vorkath kills</td><td><span class="pill maybe">Maybe</span></td><td class="notes">You know the fight; either route is a long grind.</td></tr>
+      <tr data-tile="16"><td><input type="checkbox" id="t16" aria-label="Tile 16 done"></td><td class="num">16</td><td class="tile">Sweet kicks</td><td>Guardian boots from scratch</td><td class="status">None yet</td><td><span class="pill maybe">Maybe</span></td><td class="notes">Black tourmaline core (Grotesque Guardians) + Bandos boots.</td></tr>
+      <tr data-tile="1"><td><input type="checkbox" id="t1" aria-label="Tile 1 done"></td><td class="num">1</td><td class="tile">Whats your angel?</td><td>2 Hallowfells, or a jar of stone, or a pet</td><td class="status">1 Mad Angel kill</td><td><span class="pill maybe">Maybe</span></td><td class="notes">Mad Angel, or Grotesque Guardians on a gargoyle task.</td></tr>
+      <tr data-tile="22"><td><input type="checkbox" id="t22" aria-label="Tile 22 done"></td><td class="num">22</td><td class="tile">Pigeon Crusher</td><td>Belle's folly</td><td class="status">None yet</td><td><span class="pill maybe">Maybe</span></td><td class="notes">From the Shellbane Gryphon. Rare.</td></tr>
+      <tr data-tile="20"><td><input type="checkbox" id="t20" aria-label="Tile 20 done"></td><td class="num">20</td><td class="tile">Warding off Evil</td><td>Odium or malediction ward from scratch</td><td class="status">1 kill each at the Wildy bosses</td><td><span class="pill maybe">Maybe</span></td><td class="notes">3 shards from Scorpia, Chaos Fanatic or Crazy Arch. PKer risk.</td></tr>
+      <tr data-tile="5"><td><input type="checkbox" id="t5" aria-label="Tile 5 done"></td><td class="num">5</td><td class="tile">Guarding my face</td><td>Basilisk jaw</td><td class="status">None yet</td><td><span class="pill maybe">Maybe</span></td><td class="notes">Basilisk Knights (needs The Fremennik Exiles). Rare.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section class="group">
+  <div class="group-head"><h2>6 · Long shots, skips and blockers</h2><p>Pure luck, left to a teammate, or out of reach solo.</p></div>
+  <div class="tablebox"><table>
+    <thead><tr><th>Done</th><th>#</th><th>Tile</th><th>What you need</th><th>Your status</th><th>Possible?</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr data-tile="24"><td><input type="checkbox" id="t24" aria-label="Tile 24 done"></td><td class="num">24</td><td class="tile">What's Following me?</td><td>Any boss pet (not Chaos Ele)</td><td class="status">Only a skilling pet (Abyssal protector)</td><td><span class="pill maybe">Maybe</span></td><td class="notes">Luck. Every boss above gives a small chance.</td></tr>
+      <tr data-tile="14"><td><input type="checkbox" id="t14" aria-label="Tile 14 done"></td><td class="num">14</td><td class="tile">Draconic Dreams</td><td>Any visage (draconic, skeletal, wyvern)</td><td class="status">None yet</td><td><span class="pill low">Unlikely</span></td><td class="notes">Very rare. Vorkath's skeletal visage is your best shot.</td></tr>
+      <tr data-tile="25"><td><input type="checkbox" id="t25" aria-label="Tile 25 done"></td><td class="num">25</td><td class="tile">CHUG CHUG CHUG</td><td>Chugging barrel or potion storage, from Mixology</td><td class="status">Outfit done; your barrel was GE-bought</td><td><span class="pill skip">Skip</span></td><td class="notes">Barrel is 17,250 mox / 14,000 aga / 18,600 lye. Left for a teammate.</td></tr>
+      <tr data-tile="3"><td><input type="checkbox" id="t3" aria-label="Tile 3 done"></td><td class="num">3</td><td class="tile">Tried and Dented</td><td>Trident of the swamp from scratch</td><td class="status">None yet</td><td><span class="pill no">No (solo)</span></td><td class="notes">Krakens need 87 Slayer (you have 81). Only if a teammate supplies the trident.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<div class="cols">
+  <div class="panel">
+    <h2>Diary overlap</h2>
+    <p>Fremennik Elite has two tasks left: kill each Dagannoth King, and kill all four God Wars generals. Both sit in group 2 above. A CoX raid also ticks a Kourend Elite task.</p>
+  </div>
+</div>
+
+<footer>Sources: TempleOSRS collection log, WikiSync and Wise Old Man (all synced 19 Nov 2026), OSRS Wiki for drops and requirements.</footer>
+</div>
+
+<script>
+(function(){
+  var KEY='little-boy-done';
+  var done={};
+  try{ done=JSON.parse(localStorage.getItem(KEY)||'{}')||{}; }catch(e){ done={}; }
+  document.querySelectorAll('tr[data-tile]').forEach(function(row){
+    var id=row.getAttribute('data-tile'); var box=row.querySelector('input[type=checkbox]');
+    if(done[id]){ box.checked=true; row.classList.add('done'); }
+    box.addEventListener('change',function(){
+      row.classList.toggle('done',box.checked);
+      if(box.checked){ done[id]=1; } else { delete done[id]; }
+      try{ localStorage.setItem(KEY,JSON.stringify(done)); }catch(e){}
+    });
+  });
+})();
+</script>
+</body>
+</html>
