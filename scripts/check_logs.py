@@ -95,6 +95,8 @@ TILES = {
     },
 }
 STARRED = {"Little": {2, 6, 8, 19}, "Big": {2, 7, 10, 11, 16, 20}}
+# Tiles the tracker can't see (CAs, kill tasks, every-member tiles): marked done by hand only.
+MANUAL = {"Little": {13, 21}, "Big": {13, 14, 18, 25}}
 
 QUESTS = {}
 ITEM_NAMES = json.loads((ROOT / "scripts" / "item_names.json").read_text())
@@ -232,7 +234,7 @@ def build_grid(players, skills_by_player):
                 state, why = check_reqs(p["name"], board, t, skills_by_player.get(p["name"], {}))
                 if hits:
                     state, why = "progress", ", ".join(hits)
-                elif t in claims.get(p["name"], []):
+                elif t in claims.get(p["name"], {}).get("tiles", []):
                     if state == "cant":
                         why = "WikiSync says: " + why + " (may be out of date)"
                     state = "claimed"
@@ -267,9 +269,10 @@ def build_boards(players):
             drops = [{"player": p["name"], "item": i["name"]} for p in roster for i in p["new_items"] if t in i["tiles"]]
             drops += [{"player": p["name"], "item": i["name"], "cross": True}
                       for p in others for i in p["new_items"] if t in i.get("other_tiles", [])]
-            on_it = [p["name"] for p in roster if t in claims.get(p["name"], [])]
+            on_it = [p["name"] for p in roster if t in claims.get(p["name"], {}).get("tiles", [])]
             state = "done" if t in done.get(board, []) else ("on" if on_it or drops else "none")
             tiles.append({"tile": t, "title": TITLES[board][t - 1], "starred": t in STARRED[board],
+                          "manual": t in MANUAL[board],
                           "state": state, "on_it": on_it, "drops": drops})
         boards[board] = tiles
     for board, other in (("Little", "Big"), ("Big", "Little")):
@@ -287,6 +290,7 @@ def main():
     out = {"checked": now.strftime("%Y-%m-%d %H:%M UTC"), "started": started,
            "start": START.strftime("%Y-%m-%d %H:%M UTC"), "players": []}
     skills_by_player = {}
+    claims_all = json.loads((DATA / "claims.json").read_text())
 
     for p in PLAYERS:
         name, board = p["name"], p["board"]
@@ -310,11 +314,22 @@ def main():
         if started and not base_file.exists():
             base_file.write_text(json.dumps(snap, indent=1, sort_keys=True))
         base = json.loads(base_file.read_text()) if base_file.exists() else None
+        if base is not None:
+            changed = False
+            if not base["items"] and logs:   # log synced for the first time after the start
+                base["items"] = logs
+                base["log_since"] = now.strftime("%Y-%m-%d %H:%M UTC")
+                changed = True
+            if not base["kc"] and snap["kc"]:   # hiscores failed when the baseline was taken
+                base["kc"] = snap["kc"]
+                changed = True
+            if changed:
+                base_file.write_text(json.dumps(base, indent=1, sort_keys=True))
 
         new_items, kc_gains = [], []
         if base:
             for iid, iname in sorted(logs.items(), key=lambda x: x[1]):
-                if iid not in base["items"] and base["items"]:
+                if iid not in base["items"]:
                     t = tiles_for(board, iname)
                     other = "Big" if board == "Little" else "Little"
                     cross = [x for x in tiles_for(other, iname) if x in STARRED[other]]
@@ -325,7 +340,7 @@ def main():
                 if act == "_skills":
                     continue
                 gain = score - base["kc"].get(act, 0)
-                if gain > 0 and act in base["kc"] and not act.startswith(("Clue Scrolls", "PvP Arena", "LMS")):
+                if gain > 0 and not act.startswith(("Clue Scrolls", "PvP Arena", "LMS", "Collections")):
                     kc_gains.append({"name": act, "gain": gain})
             kc_gains.sort(key=lambda x: -x["gain"])
 
@@ -339,6 +354,9 @@ def main():
             "combat": combat_level(sk), "skills": {k: sk[k] for k in keep if k in sk},
             "top_kc": [{"name": k, "kc": v} for v, k in top_kc],
             "log_items": len(logs), "has_baseline": bool(base),
+            "log_since": (base or {}).get("log_since", ""),
+            "going": claims_all.get(name, {}).get("going", []),
+            "notes": claims_all.get(name, {}).get("notes", "") or p.get("note", ""),
             "baseline_has_log": bool(base and base["items"]),
             "new_items": new_items, "kc_gains": kc_gains[:12],
         })
@@ -346,7 +364,13 @@ def main():
     out["grid"], out["doubling"] = build_grid(out["players"], skills_by_player)
     out["boards"] = build_boards(out["players"])
     DATA.mkdir(exist_ok=True)
-    (DATA / "status.json").write_text(json.dumps(out, indent=1))
+    path = DATA / "status.json"
+    if path.exists():
+        prev = json.loads(path.read_text())
+        if {k: v for k, v in prev.items() if k != "checked"} == {k: v for k, v in out.items() if k != "checked"}:
+            print("No changes")
+            return
+    path.write_text(json.dumps(out, indent=1))
     print(json.dumps({p["name"]: (p["sources"], p["log_items"], len(p["new_items"])) for p in out["players"]}))
 
 

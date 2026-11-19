@@ -1,10 +1,114 @@
 {
-  "_note": "What each player said they'd go for in the team chat. Edit this file to update the grid.",
-  "Kitten Lissy": [6, 8, 11, 12, 19],
-  "PrimalSin": [14, 15, 21, 23],
-  "DemonWolfy": [1, 4, 18, 25],
-  "Trobro12": [],
-  "SSora": [4, 6, 7, 8, 10, 15, 17],
-  "Lasrgatr": [4, 6, 10, 11, 14],
-  "Caffeine Guy": [2, 6, 10, 11, 12, 16, 17, 18, 23]
+ "_note": "Edit this file to update the page. tiles = tile numbers on the player's own board; going = text shown on their Players page; notes = extra info.",
+ "Kitten Lissy": {
+  "tiles": [
+   6,
+   8,
+   11,
+   12,
+   19
+  ],
+  "going": [
+   "Dagannoth Kings: all four rings (☆8)",
+   "God Wars generals: uniques for ☆6 and ☆19",
+   "Tempoross: tome of water (11)",
+   "Hill and moss giants: keys for Obor or Bryophyta (12)",
+   "A learner raid with the team (4, 18)"
+  ],
+  "notes": "Needs DKs and all four GWD generals for the Fremennik Elite. On European time until mid-December (usually offline by 8–9 pm EST), then on North American time."
+ },
+ "PrimalSin": {
+  "tiles": [
+   14,
+   15,
+   21,
+   23
+  ],
+  "going": [
+   "AFK Brutus for cow slippers (21)",
+   "Sarachnis (15)",
+   "Vorkath for visage and dragonbone necklace (14, 23)",
+   "Yama any time"
+  ],
+  "notes": "Might play the bingo on a different account; tracking PrimalSin for now. Prefers group content and tiles not logged yet. Only Little Boy who can do Krakens (tile 3)."
+ },
+ "DemonWolfy": {
+  "tiles": [
+   1,
+   4,
+   18,
+   25
+  ],
+  "going": [
+   "Mad Angel (1)",
+   "Mixology: chugging barrel or potion storage (25)",
+   "ToA (4, 18)"
+  ],
+  "notes": "First bingo, GMT. New to DKs and God Wars."
+ },
+ "Trobro12": {
+  "tiles": [],
+  "going": [],
+  "notes": "Mobile only, first bingo: no RuneLite plugins. Proof is a screenshot with the event password typed in chat."
+ },
+ "SSora": {
+  "tiles": [
+   4,
+   6,
+   7,
+   8,
+   10,
+   15,
+   17
+  ],
+  "going": [
+   "ToB (4)",
+   "Leviathan for Virtus or rings (6)",
+   "Nex if needed (7)",
+   "HMT and CM recolours (8)",
+   "8-man ToA (10)",
+   "CG speed CAs (15)",
+   "Jars on slayer (17)",
+   "Inferno help"
+  ],
+  "notes": "Team captain. Can teach most content. Skipping tiles where they already have the CA (13, 14). Ping for group content."
+ },
+ "Lasrgatr": {
+  "tiles": [
+   4,
+   6,
+   10,
+   11,
+   14
+  ],
+  "going": [
+   "Raids (4, 10)",
+   "DT2 bosses (6, 14)",
+   "Zalcano (11)"
+  ],
+  "notes": ""
+ },
+ "Caffeine Guy": {
+  "tiles": [
+   2,
+   6,
+   10,
+   11,
+   12,
+   16,
+   17,
+   18,
+   23
+  ],
+  "going": [
+   "Vardorvis axe piece (6)",
+   "Zalcano (11)",
+   "Muspah (12)",
+   "BGS hilt (☆16)",
+   "Zulrah and Araxxor jars (17)",
+   "ToA (10)",
+   "Wants to learn Nightmare (23) and Yama (☆2, 18)"
+  ],
+  "notes": "No Wilderness. Happy to help teach ToA."
+ }
 }

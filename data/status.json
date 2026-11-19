@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19 14:58 UTC",
+ "checked": "2026-11-19 15:08 UTC",
  "started": false,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -61,6 +61,15 @@
    ],
    "log_items": 311,
    "has_baseline": false,
+   "log_since": "",
+   "going": [
+    "Dagannoth Kings: all four rings (\u26068)",
+    "God Wars generals: uniques for \u26066 and \u260619",
+    "Tempoross: tome of water (11)",
+    "Hill and moss giants: keys for Obor or Bryophyta (12)",
+    "A learner raid with the team (4, 18)"
+   ],
+   "notes": "Needs DKs and all four GWD generals for the Fremennik Elite. On European time until mid-December (usually offline by 8\u20139 pm EST), then on North American time.",
    "baseline_has_log": false,
    "new_items": [],
    "kc_gains": []
@@ -122,6 +131,14 @@
    ],
    "log_items": 0,
    "has_baseline": false,
+   "log_since": "",
+   "going": [
+    "AFK Brutus for cow slippers (21)",
+    "Sarachnis (15)",
+    "Vorkath for visage and dragonbone necklace (14, 23)",
+    "Yama any time"
+   ],
+   "notes": "Might play the bingo on a different account; tracking PrimalSin for now. Prefers group content and tiles not logged yet. Only Little Boy who can do Krakens (tile 3).",
    "baseline_has_log": false,
    "new_items": [],
    "kc_gains": []
@@ -184,6 +201,13 @@
    ],
    "log_items": 135,
    "has_baseline": false,
+   "log_since": "",
+   "going": [
+    "Mad Angel (1)",
+    "Mixology: chugging barrel or potion storage (25)",
+    "ToA (4, 18)"
+   ],
+   "notes": "First bingo, GMT. New to DKs and God Wars.",
    "baseline_has_log": false,
    "new_items": [],
    "kc_gains": []
@@ -245,6 +269,9 @@
    ],
    "log_items": 0,
    "has_baseline": false,
+   "log_since": "",
+   "going": [],
+   "notes": "Mobile only, first bingo: no RuneLite plugins. Proof is a screenshot with the event password typed in chat.",
    "baseline_has_log": false,
    "new_items": [],
    "kc_gains": []
@@ -307,6 +334,18 @@
    ],
    "log_items": 478,
    "has_baseline": false,
+   "log_since": "",
+   "going": [
+    "ToB (4)",
+    "Leviathan for Virtus or rings (6)",
+    "Nex if needed (7)",
+    "HMT and CM recolours (8)",
+    "8-man ToA (10)",
+    "CG speed CAs (15)",
+    "Jars on slayer (17)",
+    "Inferno help"
+   ],
+   "notes": "Team captain. Can teach most content. Skipping tiles where they already have the CA (13, 14). Ping for group content.",
    "baseline_has_log": false,
    "new_items": [],
    "kc_gains": []
@@ -369,6 +408,13 @@
    ],
    "log_items": 302,
    "has_baseline": false,
+   "log_since": "",
+   "going": [
+    "Raids (4, 10)",
+    "DT2 bosses (6, 14)",
+    "Zalcano (11)"
+   ],
+   "notes": "",
    "baseline_has_log": false,
    "new_items": [],
    "kc_gains": []
@@ -430,6 +476,17 @@
    ],
    "log_items": 0,
    "has_baseline": false,
+   "log_since": "",
+   "going": [
+    "Vardorvis axe piece (6)",
+    "Zalcano (11)",
+    "Muspah (12)",
+    "BGS hilt (\u260616)",
+    "Zulrah and Araxxor jars (17)",
+    "ToA (10)",
+    "Wants to learn Nightmare (23) and Yama (\u26062, 18)"
+   ],
+   "notes": "No Wilderness. Happy to help teach ToA.",
    "baseline_has_log": false,
    "new_items": [],
    "kc_gains": []
@@ -1849,6 +1906,7 @@
     "tile": 1,
     "title": "Whats your angel?",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "DemonWolfy"
@@ -1862,6 +1920,7 @@
     "tile": 2,
     "title": "Titan your Belt",
     "starred": true,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -1873,6 +1932,7 @@
     "tile": 3,
     "title": "Tried and Dented",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -1884,6 +1944,7 @@
     "tile": 4,
     "title": "ZE PANTY RAID",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "DemonWolfy"
@@ -1897,6 +1958,7 @@
     "tile": 5,
     "title": "Guarding my face",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -1908,6 +1970,7 @@
     "tile": 6,
     "title": "Godly Gamer",
     "starred": true,
+    "manual": false,
     "state": "on",
     "on_it": [
      "Kitten Lissy"
@@ -1921,6 +1984,7 @@
     "tile": 7,
     "title": "Hueycoatl and the News",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -1932,6 +1996,7 @@
     "tile": 8,
     "title": "Daggan These Nuts",
     "starred": true,
+    "manual": false,
     "state": "on",
     "on_it": [
      "Kitten Lissy"
@@ -1945,6 +2010,7 @@
     "tile": 9,
     "title": "Perilous Times",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -1956,6 +2022,7 @@
     "tile": 10,
     "title": "Can i Barrow some of your time?",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -1967,6 +2034,7 @@
     "tile": 11,
     "title": "Tell it ToMe Straight",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "Kitten Lissy"
@@ -1980,6 +2048,7 @@
     "tile": 12,
     "title": "Big mean Greenie or Mr Mammal?",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "Kitten Lissy"
@@ -1993,6 +2062,7 @@
     "tile": 13,
     "title": "Hot Stuff",
     "starred": false,
+    "manual": true,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2004,6 +2074,7 @@
     "tile": 14,
     "title": "Draconic Dreams",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "PrimalSin"
@@ -2017,6 +2088,7 @@
     "tile": 15,
     "title": "Big Ass Spider",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "PrimalSin"
@@ -2030,6 +2102,7 @@
     "tile": 16,
     "title": "Sweet kicks",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2041,6 +2114,7 @@
     "tile": 17,
     "title": "Dropping Defence Matters",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2052,6 +2126,7 @@
     "tile": 18,
     "title": "Getting the hang of this",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "DemonWolfy"
@@ -2065,6 +2140,7 @@
     "tile": 19,
     "title": "You GODa be kidding me",
     "starred": true,
+    "manual": false,
     "state": "on",
     "on_it": [
      "Kitten Lissy"
@@ -2078,6 +2154,7 @@
     "tile": 20,
     "title": "Warding off Evil",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2089,6 +2166,7 @@
     "tile": 21,
     "title": "Beefy Tile",
     "starred": false,
+    "manual": true,
     "state": "on",
     "on_it": [
      "PrimalSin"
@@ -2102,6 +2180,7 @@
     "tile": 22,
     "title": "Pigeon Crusher",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2113,6 +2192,7 @@
     "tile": 23,
     "title": "Dragon Slayer",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "PrimalSin"
@@ -2126,6 +2206,7 @@
     "tile": 24,
     "title": "What's Following me?",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2137,6 +2218,7 @@
     "tile": 25,
     "title": "CHUG CHUG CHUG",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "DemonWolfy"
@@ -2152,6 +2234,7 @@
     "tile": 1,
     "title": "Maggot Crusher",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2163,6 +2246,7 @@
     "tile": 2,
     "title": "Yama Time",
     "starred": true,
+    "manual": false,
     "state": "on",
     "on_it": [
      "Caffeine Guy"
@@ -2176,6 +2260,7 @@
     "tile": 3,
     "title": "Dinner with the bug",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2187,6 +2272,7 @@
     "tile": 4,
     "title": "Uncomfortable Raider",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "SSora",
@@ -2201,6 +2287,7 @@
     "tile": 5,
     "title": "HOW RARE IS IT??",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2212,6 +2299,7 @@
     "tile": 6,
     "title": "Just Deserts",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "SSora",
@@ -2227,6 +2315,7 @@
     "tile": 7,
     "title": "Time to get Nexy",
     "starred": true,
+    "manual": false,
     "state": "on",
     "on_it": [
      "SSora"
@@ -2240,6 +2329,7 @@
     "tile": 8,
     "title": "Nice Recolor!",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "SSora"
@@ -2253,6 +2343,7 @@
     "tile": 9,
     "title": "Spooky Ghosts!",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2264,6 +2355,7 @@
     "tile": 10,
     "title": "Raid armor",
     "starred": true,
+    "manual": false,
     "state": "on",
     "on_it": [
      "SSora",
@@ -2279,6 +2371,7 @@
     "tile": 11,
     "title": "Zalcanic mine",
     "starred": true,
+    "manual": false,
     "state": "on",
     "on_it": [
      "Lasrgatr",
@@ -2293,6 +2386,7 @@
     "tile": 12,
     "title": "Purple Prison",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "Caffeine Guy"
@@ -2306,6 +2400,7 @@
     "tile": 13,
     "title": "Speedy Boys",
     "starred": false,
+    "manual": true,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2317,6 +2412,7 @@
     "tile": 14,
     "title": "WAKE ME UP",
     "starred": false,
+    "manual": true,
     "state": "on",
     "on_it": [
      "Lasrgatr"
@@ -2330,6 +2426,7 @@
     "tile": 15,
     "title": "Big Mean Prison",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "SSora"
@@ -2343,6 +2440,7 @@
     "tile": 16,
     "title": "FETCH THE GODSWORD",
     "starred": true,
+    "manual": false,
     "state": "on",
     "on_it": [
      "Caffeine Guy"
@@ -2356,6 +2454,7 @@
     "tile": 17,
     "title": "One man, One Jar",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "SSora",
@@ -2370,6 +2469,7 @@
     "tile": 18,
     "title": "Contract Killer",
     "starred": false,
+    "manual": true,
     "state": "on",
     "on_it": [
      "Caffeine Guy"
@@ -2383,6 +2483,7 @@
     "tile": 19,
     "title": "Fancy Staff",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2394,6 +2495,7 @@
     "tile": 20,
     "title": "Void Gatherer",
     "starred": true,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2405,6 +2507,7 @@
     "tile": 21,
     "title": "Unholy Cow!",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2416,6 +2519,7 @@
     "tile": 22,
     "title": "Showmanship",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2427,6 +2531,7 @@
     "tile": 23,
     "title": "Kasper's Nightmare",
     "starred": false,
+    "manual": false,
     "state": "on",
     "on_it": [
      "Caffeine Guy"
@@ -2440,6 +2545,7 @@
     "tile": 24,
     "title": "Can I pet it?",
     "starred": false,
+    "manual": false,
     "state": "none",
     "on_it": [],
     "drops": [],
@@ -2451,6 +2557,7 @@
     "tile": 25,
     "title": "You can't Be Tzharrious",
     "starred": false,
+    "manual": true,
     "state": "none",
     "on_it": [],
     "drops": [],

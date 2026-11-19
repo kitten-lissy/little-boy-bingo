@@ -255,10 +255,10 @@ footer{color:var(--muted);font-size:13px}
 (function(){
   var LABEL={progress:'Drop spotted',claimed:'Going for',can:'Can do',unknown:'Not sure',cant:"Can't"};
   var ORDER={progress:0,claimed:1,can:2,unknown:3,cant:4};
-  var NOTES={"Kitten Lissy": {"going": ["Dagannoth Kings: all four rings (☆8)", "God Wars generals: uniques for ☆6 and ☆19", "Tempoross: tome of water (11)", "Hill and moss giants: keys for Obor or Bryophyta (12)", "A learner raid with the team (4, 18)"], "notes": "Needs DKs and all four GWD generals for the Fremennik Elite. On European time until mid-December (usually offline by 8–9 pm EST), then on North American time."}, "PrimalSin": {"going": ["AFK Brutus for cow slippers (21)", "Sarachnis (15)", "Vorkath for visage and dragonbone necklace (14, 23)", "Yama any time"], "notes": "Might play the bingo on a different account; tracking PrimalSin for now. Prefers group content and tiles not logged yet. Only Little Boy who can do Krakens (tile 3)."}, "DemonWolfy": {"going": ["Mad Angel (1)", "Mixology: chugging barrel or potion storage (25)", "ToA (4, 18)"], "notes": "First bingo, GMT. New to DKs and God Wars. Says a new fire cape will be hard."}, "Trobro12": {"going": [], "notes": "Mobile only, first bingo: no RuneLite plugins. Proof is a screenshot with the event password typed in chat."}, "SSora": {"going": ["ToB (4)", "Leviathan for Virtus or rings (6)", "Nex if needed (7)", "HMT and CM recolours (8)", "8-man ToA (10)", "CG speed CAs (15)", "Jars on slayer (17)", "Inferno help"], "notes": "Team captain. Can teach most content (non-verbally). Skipping tiles where they already have the CA (13, 14). Ping for group content."}, "Lasrgatr": {"going": ["Raids (4, 10)", "DT2 bosses (6, 14)", "Zalcano (11)"], "notes": ""}, "Caffeine Guy": {"going": ["Vardorvis axe piece (6)", "Zalcano (11)", "Muspah (12)", "BGS hilt (☆16)", "Zulrah and Araxxor jars (17)", "ToA (10)", "Wants to learn Nightmare (23) and Yama (☆2, 18)"], "notes": "No Wilderness. Happy to help teach ToA."}};
   var pick=document.getElementById('player-pick'), box=document.getElementById('player-view');
   function esc(t){return String(t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
   fetch('data/status.json',{cache:'no-store'}).then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(function(d){
+    document.querySelectorAll('.grid-meta').forEach(function(m){ m.textContent='Last updated '+d.checked+'.'; });
     var saved=null; try{ saved=localStorage.getItem('bingo-player'); }catch(e){}
     pick.innerHTML=d.players.map(function(p){return '<option'+(p.name===saved?' selected':'')+'>'+esc(p.name)+'</option>';}).join('');
     function render(){
@@ -273,9 +273,9 @@ footer{color:var(--muted);font-size:13px}
       var counts={}; rows.forEach(function(r){counts[r.state]=(counts[r.state]||0)+1;});
       box.innerHTML=
         '<div class="panel"><h2>'+esc(p.name)+' · '+esc(p.board)+' Boy'+(p.combat?' · combat '+p.combat:'')+'</h2>'+
-        '<p>'+(p.sources.length?'Data from '+esc(p.sources.join(', ')):'No public data found')+(p.note?'. '+esc(p.note):'')+'.</p>'+
+        '<p>'+(p.sources.length?'Data from '+esc(p.sources.join(', ')):'No public data found')+(p.log_since?'. Log tracked since '+esc(p.log_since):'')+'.</p>'+
         '<p>'+['progress','claimed','can','unknown','cant'].filter(function(k){return counts[k];}).map(function(k){return counts[k]+' '+LABEL[k].toLowerCase();}).join(' · ')+'</p></div>'+
-        (function(){var n=NOTES[p.name]||{};var g=(n.going||[]).map(function(x){return '<li>'+esc(x)+'</li>';}).join('');
+        (function(){var n={going:p.going||[],notes:p.notes||''};var g=(n.going||[]).map(function(x){return '<li>'+esc(x)+'</li>';}).join('');
           return '<div class="panel commit"><h2>Going for</h2>'+(g?'<ul>'+g+'</ul>':'<p>Nothing claimed yet.</p>')+(n.notes?'<p>'+esc(n.notes)+'</p>':'')+'</div>';})()+
         (function(){var it=(p.new_items||[]).map(function(i){return '<li>'+esc(i.name)+(i.tiles.length?' (tile '+i.tiles.join(', ')+')':'')+'</li>';}).join('');
           var g=(p.kc_gains||[]).map(function(k){return '<li>'+esc(k.name)+' +'+k.gain+'</li>';}).join('');
@@ -299,7 +299,7 @@ footer{color:var(--muted);font-size:13px}
       var sq=el.closest('.sq'); sq.classList.add('s-'+t.state);
       var head=t.state==='done'?'✅ Done':(t.on_it.length?'🟡 On it: '+t.on_it.join(', '):(t.state==='on'?'🟡 Drop spotted':'⚪ Nobody yet'));
       var drops=t.drops.map(function(x){return esc(x.player)+': '+esc(x.item);}).join('; ');
-      el.innerHTML='<b>'+esc(head)+'</b>'+(t.x2?' <span class="x2" title="Same square on the other board ('+esc(t.other_title)+') is active">×2</span>':'')+(drops?'<br><small>Drop spotted: '+drops+'</small>':'');
+      el.innerHTML='<b>'+esc(head)+'</b>'+(t.x2?' <span class="x2" title="Same square on the other board ('+esc(t.other_title)+') is active">×2</span>':'')+(drops?'<br><small>Drop spotted: '+drops+'</small>':'')+(t.manual&&t.state!=='done'?'<br><small>Not auto-detected: post it in the team chat when done.</small>':'');
     });
   }).catch(function(){ document.querySelectorAll('.st').forEach(function(el){ el.innerHTML='<small>Status shows on the GitHub page.</small>'; }); });
 })();
