@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19 14:36 UTC",
+ "checked": "2026-11-19 14:48 UTC",
  "started": false,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -96,6 +96,1414 @@
    "baseline_has_log": false,
    "new_items": [],
    "kc_gains": []
+  }
+ ],
+ "grid": {
+  "Little": [
+   {
+    "tile": 1,
+    "title": "Whats your angel?",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 2,
+    "title": "Titan your Belt",
+    "starred": true,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 3,
+    "title": "Tried and Dented",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "cant",
+      "why": "Slayer 87 (has 81)"
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "cant",
+      "why": "Slayer 87 (has 75)"
+     },
+     {
+      "player": "Trobro12",
+      "state": "cant",
+      "why": "Slayer 87 (has 72)"
+     }
+    ]
+   },
+   {
+    "tile": 4,
+    "title": "ZE PANTY RAID",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 5,
+    "title": "Guarding my face",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "unknown",
+      "why": "check: The Fremennik Exiles"
+     }
+    ]
+   },
+   {
+    "tile": 6,
+    "title": "Godly Gamer",
+    "starred": true,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "unknown",
+      "why": "check: Troll Stronghold"
+     }
+    ]
+   },
+   {
+    "tile": 7,
+    "title": "Hueycoatl and the News",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 8,
+    "title": "Daggan These Nuts",
+    "starred": true,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 9,
+    "title": "Perilous Times",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "cant",
+      "why": "Perilous Moons not started"
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "unknown",
+      "why": "check: Perilous Moons"
+     }
+    ]
+   },
+   {
+    "tile": 10,
+    "title": "Can i Barrow some of your time?",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "unknown",
+      "why": "check: Priest in Peril"
+     }
+    ]
+   },
+   {
+    "tile": 11,
+    "title": "Tell it ToMe Straight",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 12,
+    "title": "Big mean Greenie or Mr Mammal?",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 13,
+    "title": "Hot Stuff",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 14,
+    "title": "Draconic Dreams",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 15,
+    "title": "Big Ass Spider",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 16,
+    "title": "Sweet kicks",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "cant",
+      "why": "Slayer 75 (has 72)"
+     }
+    ]
+   },
+   {
+    "tile": 17,
+    "title": "Dropping Defence Matters",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 18,
+    "title": "Getting the hang of this",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 19,
+    "title": "You GODa be kidding me",
+    "starred": true,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "unknown",
+      "why": "check: Troll Stronghold"
+     }
+    ]
+   },
+   {
+    "tile": 20,
+    "title": "Warding off Evil",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 21,
+    "title": "Beefy Tile",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "claimed",
+      "why": "WikiSync says: The Ides of Milk not started (may be out of date)"
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "unknown",
+      "why": "check: The Ides of Milk"
+     }
+    ]
+   },
+   {
+    "tile": 22,
+    "title": "Pigeon Crusher",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "cant",
+      "why": "Troubled Tortugans not started"
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "unknown",
+      "why": "check: Troubled Tortugans"
+     }
+    ]
+   },
+   {
+    "tile": 23,
+    "title": "Dragon Slayer",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "unknown",
+      "why": "check: Dragon Slayer II"
+     }
+    ]
+   },
+   {
+    "tile": 24,
+    "title": "What's Following me?",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 25,
+    "title": "CHUG CHUG CHUG",
+    "starred": false,
+    "cells": [
+     {
+      "player": "Kitten Lissy",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "PrimalSin",
+      "state": "cant",
+      "why": "Children of the Sun not started"
+     },
+     {
+      "player": "DemonWolfy",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Trobro12",
+      "state": "unknown",
+      "why": "check: Children of the Sun"
+     }
+    ]
+   }
+  ],
+  "Big": [
+   {
+    "tile": 1,
+    "title": "Maggot Crusher",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "cant",
+      "why": "The Blood Moon Rises not started"
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "unknown",
+      "why": "check: The Blood Moon Rises"
+     }
+    ]
+   },
+   {
+    "tile": 2,
+    "title": "Yama Time",
+    "starred": true,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "claimed",
+      "why": "check: A Kingdom Divided"
+     }
+    ]
+   },
+   {
+    "tile": 3,
+    "title": "Dinner with the bug",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "cant",
+      "why": "The Final Dawn not started"
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "unknown",
+      "why": "check: The Final Dawn"
+     }
+    ]
+   },
+   {
+    "tile": 4,
+    "title": "Uncomfortable Raider",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 5,
+    "title": "HOW RARE IS IT??",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 6,
+    "title": "Just Deserts",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "claimed",
+      "why": "check: Desert Treasure II - The Fallen Empire"
+     }
+    ]
+   },
+   {
+    "tile": 7,
+    "title": "Time to get Nexy",
+    "starred": true,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 8,
+    "title": "Nice Recolor!",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 9,
+    "title": "Spooky Ghosts!",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 10,
+    "title": "Raid armor",
+    "starred": true,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "claimed",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 11,
+    "title": "Zalcanic mine",
+    "starred": true,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "claimed",
+      "why": "check: Song of the Elves"
+     }
+    ]
+   },
+   {
+    "tile": 12,
+    "title": "Purple Prison",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "claimed",
+      "why": "check: Secrets of the North"
+     }
+    ]
+   },
+   {
+    "tile": 13,
+    "title": "Speedy Boys",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "unknown",
+      "why": "check: Dragon Slayer II, Song of the Elves, Monkey Madness II"
+     }
+    ]
+   },
+   {
+    "tile": 14,
+    "title": "WAKE ME UP",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "unknown",
+      "why": "check: Desert Treasure II - The Fallen Empire"
+     }
+    ]
+   },
+   {
+    "tile": 15,
+    "title": "Big Mean Prison",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "unknown",
+      "why": "check: Song of the Elves"
+     }
+    ]
+   },
+   {
+    "tile": 16,
+    "title": "FETCH THE GODSWORD",
+    "starred": true,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "claimed",
+      "why": "check: Troll Stronghold"
+     }
+    ]
+   },
+   {
+    "tile": 17,
+    "title": "One man, One Jar",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "claimed",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "claimed",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 18,
+    "title": "Contract Killer",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "claimed",
+      "why": "check: A Kingdom Divided"
+     }
+    ]
+   },
+   {
+    "tile": 19,
+    "title": "Fancy Staff",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "unknown",
+      "why": "check: Secrets of the North, Desert Treasure II - The Fallen Empire"
+     }
+    ]
+   },
+   {
+    "tile": 20,
+    "title": "Void Gatherer",
+    "starred": true,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 21,
+    "title": "Unholy Cow!",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "unknown",
+      "why": "check: The Ides of Milk"
+     }
+    ]
+   },
+   {
+    "tile": 22,
+    "title": "Showmanship",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "unknown",
+      "why": "check: Children of the Sun"
+     }
+    ]
+   },
+   {
+    "tile": 23,
+    "title": "Kasper's Nightmare",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "claimed",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 24,
+    "title": "Can I pet it?",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   },
+   {
+    "tile": 25,
+    "title": "You can't Be Tzharrious",
+    "starred": false,
+    "cells": [
+     {
+      "player": "SSora",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Lasrgatr",
+      "state": "can",
+      "why": ""
+     },
+     {
+      "player": "Caffeine Guy",
+      "state": "can",
+      "why": ""
+     }
+    ]
+   }
+  ]
+ },
+ "doubling": [
+  {
+   "tile": 1,
+   "little": "Whats your angel?",
+   "big": "Maggot Crusher",
+   "little_state": "claimed",
+   "big_state": "open"
+  },
+  {
+   "tile": 2,
+   "little": "Titan your Belt",
+   "big": "Yama Time",
+   "little_state": "open",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 3,
+   "little": "Tried and Dented",
+   "big": "Dinner with the bug",
+   "little_state": "open",
+   "big_state": "open"
+  },
+  {
+   "tile": 4,
+   "little": "ZE PANTY RAID",
+   "big": "Uncomfortable Raider",
+   "little_state": "claimed",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 5,
+   "little": "Guarding my face",
+   "big": "HOW RARE IS IT??",
+   "little_state": "open",
+   "big_state": "open"
+  },
+  {
+   "tile": 6,
+   "little": "Godly Gamer",
+   "big": "Just Deserts",
+   "little_state": "claimed",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 7,
+   "little": "Hueycoatl and the News",
+   "big": "Time to get Nexy",
+   "little_state": "open",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 8,
+   "little": "Daggan These Nuts",
+   "big": "Nice Recolor!",
+   "little_state": "claimed",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 9,
+   "little": "Perilous Times",
+   "big": "Spooky Ghosts!",
+   "little_state": "open",
+   "big_state": "open"
+  },
+  {
+   "tile": 10,
+   "little": "Can i Barrow some of your time?",
+   "big": "Raid armor",
+   "little_state": "open",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 11,
+   "little": "Tell it ToMe Straight",
+   "big": "Zalcanic mine",
+   "little_state": "claimed",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 12,
+   "little": "Big mean Greenie or Mr Mammal?",
+   "big": "Purple Prison",
+   "little_state": "claimed",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 13,
+   "little": "Hot Stuff",
+   "big": "Speedy Boys",
+   "little_state": "open",
+   "big_state": "open"
+  },
+  {
+   "tile": 14,
+   "little": "Draconic Dreams",
+   "big": "WAKE ME UP",
+   "little_state": "claimed",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 15,
+   "little": "Big Ass Spider",
+   "big": "Big Mean Prison",
+   "little_state": "claimed",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 16,
+   "little": "Sweet kicks",
+   "big": "FETCH THE GODSWORD",
+   "little_state": "open",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 17,
+   "little": "Dropping Defence Matters",
+   "big": "One man, One Jar",
+   "little_state": "open",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 18,
+   "little": "Getting the hang of this",
+   "big": "Contract Killer",
+   "little_state": "claimed",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 19,
+   "little": "You GODa be kidding me",
+   "big": "Fancy Staff",
+   "little_state": "claimed",
+   "big_state": "open"
+  },
+  {
+   "tile": 20,
+   "little": "Warding off Evil",
+   "big": "Void Gatherer",
+   "little_state": "open",
+   "big_state": "open"
+  },
+  {
+   "tile": 21,
+   "little": "Beefy Tile",
+   "big": "Unholy Cow!",
+   "little_state": "claimed",
+   "big_state": "open"
+  },
+  {
+   "tile": 22,
+   "little": "Pigeon Crusher",
+   "big": "Showmanship",
+   "little_state": "open",
+   "big_state": "open"
+  },
+  {
+   "tile": 23,
+   "little": "Dragon Slayer",
+   "big": "Kasper's Nightmare",
+   "little_state": "claimed",
+   "big_state": "claimed"
+  },
+  {
+   "tile": 24,
+   "little": "What's Following me?",
+   "big": "Can I pet it?",
+   "little_state": "open",
+   "big_state": "open"
+  },
+  {
+   "tile": 25,
+   "little": "CHUG CHUG CHUG",
+   "big": "You can't Be Tzharrious",
+   "little_state": "claimed",
+   "big_state": "open"
   }
  ]
 }

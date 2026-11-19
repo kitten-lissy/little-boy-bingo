@@ -96,6 +96,7 @@ TILES = {
 }
 STARRED = {"Little": {2, 6, 8, 19}, "Big": {2, 7, 10, 11, 16, 20}}
 
+QUESTS = {}
 ITEM_NAMES = json.loads((ROOT / "scripts" / "item_names.json").read_text())
 
 
@@ -114,6 +115,7 @@ def wikisync(name):
     if not d or "collection_log" not in d:
         return None
     ids = d.get("collection_log") or []
+    QUESTS[name] = d.get("quests") or {}
     return {str(i): ITEM_NAMES.get(str(i), f"Item {i}") for i in ids}
 
 
@@ -132,11 +134,124 @@ def hiscores(name):
     d = get_json(f"https://secure.runescape.com/m=hiscore_oldschool/index_lite.json?player={urllib.parse.quote(name)}")
     if not d or "activities" not in d:
         return None
-    return {a["name"]: a["score"] for a in d["activities"] if a["score"] > 0}
+    acts = {a["name"]: a["score"] for a in d["activities"] if a["score"] > 0}
+    acts["_skills"] = {sk["name"]: sk["level"] for sk in d.get("skills", [])}
+    return acts
 
 
 def tiles_for(board, item_name):
     return [t for t, pat in TILES[board].items() if re.search(pat, item_name, re.I)]
+
+
+TITLES = {
+    "Little": ["Whats your angel?", "Titan your Belt", "Tried and Dented", "ZE PANTY RAID", "Guarding my face",
+               "Godly Gamer", "Hueycoatl and the News", "Daggan These Nuts", "Perilous Times", "Can i Barrow some of your time?",
+               "Tell it ToMe Straight", "Big mean Greenie or Mr Mammal?", "Hot Stuff", "Draconic Dreams", "Big Ass Spider",
+               "Sweet kicks", "Dropping Defence Matters", "Getting the hang of this", "You GODa be kidding me", "Warding off Evil",
+               "Beefy Tile", "Pigeon Crusher", "Dragon Slayer", "What's Following me?", "CHUG CHUG CHUG"],
+    "Big": ["Maggot Crusher", "Yama Time", "Dinner with the bug", "Uncomfortable Raider", "HOW RARE IS IT??",
+            "Just Deserts", "Time to get Nexy", "Nice Recolor!", "Spooky Ghosts!", "Raid armor",
+            "Zalcanic mine", "Purple Prison", "Speedy Boys", "WAKE ME UP", "Big Mean Prison",
+            "FETCH THE GODSWORD", "One man, One Jar", "Contract Killer", "Fancy Staff", "Void Gatherer",
+            "Unholy Cow!", "Showmanship", "Kasper's Nightmare", "Can I pet it?", "You can't Be Tzharrious"],
+}
+
+# Hard requirements from the OSRS Wiki. ("skill", name, level) or ("quest", name). "soft" = recommended only.
+REQS = {
+    "Little": {
+        2: [("soft_combat", 90)], 3: [("skill", "Slayer", 87)],
+        5: [("skill", "Slayer", 60), ("quest", "The Fremennik Exiles")],
+        6: [("quest", "Troll Stronghold")], 19: [("quest", "Troll Stronghold")],
+        9: [("quest", "Perilous Moons")], 10: [("quest", "Priest in Peril")],
+        16: [("skill", "Slayer", 75), ("quest", "Troll Stronghold")],
+        21: [("quest", "The Ides of Milk")], 22: [("quest", "Troubled Tortugans")],
+        23: [("quest", "Dragon Slayer II")],
+        25: [("skill", "Herblore", 60), ("quest", "Children of the Sun")],
+    },
+    "Big": {
+        1: [("quest", "The Blood Moon Rises")], 2: [("quest", "A Kingdom Divided")], 18: [("quest", "A Kingdom Divided")],
+        3: [("quest", "The Final Dawn")],
+        6: [("quest", "Desert Treasure II - The Fallen Empire")], 14: [("quest", "Desert Treasure II - The Fallen Empire")],
+        11: [("quest", "Song of the Elves"), ("skill", "Mining", 70), ("skill", "Smithing", 70)],
+        12: [("quest", "Secrets of the North")],
+        13: [("quest", "Dragon Slayer II"), ("quest", "Song of the Elves"), ("quest", "Monkey Madness II")],
+        15: [("quest", "Song of the Elves")], 16: [("quest", "Troll Stronghold")],
+        19: [("quest", "Secrets of the North"), ("quest", "Desert Treasure II - The Fallen Empire")],
+        21: [("quest", "The Ides of Milk")], 22: [("quest", "Children of the Sun")],
+    },
+}
+
+
+def combat_level(sk):
+    try:
+        base = 0.25 * (sk["Defence"] + sk["Hitpoints"] + sk["Prayer"] // 2)
+        melee = 0.325 * (sk["Attack"] + sk["Strength"])
+        rng = 0.325 * (sk["Ranged"] * 3 // 2)
+        mag = 0.325 * (sk["Magic"] * 3 // 2)
+        return int(base + max(melee, rng, mag))
+    except (KeyError, TypeError):
+        return None
+
+
+def check_reqs(name, board, tile, skills):
+    """Return ("cant", why) / ("unknown", why) / ("can", "")."""
+    missing, unknown, soft = [], [], []
+    quests = QUESTS.get(name)
+    for r in REQS[board].get(tile, []):
+        if r[0] == "skill":
+            lvl = skills.get(r[1])
+            if lvl is None:
+                unknown.append(f"{r[1]} {r[2]}")
+            elif lvl < r[2]:
+                missing.append(f"{r[1]} {r[2]} (has {lvl})")
+        elif r[0] == "quest":
+            if not quests:
+                unknown.append(r[1])
+            elif quests.get(r[1], 0) == 0:
+                missing.append(f"{r[1]} not started")
+        elif r[0] == "soft_combat":
+            cb = combat_level(skills)
+            if cb is not None and cb < r[1]:
+                soft.append(f"combat {r[1]}+ recommended (has {cb})")
+    if missing:
+        return "cant", "; ".join(missing)
+    if unknown:
+        return "unknown", "check: " + ", ".join(unknown)
+    return "can", "; ".join(soft)
+
+
+def build_grid(players, skills_by_player):
+    claims = json.loads((DATA / "claims.json").read_text())
+    grid = {"Little": [], "Big": []}
+    for board in ("Little", "Big"):
+        roster = [p for p in players if p["board"] == board]
+        for t in range(1, 26):
+            row = {"tile": t, "title": TITLES[board][t - 1], "starred": t in STARRED[board], "cells": []}
+            for p in roster:
+                hits = [i["name"] for i in p["new_items"] if t in i["tiles"]]
+                state, why = check_reqs(p["name"], board, t, skills_by_player.get(p["name"], {}))
+                if hits:
+                    state, why = "progress", ", ".join(hits)
+                elif t in claims.get(p["name"], []):
+                    if state == "cant":
+                        why = "WikiSync says: " + why + " (may be out of date)"
+                    state = "claimed"
+                row["cells"].append({"player": p["name"], "state": state, "why": why})
+            grid[board].append(row)
+    doubling = []
+    for i in range(25):
+        def side(board):
+            states = [c["state"] for c in grid[board][i]["cells"]]
+            if "progress" in states:
+                return "progress"
+            if "claimed" in states:
+                return "claimed"
+            if states and all(s == "cant" for s in states):
+                return "blocked"
+            return "open"
+        doubling.append({"tile": i + 1, "little": TITLES["Little"][i], "big": TITLES["Big"][i],
+                         "little_state": side("Little"), "big_state": side("Big")})
+    return grid, doubling
 
 
 def main():
@@ -145,6 +260,7 @@ def main():
     BASE.mkdir(parents=True, exist_ok=True)
     out = {"checked": now.strftime("%Y-%m-%d %H:%M UTC"), "started": started,
            "start": START.strftime("%Y-%m-%d %H:%M UTC"), "players": []}
+    skills_by_player = {}
 
     for p in PLAYERS:
         name, board = p["name"], p["board"]
@@ -159,10 +275,11 @@ def main():
             logs.update(tp)
             sources.append("Temple")
         kc = hiscores(name)
+        skills_by_player[name] = (kc or {}).get("_skills", {})
         if kc is not None:
             sources.append("Hiscores")
 
-        snap = {"items": logs, "kc": kc or {}}
+        snap = {"items": logs, "kc": {k: v for k, v in (kc or {}).items() if k != "_skills"}}
         base_file = BASE / f"{name.replace(' ', '_')}.json"
         if started and not base_file.exists():
             base_file.write_text(json.dumps(snap, indent=1, sort_keys=True))
@@ -179,6 +296,8 @@ def main():
                                       "starred": [x for x in t if x in STARRED[board]],
                                       "other_board": other if cross else "", "other_tiles": cross})
             for act, score in (kc or {}).items():
+                if act == "_skills":
+                    continue
                 gain = score - base["kc"].get(act, 0)
                 if gain > 0 and act in base["kc"] and not act.startswith(("Clue Scrolls", "PvP Arena", "LMS")):
                     kc_gains.append({"name": act, "gain": gain})
@@ -191,6 +310,7 @@ def main():
             "new_items": new_items, "kc_gains": kc_gains[:12],
         })
 
+    out["grid"], out["doubling"] = build_grid(out["players"], skills_by_player)
     DATA.mkdir(exist_ok=True)
     (DATA / "status.json").write_text(json.dumps(out, indent=1))
     print(json.dumps({p["name"]: (p["sources"], p["log_items"], len(p["new_items"])) for p in out["players"]}))

@@ -86,6 +86,17 @@ input[type=checkbox]:focus-visible{outline:2px solid var(--accent);outline-offse
 .sqn{font-family:var(--mono);font-size:12px;color:var(--accent)}
 .panel.commit{border-color:var(--accent)}
 .panel.commit li b{color:var(--fg)}
+.legend{display:flex;flex-wrap:wrap;gap:6px}
+table.grid{min-width:640px}
+table.grid td.c{text-align:center;font-size:12px;font-weight:600;white-space:nowrap;cursor:help}
+.cell{display:inline-block;font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px}
+.progress,td.c.progress{color:var(--yes);background:var(--yes-bg)}
+.claimed,td.c.claimed{color:var(--accent);background:var(--accent-soft)}
+.can,td.c.can{color:var(--fg)}
+.unknown,td.c.unknown{color:var(--skip);background:var(--skip-bg)}
+.cant,td.c.cant,.blocked,td.c.blocked{color:var(--no);background:var(--no-bg)}
+.open,td.c.open{color:var(--muted)}
+tr.dbl td{background:var(--yes-bg)}
 .live-list{display:grid;gap:12px}
 .live-card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:6px;min-width:0}
 .live-card h3{margin:0;font-family:var(--display);font-size:17px}
@@ -110,6 +121,8 @@ footer{color:var(--muted);font-size:13px}
 
 <nav class="tabs" aria-label="Pages">
   <a href="#plan" data-view="plan">My plan</a>
+  <a href="#grid" data-view="grid">Team grid</a>
+  <a href="#doubling" data-view="doubling">Doubling</a>
   <a href="#live" data-view="live">New since start</a>
   <a href="#team" data-view="team">Team</a>
   <a href="#demonwolfy" data-view="demonwolfy">DemonWolfy</a>
@@ -235,6 +248,22 @@ footer{color:var(--muted);font-size:13px}
   </div>
 </div>
 
+</div>
+
+<div class="view" id="view-grid" hidden>
+  <div class="group-head"><h2>Team grid</h2><p>Every tile against every player. Requirements are checked automatically from hiscores and WikiSync quests (OSRS Wiki requirements); claims come from the team chat. Hover or tap a cell for the reason.</p></div>
+  <div class="legend"><span class="cell progress">New drop</span><span class="cell claimed">Claimed</span><span class="cell can">Can do</span><span class="cell unknown">Unknown</span><span class="cell cant">Can't</span></div>
+  <p class="lede grid-meta">Loading…</p>
+  <h2>Little Boy board</h2>
+  <div class="tablebox"><table class="grid" id="grid-little"></table></div>
+  <h2>Big Boy board</h2>
+  <div class="tablebox"><table class="grid" id="grid-big"></table></div>
+</div>
+
+<div class="view" id="view-doubling" hidden>
+  <div class="group-head"><h2>Doubling</h2><p>A tile's points double when both boards complete the same position. Positions where both sides are claimed or have drops are the best doubling chances.</p></div>
+  <p class="lede grid-meta">Loading…</p>
+  <div class="tablebox"><table class="grid" id="doubling"></table></div>
 </div>
 
 <div class="view" id="view-live" hidden>
@@ -401,7 +430,7 @@ footer{color:var(--muted);font-size:13px}
 })();
 
 (function(){
-  var views=['plan','live','team','demonwolfy','little-boy','big-boy'];
+  var views=['plan','grid','doubling','live','team','demonwolfy','little-boy','big-boy'];
   function show(){
     var h=(location.hash||'').replace('#','');
     if(views.indexOf(h)<0) h='plan';
@@ -432,6 +461,32 @@ footer{color:var(--muted);font-size:13px}
         (!items&&!kc?'<div class="meta">Nothing new yet.</div>':'')+'</div>';
     }).join('');
   }).catch(function(){ meta.textContent='Live tracking runs on the GitHub page (kitten-lissy.github.io/little-boy-bingo/#live).'; });
+})();
+
+(function(){
+  var LABEL={progress:'New drop',claimed:'Claimed',can:'Can',unknown:'?',cant:"Can't",blocked:'Blocked',open:'Open'};
+  function esc(t){return String(t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function grid(rows,el){
+    if(!rows||!rows.length){return;}
+    var head='<thead><tr><th>#</th><th>Tile</th>'+rows[0].cells.map(function(c){return '<th>'+esc(c.player)+'</th>';}).join('')+'</tr></thead>';
+    var body=rows.map(function(r){
+      return '<tr><td class="num">'+(r.starred?'☆':'')+r.tile+'</td><td class="tile">'+esc(r.title)+'</td>'+
+        r.cells.map(function(c){return '<td class="c '+c.state+'" title="'+esc(c.why||LABEL[c.state])+'">'+LABEL[c.state]+'</td>';}).join('')+'</tr>';
+    }).join('');
+    el.innerHTML=head+'<tbody>'+body+'</tbody>';
+  }
+  fetch('data/status.json',{cache:'no-store'}).then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(function(d){
+    document.querySelectorAll('.grid-meta').forEach(function(m){ m.textContent='Last checked '+d.checked+'.'; });
+    if(!d.grid) return;
+    grid(d.grid.Little,document.getElementById('grid-little'));
+    grid(d.grid.Big,document.getElementById('grid-big'));
+    var dt=document.getElementById('doubling');
+    dt.innerHTML='<thead><tr><th>#</th><th>Little Boy tile</th><th>Little</th><th>Big Boy tile</th><th>Big</th></tr></thead><tbody>'+
+      d.doubling.map(function(x){
+        var both=(x.little_state==='claimed'||x.little_state==='progress')&&(x.big_state==='claimed'||x.big_state==='progress');
+        return '<tr'+(both?' class="dbl"':'')+'><td class="num">'+x.tile+'</td><td class="tile">'+esc(x.little)+'</td><td class="c '+x.little_state+'">'+LABEL[x.little_state]+'</td><td class="tile">'+esc(x.big)+'</td><td class="c '+x.big_state+'">'+LABEL[x.big_state]+'</td></tr>';
+      }).join('')+'</tbody>';
+  }).catch(function(){ document.querySelectorAll('.grid-meta').forEach(function(m){ m.textContent='The grid runs on the GitHub page (kitten-lissy.github.io/little-boy-bingo/#grid).'; }); });
 })();
 </script>
 </body>
