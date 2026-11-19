@@ -254,6 +254,32 @@ def build_grid(players, skills_by_player):
     return grid, doubling
 
 
+def build_boards(players):
+    """Per board, per tile: done, who's on it, drops spotted, and whether the same square on the other board is active."""
+    claims = json.loads((DATA / "claims.json").read_text())
+    done = json.loads((DATA / "done.json").read_text())
+    boards = {}
+    for board in ("Little", "Big"):
+        roster = [p for p in players if p["board"] == board]
+        others = [p for p in players if p["board"] != board]
+        tiles = []
+        for t in range(1, 26):
+            drops = [{"player": p["name"], "item": i["name"]} for p in roster for i in p["new_items"] if t in i["tiles"]]
+            drops += [{"player": p["name"], "item": i["name"], "cross": True}
+                      for p in others for i in p["new_items"] if t in i.get("other_tiles", [])]
+            on_it = [p["name"] for p in roster if t in claims.get(p["name"], [])]
+            state = "done" if t in done.get(board, []) else ("on" if on_it or drops else "none")
+            tiles.append({"tile": t, "title": TITLES[board][t - 1], "starred": t in STARRED[board],
+                          "state": state, "on_it": on_it, "drops": drops})
+        boards[board] = tiles
+    for board, other in (("Little", "Big"), ("Big", "Little")):
+        for a, b in zip(boards[board], boards[other]):
+            a["x2"] = b["state"] in ("done", "on")
+            a["other_title"] = b["title"]
+            a["other_state"] = b["state"]
+    return boards
+
+
 def main():
     now = datetime.now(timezone.utc)
     started = now >= START
@@ -303,14 +329,22 @@ def main():
                     kc_gains.append({"name": act, "gain": gain})
             kc_gains.sort(key=lambda x: -x["gain"])
 
+        sk = (kc or {}).get("_skills", {})
+        keep = ["Attack", "Strength", "Defence", "Hitpoints", "Ranged", "Magic", "Prayer", "Slayer", "Agility", "Herblore", "Overall"]
+        top_kc = sorted(((v, k) for k, v in (kc or {}).items()
+                         if k != "_skills" and not k.startswith(("Clue Scrolls", "PvP Arena", "LMS", "Collections"))),
+                        reverse=True)[:8]
         out["players"].append({
             "name": name, "board": board, "note": p.get("note", ""), "sources": sources,
+            "combat": combat_level(sk), "skills": {k: sk[k] for k in keep if k in sk},
+            "top_kc": [{"name": k, "kc": v} for v, k in top_kc],
             "log_items": len(logs), "has_baseline": bool(base),
             "baseline_has_log": bool(base and base["items"]),
             "new_items": new_items, "kc_gains": kc_gains[:12],
         })
 
     out["grid"], out["doubling"] = build_grid(out["players"], skills_by_player)
+    out["boards"] = build_boards(out["players"])
     DATA.mkdir(exist_ok=True)
     (DATA / "status.json").write_text(json.dumps(out, indent=1))
     print(json.dumps({p["name"]: (p["sources"], p["log_items"], len(p["new_items"])) for p in out["players"]}))

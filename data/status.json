@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19 14:48 UTC",
+ "checked": "2026-11-19 14:58 UTC",
  "started": false,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -10,6 +10,54 @@
    "sources": [
     "Temple",
     "Hiscores"
+   ],
+   "combat": 111,
+   "skills": {
+    "Attack": 88,
+    "Strength": 87,
+    "Defence": 87,
+    "Hitpoints": 90,
+    "Ranged": 88,
+    "Magic": 85,
+    "Prayer": 82,
+    "Slayer": 81,
+    "Agility": 86,
+    "Herblore": 84,
+    "Overall": 2083
+   },
+   "top_kc": [
+    {
+     "name": "Rifts closed",
+     "kc": 351
+    },
+    {
+     "name": "Wintertodt",
+     "kc": 333
+    },
+    {
+     "name": "Tempoross",
+     "kc": 158
+    },
+    {
+     "name": "Hespori",
+     "kc": 38
+    },
+    {
+     "name": "Barrows Chests",
+     "kc": 22
+    },
+    {
+     "name": "Vorkath",
+     "kc": 12
+    },
+    {
+     "name": "Lunar Chests",
+     "kc": 4
+    },
+    {
+     "name": "Scurrius",
+     "kc": 3
+    }
    ],
    "log_items": 311,
    "has_baseline": false,
@@ -24,6 +72,54 @@
    "sources": [
     "Hiscores"
    ],
+   "combat": 126,
+   "skills": {
+    "Attack": 99,
+    "Strength": 99,
+    "Defence": 99,
+    "Hitpoints": 99,
+    "Ranged": 99,
+    "Magic": 95,
+    "Prayer": 99,
+    "Slayer": 98,
+    "Agility": 81,
+    "Herblore": 72,
+    "Overall": 2068
+   },
+   "top_kc": [
+    {
+     "name": "Kraken",
+     "kc": 2317
+    },
+    {
+     "name": "Cerberus",
+     "kc": 824
+    },
+    {
+     "name": "General Graardor",
+     "kc": 512
+    },
+    {
+     "name": "King Black Dragon",
+     "kc": 362
+    },
+    {
+     "name": "Thermonuclear Smoke Devil",
+     "kc": 358
+    },
+    {
+     "name": "Giant Mole",
+     "kc": 331
+    },
+    {
+     "name": "Vorkath",
+     "kc": 196
+    },
+    {
+     "name": "Alchemical Hydra",
+     "kc": 157
+    }
+   ],
    "log_items": 0,
    "has_baseline": false,
    "baseline_has_log": false,
@@ -35,9 +131,58 @@
    "board": "Little",
    "note": "",
    "sources": [
+    "Temple",
     "Hiscores"
    ],
-   "log_items": 0,
+   "combat": 112,
+   "skills": {
+    "Attack": 87,
+    "Strength": 88,
+    "Defence": 87,
+    "Hitpoints": 94,
+    "Ranged": 91,
+    "Magic": 94,
+    "Prayer": 80,
+    "Slayer": 75,
+    "Agility": 74,
+    "Herblore": 80,
+    "Overall": 1908
+   },
+   "top_kc": [
+    {
+     "name": "Wintertodt",
+     "kc": 87
+    },
+    {
+     "name": "Deranged Archaeologist",
+     "kc": 25
+    },
+    {
+     "name": "Vorkath",
+     "kc": 20
+    },
+    {
+     "name": "Tempoross",
+     "kc": 14
+    },
+    {
+     "name": "Tombs of Amascut",
+     "kc": 13
+    },
+    {
+     "name": "Yama",
+     "kc": 12
+    },
+    {
+     "name": "Zulrah",
+     "kc": 10
+    },
+    {
+     "name": "Giant Mole",
+     "kc": 10
+    }
+   ],
+   "log_items": 135,
    "has_baseline": false,
    "baseline_has_log": false,
    "new_items": [],
@@ -49,6 +194,54 @@
    "note": "Mobile only: no plugins, hiscores only",
    "sources": [
     "Hiscores"
+   ],
+   "combat": 102,
+   "skills": {
+    "Attack": 83,
+    "Strength": 80,
+    "Defence": 80,
+    "Hitpoints": 84,
+    "Ranged": 80,
+    "Magic": 80,
+    "Prayer": 69,
+    "Slayer": 72,
+    "Agility": 65,
+    "Herblore": 83,
+    "Overall": 1803
+   },
+   "top_kc": [
+    {
+     "name": "Brutus",
+     "kc": 88
+    },
+    {
+     "name": "The Royal Titans",
+     "kc": 66
+    },
+    {
+     "name": "Nightmare",
+     "kc": 48
+    },
+    {
+     "name": "Hespori",
+     "kc": 44
+    },
+    {
+     "name": "Bryophyta",
+     "kc": 43
+    },
+    {
+     "name": "Dagannoth Rex",
+     "kc": 35
+    },
+    {
+     "name": "Chambers of Xeric",
+     "kc": 22
+    },
+    {
+     "name": "Vet'ion",
+     "kc": 16
+    }
    ],
    "log_items": 0,
    "has_baseline": false,
@@ -64,6 +257,54 @@
     "WikiSync",
     "Hiscores"
    ],
+   "combat": 126,
+   "skills": {
+    "Attack": 99,
+    "Strength": 99,
+    "Defence": 99,
+    "Hitpoints": 99,
+    "Ranged": 99,
+    "Magic": 99,
+    "Prayer": 99,
+    "Slayer": 99,
+    "Agility": 99,
+    "Herblore": 99,
+    "Overall": 2376
+   },
+   "top_kc": [
+    {
+     "name": "Colosseum Glory",
+     "kc": 38975
+    },
+    {
+     "name": "Zulrah",
+     "kc": 1652
+    },
+    {
+     "name": "Vardorvis",
+     "kc": 1614
+    },
+    {
+     "name": "Kraken",
+     "kc": 1430
+    },
+    {
+     "name": "Vorkath",
+     "kc": 1294
+    },
+    {
+     "name": "Araxxor",
+     "kc": 860
+    },
+    {
+     "name": "General Graardor",
+     "kc": 655
+    },
+    {
+     "name": "Rifts closed",
+     "kc": 609
+    }
+   ],
    "log_items": 478,
    "has_baseline": false,
    "baseline_has_log": false,
@@ -78,6 +319,54 @@
     "WikiSync",
     "Hiscores"
    ],
+   "combat": 126,
+   "skills": {
+    "Attack": 99,
+    "Strength": 99,
+    "Defence": 99,
+    "Hitpoints": 99,
+    "Ranged": 99,
+    "Magic": 99,
+    "Prayer": 99,
+    "Slayer": 99,
+    "Agility": 81,
+    "Herblore": 76,
+    "Overall": 2066
+   },
+   "top_kc": [
+    {
+     "name": "Vardorvis",
+     "kc": 2135
+    },
+    {
+     "name": "The Leviathan",
+     "kc": 2023
+    },
+    {
+     "name": "Araxxor",
+     "kc": 1296
+    },
+    {
+     "name": "Giant Mole",
+     "kc": 1293
+    },
+    {
+     "name": "Duke Sucellus",
+     "kc": 1123
+    },
+    {
+     "name": "The Whisperer",
+     "kc": 618
+    },
+    {
+     "name": "Wintertodt",
+     "kc": 581
+    },
+    {
+     "name": "The Hueycoatl",
+     "kc": 503
+    }
+   ],
    "log_items": 302,
    "has_baseline": false,
    "baseline_has_log": false,
@@ -90,6 +379,54 @@
    "note": "",
    "sources": [
     "Hiscores"
+   ],
+   "combat": 124,
+   "skills": {
+    "Attack": 99,
+    "Strength": 99,
+    "Defence": 99,
+    "Hitpoints": 99,
+    "Ranged": 99,
+    "Magic": 99,
+    "Prayer": 86,
+    "Slayer": 99,
+    "Agility": 78,
+    "Herblore": 92,
+    "Overall": 2151
+   },
+   "top_kc": [
+    {
+     "name": "Colosseum Glory",
+     "kc": 2687
+    },
+    {
+     "name": "Kraken",
+     "kc": 2616
+    },
+    {
+     "name": "Zulrah",
+     "kc": 1921
+    },
+    {
+     "name": "Araxxor",
+     "kc": 1074
+    },
+    {
+     "name": "Brutus",
+     "kc": 939
+    },
+    {
+     "name": "Alchemical Hydra",
+     "kc": 733
+    },
+    {
+     "name": "The Gauntlet",
+     "kc": 562
+    },
+    {
+     "name": "Zalcano",
+     "kc": 559
+    }
    ],
    "log_items": 0,
    "has_baseline": false,
@@ -1505,5 +1842,622 @@
    "little_state": "claimed",
    "big_state": "open"
   }
- ]
+ ],
+ "boards": {
+  "Little": [
+   {
+    "tile": 1,
+    "title": "Whats your angel?",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "DemonWolfy"
+    ],
+    "drops": [],
+    "x2": false,
+    "other_title": "Maggot Crusher",
+    "other_state": "none"
+   },
+   {
+    "tile": 2,
+    "title": "Titan your Belt",
+    "starred": true,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": true,
+    "other_title": "Yama Time",
+    "other_state": "on"
+   },
+   {
+    "tile": 3,
+    "title": "Tried and Dented",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "Dinner with the bug",
+    "other_state": "none"
+   },
+   {
+    "tile": 4,
+    "title": "ZE PANTY RAID",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "DemonWolfy"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Uncomfortable Raider",
+    "other_state": "on"
+   },
+   {
+    "tile": 5,
+    "title": "Guarding my face",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "HOW RARE IS IT??",
+    "other_state": "none"
+   },
+   {
+    "tile": 6,
+    "title": "Godly Gamer",
+    "starred": true,
+    "state": "on",
+    "on_it": [
+     "Kitten Lissy"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Just Deserts",
+    "other_state": "on"
+   },
+   {
+    "tile": 7,
+    "title": "Hueycoatl and the News",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": true,
+    "other_title": "Time to get Nexy",
+    "other_state": "on"
+   },
+   {
+    "tile": 8,
+    "title": "Daggan These Nuts",
+    "starred": true,
+    "state": "on",
+    "on_it": [
+     "Kitten Lissy"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Nice Recolor!",
+    "other_state": "on"
+   },
+   {
+    "tile": 9,
+    "title": "Perilous Times",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "Spooky Ghosts!",
+    "other_state": "none"
+   },
+   {
+    "tile": 10,
+    "title": "Can i Barrow some of your time?",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": true,
+    "other_title": "Raid armor",
+    "other_state": "on"
+   },
+   {
+    "tile": 11,
+    "title": "Tell it ToMe Straight",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "Kitten Lissy"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Zalcanic mine",
+    "other_state": "on"
+   },
+   {
+    "tile": 12,
+    "title": "Big mean Greenie or Mr Mammal?",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "Kitten Lissy"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Purple Prison",
+    "other_state": "on"
+   },
+   {
+    "tile": 13,
+    "title": "Hot Stuff",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "Speedy Boys",
+    "other_state": "none"
+   },
+   {
+    "tile": 14,
+    "title": "Draconic Dreams",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "PrimalSin"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "WAKE ME UP",
+    "other_state": "on"
+   },
+   {
+    "tile": 15,
+    "title": "Big Ass Spider",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "PrimalSin"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Big Mean Prison",
+    "other_state": "on"
+   },
+   {
+    "tile": 16,
+    "title": "Sweet kicks",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": true,
+    "other_title": "FETCH THE GODSWORD",
+    "other_state": "on"
+   },
+   {
+    "tile": 17,
+    "title": "Dropping Defence Matters",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": true,
+    "other_title": "One man, One Jar",
+    "other_state": "on"
+   },
+   {
+    "tile": 18,
+    "title": "Getting the hang of this",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "DemonWolfy"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Contract Killer",
+    "other_state": "on"
+   },
+   {
+    "tile": 19,
+    "title": "You GODa be kidding me",
+    "starred": true,
+    "state": "on",
+    "on_it": [
+     "Kitten Lissy"
+    ],
+    "drops": [],
+    "x2": false,
+    "other_title": "Fancy Staff",
+    "other_state": "none"
+   },
+   {
+    "tile": 20,
+    "title": "Warding off Evil",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "Void Gatherer",
+    "other_state": "none"
+   },
+   {
+    "tile": 21,
+    "title": "Beefy Tile",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "PrimalSin"
+    ],
+    "drops": [],
+    "x2": false,
+    "other_title": "Unholy Cow!",
+    "other_state": "none"
+   },
+   {
+    "tile": 22,
+    "title": "Pigeon Crusher",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "Showmanship",
+    "other_state": "none"
+   },
+   {
+    "tile": 23,
+    "title": "Dragon Slayer",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "PrimalSin"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Kasper's Nightmare",
+    "other_state": "on"
+   },
+   {
+    "tile": 24,
+    "title": "What's Following me?",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "Can I pet it?",
+    "other_state": "none"
+   },
+   {
+    "tile": 25,
+    "title": "CHUG CHUG CHUG",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "DemonWolfy"
+    ],
+    "drops": [],
+    "x2": false,
+    "other_title": "You can't Be Tzharrious",
+    "other_state": "none"
+   }
+  ],
+  "Big": [
+   {
+    "tile": 1,
+    "title": "Maggot Crusher",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": true,
+    "other_title": "Whats your angel?",
+    "other_state": "on"
+   },
+   {
+    "tile": 2,
+    "title": "Yama Time",
+    "starred": true,
+    "state": "on",
+    "on_it": [
+     "Caffeine Guy"
+    ],
+    "drops": [],
+    "x2": false,
+    "other_title": "Titan your Belt",
+    "other_state": "none"
+   },
+   {
+    "tile": 3,
+    "title": "Dinner with the bug",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "Tried and Dented",
+    "other_state": "none"
+   },
+   {
+    "tile": 4,
+    "title": "Uncomfortable Raider",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "SSora",
+     "Lasrgatr"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "ZE PANTY RAID",
+    "other_state": "on"
+   },
+   {
+    "tile": 5,
+    "title": "HOW RARE IS IT??",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "Guarding my face",
+    "other_state": "none"
+   },
+   {
+    "tile": 6,
+    "title": "Just Deserts",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "SSora",
+     "Lasrgatr",
+     "Caffeine Guy"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Godly Gamer",
+    "other_state": "on"
+   },
+   {
+    "tile": 7,
+    "title": "Time to get Nexy",
+    "starred": true,
+    "state": "on",
+    "on_it": [
+     "SSora"
+    ],
+    "drops": [],
+    "x2": false,
+    "other_title": "Hueycoatl and the News",
+    "other_state": "none"
+   },
+   {
+    "tile": 8,
+    "title": "Nice Recolor!",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "SSora"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Daggan These Nuts",
+    "other_state": "on"
+   },
+   {
+    "tile": 9,
+    "title": "Spooky Ghosts!",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "Perilous Times",
+    "other_state": "none"
+   },
+   {
+    "tile": 10,
+    "title": "Raid armor",
+    "starred": true,
+    "state": "on",
+    "on_it": [
+     "SSora",
+     "Lasrgatr",
+     "Caffeine Guy"
+    ],
+    "drops": [],
+    "x2": false,
+    "other_title": "Can i Barrow some of your time?",
+    "other_state": "none"
+   },
+   {
+    "tile": 11,
+    "title": "Zalcanic mine",
+    "starred": true,
+    "state": "on",
+    "on_it": [
+     "Lasrgatr",
+     "Caffeine Guy"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Tell it ToMe Straight",
+    "other_state": "on"
+   },
+   {
+    "tile": 12,
+    "title": "Purple Prison",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "Caffeine Guy"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Big mean Greenie or Mr Mammal?",
+    "other_state": "on"
+   },
+   {
+    "tile": 13,
+    "title": "Speedy Boys",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "Hot Stuff",
+    "other_state": "none"
+   },
+   {
+    "tile": 14,
+    "title": "WAKE ME UP",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "Lasrgatr"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Draconic Dreams",
+    "other_state": "on"
+   },
+   {
+    "tile": 15,
+    "title": "Big Mean Prison",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "SSora"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Big Ass Spider",
+    "other_state": "on"
+   },
+   {
+    "tile": 16,
+    "title": "FETCH THE GODSWORD",
+    "starred": true,
+    "state": "on",
+    "on_it": [
+     "Caffeine Guy"
+    ],
+    "drops": [],
+    "x2": false,
+    "other_title": "Sweet kicks",
+    "other_state": "none"
+   },
+   {
+    "tile": 17,
+    "title": "One man, One Jar",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "SSora",
+     "Caffeine Guy"
+    ],
+    "drops": [],
+    "x2": false,
+    "other_title": "Dropping Defence Matters",
+    "other_state": "none"
+   },
+   {
+    "tile": 18,
+    "title": "Contract Killer",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "Caffeine Guy"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Getting the hang of this",
+    "other_state": "on"
+   },
+   {
+    "tile": 19,
+    "title": "Fancy Staff",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": true,
+    "other_title": "You GODa be kidding me",
+    "other_state": "on"
+   },
+   {
+    "tile": 20,
+    "title": "Void Gatherer",
+    "starred": true,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "Warding off Evil",
+    "other_state": "none"
+   },
+   {
+    "tile": 21,
+    "title": "Unholy Cow!",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": true,
+    "other_title": "Beefy Tile",
+    "other_state": "on"
+   },
+   {
+    "tile": 22,
+    "title": "Showmanship",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "Pigeon Crusher",
+    "other_state": "none"
+   },
+   {
+    "tile": 23,
+    "title": "Kasper's Nightmare",
+    "starred": false,
+    "state": "on",
+    "on_it": [
+     "Caffeine Guy"
+    ],
+    "drops": [],
+    "x2": true,
+    "other_title": "Dragon Slayer",
+    "other_state": "on"
+   },
+   {
+    "tile": 24,
+    "title": "Can I pet it?",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": false,
+    "other_title": "What's Following me?",
+    "other_state": "none"
+   },
+   {
+    "tile": 25,
+    "title": "You can't Be Tzharrious",
+    "starred": false,
+    "state": "none",
+    "on_it": [],
+    "drops": [],
+    "x2": true,
+    "other_title": "CHUG CHUG CHUG",
+    "other_state": "on"
+   }
+  ]
+ }
 }
