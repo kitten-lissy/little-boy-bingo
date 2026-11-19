@@ -124,21 +124,38 @@ footer{color:var(--muted);font-size:13px}
 <header>
   <div class="eyebrow">Soul Link Bingo · Flax Kingdom · Team 1</div>
   <h1>Team 1 Bingo</h1>
-  <p class="lede">Both boards with who's on each tile, plus a page for every player. Updates by itself every 3 hours.</p>
-  <p class="lede">Started 8 pm EST Thu 19 Nov, runs to 20 Dec (all event times are EST). Proof: screenshot with the chat box open and the event password typed (Clan Events plugin). ☆ tiles count drops from Big Boys on shared trips.</p>
+  <p class="lede">Our team hub: the boards, who's going for what, and everyone's progress.</p>
 </header>
 
 <nav class="tabs" aria-label="Pages">
+  <a href="#home" data-view="home">Home</a>
   <a href="#little-boy" data-view="little-boy">Little Boy board</a>
   <a href="#big-boy" data-view="big-boy">Big Boy board</a>
   <a href="#players" data-view="players">Players</a>
 </nav>
 
-<div class="view" id="view-players" hidden>
-  <div class="group-head"><h2>Players</h2><p>Pick a teammate to see what they're going for, what they can and can't do on their board, their levels, and anything new since the start. Updated with the tracker every 3 hours.</p></div>
-  <label class="pick" for="player-pick">Player <select id="player-pick"></select></label>
-  <p class="lede grid-meta">Loading…</p>
-  <div id="player-view" class="view"></div>
+<div class="view" id="view-home">
+  <div class="cols">
+  <div class="panel">
+    <h2>The event</h2>
+    <ul>
+      <li><b>Dates:</b> started 8 pm EST Thu 19 Nov, runs to 20 Dec. All event times are EST.</li>
+      <li><b>Scoring:</b> every tile is 1 point. If Little Boys and Big Boys finish the <b>same square</b> on their boards, that square scores <b>double (×2)</b>.</li>
+      <li><b>☆ tiles:</b> drops from the other board count when you do the trip together.</li>
+      <li><b>Proof:</b> screenshot the drop with the chat box open and the event password typed (Clan Events plugin), and post it in the team screenshots chat.</li>
+      <li><b>Prizes (Little Boys):</b> 1st 10m each, 2nd 5m. (Big Boys: 1st 60m, 2nd 30m.)</li>
+    </ul>
+  </div>
+  <div class="panel">
+    <h2>How to use this page</h2>
+    <ul>
+      <li><b>Little Boy board</b> and <b>Big Boy board</b>: every tile with ✅ done, 🟡 who's on it, or ⚪ nobody yet. <b>×2</b> marks squares where finishing would score double.</li>
+      <li><b>Players</b>: pick anyone to see what they're going for, what they can and can't do, and what's new since the start.</li>
+      <li>Updates by itself every 3 hours from WikiSync, TempleOSRS and the hiscores. Tiles the tracker can't see are marked by hand.</li>
+    </ul>
+  </div>
+  </div>
+  <h2>Everyone on the team</h2>
   <h2>Everyone on the team</h2>
   <div class="tablebox"><table>
     <thead><tr><th>Discord name</th><th>In-game name</th><th>Board</th><th>Wise Old Man</th><th>WikiSync</th><th>TempleOSRS log</th></tr></thead>
@@ -152,7 +169,14 @@ footer{color:var(--muted);font-size:13px}
       <tr><td class="tile">Caffeine Guy</td><td>Caffeine Guy</td><td>Big</td><td><span class="pill yes">Yes</span></td><td><span class="pill no">No</span></td><td><span class="pill no">No</span></td></tr>
     </tbody>
   </table></div>
-  <div class="panel"><h2>How to sync your collection log</h2><p>Install WikiSync in RuneLite, log in, and open your collection log once. Or install TempleOSRS, search your name on templeosrs.com and click Update, then press the Temple button in your collection log.</p></div>
+  <div class="panel"><h2>How to sync your collection log</h2><p>Open your collection log every so often so the tracker sees new drops. Install WikiSync in RuneLite, log in, and open your collection log once. Or install TempleOSRS, search your name on templeosrs.com and click Update, then press the Temple button in your collection log.</p></div>
+</div>
+
+<div class="view" id="view-players" hidden>
+  <div class="group-head"><h2>Players</h2><p>Pick a teammate to see what they're going for, what they can and can't do on their board, their levels, and anything new since the start.</p></div>
+  <label class="pick" for="player-pick">Player <select id="player-pick"></select></label>
+  <p class="lede grid-meta">Loading…</p>
+  <div id="player-view" class="view"></div>
 </div>
 
 <div class="view" id="view-little-boy" hidden>
@@ -236,10 +260,10 @@ footer{color:var(--muted);font-size:13px}
 })();
 
 (function(){
-  var views=['little-boy','big-boy','players'];
+  var views=['home','little-boy','big-boy','players'];
   function show(){
     var h=(location.hash||'').replace('#','');
-    if(views.indexOf(h)<0) h='little-boy';
+    if(views.indexOf(h)<0) h='home';
     views.forEach(function(v){ document.getElementById('view-'+v).hidden=(v!==h); });
     document.querySelectorAll('.tabs a').forEach(function(a){
       if(a.getAttribute('data-view')===h){ a.setAttribute('aria-current','page'); } else { a.removeAttribute('aria-current'); }

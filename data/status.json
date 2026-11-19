@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19 15:08 UTC",
+ "checked": "2026-11-19 15:14 UTC",
  "started": false,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -66,7 +66,6 @@
     "Dagannoth Kings: all four rings (\u26068)",
     "God Wars generals: uniques for \u26066 and \u260619",
     "Tempoross: tome of water (11)",
-    "Hill and moss giants: keys for Obor or Bryophyta (12)",
     "A learner raid with the team (4, 18)"
    ],
    "notes": "Needs DKs and all four GWD generals for the Fremennik Elite. On European time until mid-December (usually offline by 8\u20139 pm EST), then on North American time.",
@@ -271,7 +270,7 @@
    "has_baseline": false,
    "log_since": "",
    "going": [],
-   "notes": "Mobile only, first bingo: no RuneLite plugins. Proof is a screenshot with the event password typed in chat.",
+   "notes": "Mobile only, first bingo: no RuneLite plugins. Proof is a screenshot with the event password typed in chat. Good fit for tile 12 (Obor or Bryophyta): already has Bryophyta 43 and Obor 11 kills, and it works on mobile. The club or essence is 1/118 per boss kill.",
    "baseline_has_log": false,
    "new_items": [],
    "kc_gains": []
@@ -798,7 +797,7 @@
     "cells": [
      {
       "player": "Kitten Lissy",
-      "state": "claimed",
+      "state": "can",
       "why": ""
      },
      {
@@ -1805,7 +1804,7 @@
    "tile": 12,
    "little": "Big mean Greenie or Mr Mammal?",
    "big": "Purple Prison",
-   "little_state": "claimed",
+   "little_state": "open",
    "big_state": "claimed"
   },
   {
@@ -2049,10 +2048,8 @@
     "title": "Big mean Greenie or Mr Mammal?",
     "starred": false,
     "manual": false,
-    "state": "on",
-    "on_it": [
-     "Kitten Lissy"
-    ],
+    "state": "none",
+    "on_it": [],
     "drops": [],
     "x2": true,
     "other_title": "Purple Prison",
@@ -2392,9 +2389,9 @@
      "Caffeine Guy"
     ],
     "drops": [],
-    "x2": true,
+    "x2": false,
     "other_title": "Big mean Greenie or Mr Mammal?",
-    "other_state": "on"
+    "other_state": "none"
    },
    {
     "tile": 13,
