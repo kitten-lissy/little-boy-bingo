@@ -86,6 +86,11 @@ input[type=checkbox]:focus-visible{outline:2px solid var(--accent);outline-offse
 .sqn{font-family:var(--mono);font-size:12px;color:var(--accent)}
 .panel.commit{border-color:var(--accent)}
 .panel.commit li b{color:var(--fg)}
+.live-list{display:grid;gap:12px}
+.live-card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:6px;min-width:0}
+.live-card h3{margin:0;font-family:var(--display);font-size:17px}
+.live-card .meta{color:var(--muted);font-size:13px}
+.live-card ul{margin:0;padding-left:18px;display:grid;gap:3px;font-size:14px}
 .ti{width:36px;height:36px;border-radius:6px;vertical-align:middle;margin-right:8px;float:left}
 .si{width:100%;max-width:72px;height:auto;aspect-ratio:1;border-radius:6px;align-self:center}
 footer{color:var(--muted);font-size:13px}
@@ -105,6 +110,7 @@ footer{color:var(--muted);font-size:13px}
 
 <nav class="tabs" aria-label="Pages">
   <a href="#plan" data-view="plan">My plan</a>
+  <a href="#live" data-view="live">New since start</a>
   <a href="#team" data-view="team">Team</a>
   <a href="#demonwolfy" data-view="demonwolfy">DemonWolfy</a>
   <a href="#little-boy" data-view="little-boy">Little Boy board</a>
@@ -229,6 +235,12 @@ footer{color:var(--muted);font-size:13px}
   </div>
 </div>
 
+</div>
+
+<div class="view" id="view-live" hidden>
+  <div class="group-head"><h2>New since the start</h2><p>Checked automatically every 3 hours from WikiSync, TempleOSRS and the hiscores. Only players who sync a collection log show new items; everyone shows kill counts. This is a tracker, not proof: drops still need the password screenshot.</p></div>
+  <p class="lede" id="live-meta">Loading…</p>
+  <div id="live-list" class="live-list"></div>
 </div>
 
 <div class="view" id="view-team" hidden>
@@ -389,7 +401,7 @@ footer{color:var(--muted);font-size:13px}
 })();
 
 (function(){
-  var views=['plan','team','demonwolfy','little-boy','big-boy'];
+  var views=['plan','live','team','demonwolfy','little-boy','big-boy'];
   function show(){
     var h=(location.hash||'').replace('#','');
     if(views.indexOf(h)<0) h='plan';
@@ -399,6 +411,27 @@ footer{color:var(--muted);font-size:13px}
     });
   }
   window.addEventListener('hashchange',show); show();
+})();
+
+(function(){
+  var meta=document.getElementById('live-meta'), list=document.getElementById('live-list');
+  function esc(t){return String(t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  fetch('data/status.json',{cache:'no-store'}).then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); }).then(function(d){
+    meta.textContent='Last checked '+d.checked+'. '+(d.started?'Counting from the start ('+d.start+').':'The bingo hasn\'t started yet; the first check after '+d.start+' becomes the starting point.');
+    list.innerHTML=d.players.map(function(p){
+      var items=p.new_items.map(function(i){
+        var t=i.tiles.length?' (tile '+i.tiles.map(function(x){return (i.starred.indexOf(x)>=0?'☆':'')+x;}).join(', ')+')':'';
+        var o=i.other_tiles&&i.other_tiles.length?' also '+i.other_board+' ☆'+i.other_tiles.join(', ')+' on a shared trip':'';
+        return '<li>'+esc(i.name)+esc(t)+esc(o)+'</li>';}).join('');
+      var kc=p.kc_gains.map(function(k){return '<li>'+esc(k.name)+' +'+k.gain+'</li>';}).join('');
+      var src=p.sources.length?p.sources.join(', '):'nothing found';
+      var logNote=p.log_items?(p.log_items+' log items tracked'):'no collection log synced';
+      return '<div class="live-card"><h3>'+esc(p.name)+' <span class="meta">· '+esc(p.board)+' Boy</span></h3>'+
+        '<div class="meta">'+esc(src)+' · '+esc(logNote)+(p.note?' · '+esc(p.note):'')+'</div>'+
+        (items?'<b>New items</b><ul>'+items+'</ul>':'')+(kc?'<b>Kills since start</b><ul>'+kc+'</ul>':'')+
+        (!items&&!kc?'<div class="meta">Nothing new yet.</div>':'')+'</div>';
+    }).join('');
+  }).catch(function(){ meta.textContent='Live tracking runs on the GitHub page (kitten-lissy.github.io/little-boy-bingo/#live).'; });
 })();
 </script>
 </body>

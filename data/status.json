@@ -1,0 +1,101 @@
+{
+ "checked": "2026-11-19 14:34 UTC",
+ "started": false,
+ "start": "2026-11-20 01:00 UTC",
+ "players": [
+  {
+   "name": "Kitten Lissy",
+   "board": "Little",
+   "note": "",
+   "sources": [
+    "Temple",
+    "Hiscores"
+   ],
+   "log_items": 311,
+   "has_baseline": false,
+   "baseline_has_log": false,
+   "new_items": [],
+   "kc_gains": []
+  },
+  {
+   "name": "PrimalSin",
+   "board": "Little",
+   "note": "",
+   "sources": [
+    "Hiscores"
+   ],
+   "log_items": 0,
+   "has_baseline": false,
+   "baseline_has_log": false,
+   "new_items": [],
+   "kc_gains": []
+  },
+  {
+   "name": "DemonWolfy",
+   "board": "Little",
+   "note": "",
+   "sources": [
+    "Hiscores"
+   ],
+   "log_items": 0,
+   "has_baseline": false,
+   "baseline_has_log": false,
+   "new_items": [],
+   "kc_gains": []
+  },
+  {
+   "name": "Trobro12",
+   "board": "Little",
+   "note": "Mobile only: no plugins, hiscores only",
+   "sources": [
+    "Hiscores"
+   ],
+   "log_items": 0,
+   "has_baseline": false,
+   "baseline_has_log": false,
+   "new_items": [],
+   "kc_gains": []
+  },
+  {
+   "name": "SSora",
+   "board": "Big",
+   "note": "",
+   "sources": [
+    "WikiSync",
+    "Hiscores"
+   ],
+   "log_items": 478,
+   "has_baseline": false,
+   "baseline_has_log": false,
+   "new_items": [],
+   "kc_gains": []
+  },
+  {
+   "name": "Lasrgatr",
+   "board": "Big",
+   "note": "",
+   "sources": [
+    "WikiSync",
+    "Hiscores"
+   ],
+   "log_items": 302,
+   "has_baseline": false,
+   "baseline_has_log": false,
+   "new_items": [],
+   "kc_gains": []
+  },
+  {
+   "name": "Caffeine Guy",
+   "board": "Big",
+   "note": "",
+   "sources": [
+    "Hiscores"
+   ],
+   "log_items": 0,
+   "has_baseline": false,
+   "baseline_has_log": false,
+   "new_items": [],
+   "kc_gains": []
+  }
+ ]
+}
