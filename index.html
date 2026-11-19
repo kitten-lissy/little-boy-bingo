@@ -67,6 +67,20 @@ input[type=checkbox]:focus-visible{outline:2px solid var(--accent);outline-offse
 .panel h2{font-size:17px}
 .panel ul{margin:0;padding-left:18px;display:grid;gap:6px}
 .panel p{margin:0;color:var(--muted);font-size:14px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;border-bottom:1px solid var(--line);padding-bottom:0}
+.tabs a{color:var(--muted);text-decoration:none;font-weight:600;font-size:14px;padding:8px 12px;border-radius:8px 8px 0 0;border:1px solid transparent;border-bottom:0;margin-bottom:-1px}
+.tabs a:hover{color:var(--fg)}
+.tabs a[aria-current="page"]{color:var(--fg);background:var(--surface);border-color:var(--line)}
+.tabs a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.view{display:grid;gap:28px}
+.board{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+@media (max-width:860px){.board{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:520px){.board{grid-template-columns:1fr}}
+.sq{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px;display:flex;flex-direction:column;gap:4px;min-width:0;font-size:13px}
+.sq.starred{border-color:var(--accent);background:linear-gradient(var(--accent-soft),var(--accent-soft)) top/100% 4px no-repeat,var(--surface)}
+.sq b{font-family:var(--display);font-size:15px;line-height:1.2}
+.sq span:last-child{color:var(--muted)}
+.sqn{font-family:var(--mono);font-size:12px;color:var(--accent)}
 footer{color:var(--muted);font-size:13px}
 @media (prefers-reduced-motion: reduce){*{transition:none!important}}
 </style>
@@ -76,15 +90,22 @@ footer{color:var(--muted);font-size:13px}
 
 <div class="wrap">
 <header>
-  <div class="eyebrow">Spooky clan bingo · Little Boy team · Kitten Lissy</div>
+  <div class="eyebrow">Clan bingo · Little Boy team · Kitten Lissy</div>
   <h1>Little Boy Bingo Plan</h1>
   <p class="lede">All 25 tiles in priority order: the two tiles everyone must do, then God Wars and the Dagannoth Kings (which also finish the Fremennik Elite), then a raid, then everything else by how likely it is. Status comes from the TempleOSRS collection log and WikiSync, synced 19 Nov. Tick a tile when it's done; ticks stay in this browser only.</p>
 </header>
 
+<nav class="tabs" aria-label="Pages">
+  <a href="#plan" data-view="plan">My plan</a>
+  <a href="#little-boy" data-view="little-boy">Little Boy board</a>
+  <a href="#big-boy" data-view="big-boy">Big Boy board</a>
+</nav>
+
+<div class="view" id="view-plan">
 <div class="summary" aria-label="Summary">
   <div class="chip"><b>2</b> tiles everyone must do</div>
-  <div class="chip"><b>6</b> realistic for me</div>
-  <div class="chip"><b>15</b> luck or team-dependent</div>
+  <div class="chip"><b>5</b> realistic for me</div>
+  <div class="chip"><b>17</b> luck or team-dependent</div>
   <div class="chip"><b>1</b> skipped (barrel)</div>
   <div class="chip"><b>1</b> not possible solo</div>
 </div>
@@ -188,6 +209,69 @@ footer{color:var(--muted);font-size:13px}
   </div>
 </div>
 
+</div>
+
+<div class="view" id="view-little-boy" hidden>
+  <div class="group-head"><h2>Little Boy board</h2><p>Tiles are read left to right, top to bottom. ☆ marks a starred tile. Wording as posted by the organisers.</p></div>
+<ol class="board">
+  <li class="sq"><span class="sqn">1</span><b>Whats your angel?</b><span>Obtain Two hallowfells, or one Jar of stone or pet.</span></li>
+  <li class="sq starred"><span class="sqn">2 ☆</span><b>Titan your Belt</b><span>Obtain both Twinflame Staff Pieces.</span></li>
+  <li class="sq"><span class="sqn">3</span><b>Tried and Dented</b><span>Create a Trident of the swamp from scratch (magic fang + Trident of the seas).</span></li>
+  <li class="sq"><span class="sqn">4</span><b>ZE PANTY RAID</b><span>Obtain any unique from raids (gems from TOA count, thread does not).</span></li>
+  <li class="sq"><span class="sqn">5</span><b>Guarding my face.</b><span>Obtain a Basilisk Jaw.</span></li>
+  <li class="sq starred"><span class="sqn">6 ☆</span><b>Godly Gamer</b><span>Obtain any Two GWD uniques (shards do not count).</span></li>
+  <li class="sq"><span class="sqn">7</span><b>Hueycoatl and the News</b><span>Obtain any Huey Unique besides seeds (three huey hides minimum).</span></li>
+  <li class="sq starred"><span class="sqn">8 ☆</span><b>Daggan These Nuts</b><span>Obtain all FOUR rings from the dagganoth kings on the collection log (warrior, berserker, archer, seers).</span></li>
+  <li class="sq"><span class="sqn">9</span><b>Perilous Times</b><span>Obtain one complete set of moons armor, has to be the same set.</span></li>
+  <li class="sq"><span class="sqn">10</span><b>Can i Barrow some of your time?</b><span>Obtain one complete set of Barrows armor. Has to be of the same set.</span></li>
+  <li class="sq"><span class="sqn">11</span><b>Tell it ToMe Straight</b><span>Obtain any tome drop (tome of earth, fire, water or zoryias from TFA).</span></li>
+  <li class="sq"><span class="sqn">12</span><b>Big mean Greenie or Mr Mammal?</b><span>Obtain either the Hill Giant Club, or Bryophitas essence.</span></li>
+  <li class="sq"><span class="sqn">13</span><b>Hot Stuff.</b><span>Every Member of the little boy board completes a fire cape.</span></li>
+  <li class="sq"><span class="sqn">14</span><b>Draconic Dreams</b><span>Obtain one of the three visages (draconic, skeletal or wyvern). Obtain 10 more if your primal since you&#x27;re so lucky.</span></li>
+  <li class="sq"><span class="sqn">15</span><b>Big Ass Spider</b><span>Obtain Two Sarachnis cudgels, or a jar or the pet.</span></li>
+  <li class="sq"><span class="sqn">16</span><b>Sweet kicks</b><span>Make a pair of granite boots from scratch (black tourmaline core and Bandos Boots).</span></li>
+  <li class="sq"><span class="sqn">17</span><b>Dropping Defence Matters</b><span>Obtain a dragon warhammer, Bandos godsword from scratch, or elder maul.</span></li>
+  <li class="sq"><span class="sqn">18</span><b>Getting the hang of this</b><span>Obtain a raid purple in your name (HAS TO BE LITTLE BOY).</span></li>
+  <li class="sq starred"><span class="sqn">19 ☆</span><b>You GODa be kidding me</b><span>Obtain two more GWD uniques (has to be from a different boss than the first tile).</span></li>
+  <li class="sq"><span class="sqn">20</span><b>Warding off Evil</b><span>Complete one of the wilderness wards from scratch (odium or malediction).</span></li>
+  <li class="sq"><span class="sqn">21</span><b>Beefy Tile</b><span>Obtain a pair of cow slippers for each member of the little boy team.</span></li>
+  <li class="sq"><span class="sqn">22</span><b>Pigeon Crusher</b><span>Obtain A belles folly.</span></li>
+  <li class="sq"><span class="sqn">23</span><b>Dragon Slayer</b><span>Obtain a Dragonbone necklace OR 20 vorkath heads (dry protection).</span></li>
+  <li class="sq"><span class="sqn">24</span><b>What&#x27;s Following me?</b><span>Obtain any boss pet (chaos elemental does not count).</span></li>
+  <li class="sq"><span class="sqn">25</span><b>CHUG CHUG CHUG</b><span>Obtain a Chugging barrel or potion storage (MUST BE FROM MIXOLOGY). If you already have both, get the outfit.</span></li>
+</ol>
+</div>
+
+<div class="view" id="view-big-boy" hidden>
+  <div class="group-head"><h2>Big Boy board</h2><p>The other team's board, for reference. ☆ marks a starred tile. Wording as posted by the organisers.</p></div>
+<ol class="board">
+  <li class="sq"><span class="sqn">1</span><b>Maggot Crusher</b><span>Any Maggot King Drop.</span></li>
+  <li class="sq starred"><span class="sqn">2 ☆</span><b>Yama Time</b><span>Any armor piece drop, or two soulflame horns.</span></li>
+  <li class="sq"><span class="sqn">3</span><b>Dinner with the bug</b><span>Any doom unique besides pet.</span></li>
+  <li class="sq"><span class="sqn">4</span><b>Uncomfortable Raider</b><span>Any raid purple from TOB or TFA.</span></li>
+  <li class="sq"><span class="sqn">5</span><b>HOW RARE IS IT??</b><span>Obtain a superior monster unique (battlestaves count).</span></li>
+  <li class="sq"><span class="sqn">6</span><b>Just Deserts</b><span>Any 1 piece of Virtus, three ring rolls (can be mixed and matched), or axe piece.</span></li>
+  <li class="sq starred"><span class="sqn">7 ☆</span><b>Time to get Nexy</b><span>Any Nex Unique.</span></li>
+  <li class="sq"><span class="sqn">8</span><b>Nice Recolor!</b><span>Obtain a Twisted Kit or Tob Recolor, Or the pete kayer cape.</span></li>
+  <li class="sq"><span class="sqn">9</span><b>Spooky Ghosts!</b><span>Obtain a rev weapon, or one of the 8m/16m totems.</span></li>
+  <li class="sq starred"><span class="sqn">10 ☆</span><b>Raid armor</b><span>Obtain two pieces of armor from raids (may be adjusted down to one based on pacing of event).</span></li>
+  <li class="sq"><span class="sqn">11</span><b>Zalcanic mine</b><span>Any Zalcano Unique.</span></li>
+  <li class="sq"><span class="sqn">12</span><b>Purple Prison</b><span>Two venator shards OR 300 kills of Muspah.</span></li>
+  <li class="sq"><span class="sqn">13</span><b>Speedy Boys</b><span>Obtain the speed trialist tasks for Galvek, Seren and Glough.</span></li>
+  <li class="sq"><span class="sqn">14</span><b>WAKE ME UP</b><span>Any Awakened DT2 Boss (good luck 🙂).</span></li>
+  <li class="sq"><span class="sqn">15</span><b>Big Mean Prison</b><span>Obtain an enhanced crystal weapon seed, or a combination of 8 of the other seeds.</span></li>
+  <li class="sq starred"><span class="sqn">16 ☆</span><b>FETCH THE GODSWORD</b><span>Complete any godsword from scratch.</span></li>
+  <li class="sq"><span class="sqn">17</span><b>One man, One Jar</b><span>Obtain any jar.</span></li>
+  <li class="sq"><span class="sqn">18</span><b>Contract Killer</b><span>Complete ANY yama contract.</span></li>
+  <li class="sq"><span class="sqn">19</span><b>Fancy Staff</b><span>Complete a dt2 Sceptre from scratch (ancient staff, ancient icon, diamond from dt2 boss).</span></li>
+  <li class="sq starred"><span class="sqn">20 ☆</span><b>Void Gatherer</b><span>Obtain TWO pieces of the voidwaker.</span></li>
+  <li class="sq"><span class="sqn">21</span><b>Unholy Cow!</b><span>Obtain the Brutus Slippers.</span></li>
+  <li class="sq"><span class="sqn">22</span><b>Showmanship</b><span>Any colosseum unique OR a quiver if it is your first time.</span></li>
+  <li class="sq"><span class="sqn">23</span><b>Kasper&#x27;s Nightmare</b><span>Obtain a piece of inquisitor or an orb from Phosani&#x27;s Nightmare OR three parasitic eggs.</span></li>
+  <li class="sq"><span class="sqn">24</span><b>Can I pet it?</b><span>Any boss pet (beef and Chaos elemental do not count).</span></li>
+  <li class="sq"><span class="sqn">25</span><b>You can&#x27;t Be Tzharrious</b><span>Complete Tzharr ket reks fifth challenge, OR obtain an infernal cape if it is your first time.</span></li>
+</ol>
+</div>
 <footer>Sources: TempleOSRS collection log, WikiSync and Wise Old Man (all synced 19 Nov 2026), OSRS Wiki for drops and requirements.</footer>
 </div>
 
@@ -205,6 +289,19 @@ footer{color:var(--muted);font-size:13px}
       try{ localStorage.setItem(KEY,JSON.stringify(done)); }catch(e){}
     });
   });
+})();
+
+(function(){
+  var views=['plan','little-boy','big-boy'];
+  function show(){
+    var h=(location.hash||'').replace('#','');
+    if(views.indexOf(h)<0) h='plan';
+    views.forEach(function(v){ document.getElementById('view-'+v).hidden=(v!==h); });
+    document.querySelectorAll('.tabs a').forEach(function(a){
+      if(a.getAttribute('data-view')===h){ a.setAttribute('aria-current','page'); } else { a.removeAttribute('aria-current'); }
+    });
+  }
+  window.addEventListener('hashchange',show); show();
 })();
 </script>
 </body>
