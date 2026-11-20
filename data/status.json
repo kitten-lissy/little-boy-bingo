@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20 14:45 UTC",
+ "checked": "2026-11-20 20:10 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -36,8 +36,12 @@
      "kc": 333
     },
     {
+     "name": "Brutus",
+     "kc": 241
+    },
+    {
      "name": "Tempoross",
-     "kc": 162
+     "kc": 165
     },
     {
      "name": "Hespori",
@@ -45,7 +49,7 @@
     },
     {
      "name": "Barrows Chests",
-     "kc": 22
+     "kc": 27
     },
     {
      "name": "Vorkath",
@@ -54,10 +58,6 @@
     {
      "name": "Lunar Chests",
      "kc": 4
-    },
-    {
-     "name": "Scurrius",
-     "kc": 3
     }
    ],
    "log_items": 318,
@@ -98,8 +98,34 @@
      "other_tiles": []
     }
    ],
-   "kc_gains": [],
-   "kc_all": []
+   "kc_gains": [
+    {
+     "name": "Brutus",
+     "gain": 241
+    },
+    {
+     "name": "Barrows Chests",
+     "gain": 5
+    },
+    {
+     "name": "Tempoross",
+     "gain": 3
+    }
+   ],
+   "kc_all": [
+    {
+     "name": "Brutus",
+     "gain": 241
+    },
+    {
+     "name": "Barrows Chests",
+     "gain": 5
+    },
+    {
+     "name": "Tempoross",
+     "gain": 3
+    }
+   ]
   },
   {
    "name": "Primal Sin",
@@ -154,8 +180,8 @@
      "kc": 690
     },
     {
-     "name": "Araxxor",
-     "kc": 568
+     "name": "Brutus",
+     "kc": 581
     }
    ],
    "log_items": 618,
@@ -170,8 +196,18 @@
    "notes": "Prefers group content and tiles not logged yet. Slayer 99, so the only Little Boy who can do Krakens for tile 3 (1,227 Kraken kills). Very experienced at the Dagannoth Kings (400+ kills of each), so a good partner for tile \u26068.",
    "baseline_has_log": true,
    "new_items": [],
-   "kc_gains": [],
-   "kc_all": []
+   "kc_gains": [
+    {
+     "name": "Brutus",
+     "gain": 131
+    }
+   ],
+   "kc_all": [
+    {
+     "name": "Brutus",
+     "gain": 131
+    }
+   ]
   },
   {
    "name": "DemonWolfy",
@@ -210,6 +246,14 @@
      "kc": 20
     },
     {
+     "name": "Mad Angel",
+     "kc": 20
+    },
+    {
+     "name": "Brutus",
+     "kc": 17
+    },
+    {
      "name": "Tempoross",
      "kc": 14
     },
@@ -220,14 +264,6 @@
     {
      "name": "Yama",
      "kc": 12
-    },
-    {
-     "name": "Zulrah",
-     "kc": 10
-    },
-    {
-     "name": "Giant Mole",
-     "kc": 10
     }
    ],
    "log_items": 136,
@@ -241,8 +277,26 @@
    "notes": "First bingo, GMT. New to DKs and God Wars.",
    "baseline_has_log": true,
    "new_items": [],
-   "kc_gains": [],
-   "kc_all": []
+   "kc_gains": [
+    {
+     "name": "Mad Angel",
+     "gain": 19
+    },
+    {
+     "name": "Brutus",
+     "gain": 16
+    }
+   ],
+   "kc_all": [
+    {
+     "name": "Mad Angel",
+     "gain": 19
+    },
+    {
+     "name": "Brutus",
+     "gain": 16
+    }
+   ]
   },
   {
    "name": "Trobro12",
@@ -384,13 +438,13 @@
    "kc_gains": [
     {
      "name": "Maggot King",
-     "gain": 75
+     "gain": 81
     }
    ],
    "kc_all": [
     {
      "name": "Maggot King",
-     "gain": 75
+     "gain": 81
     }
    ]
   },
@@ -464,13 +518,13 @@
    "kc_gains": [
     {
      "name": "Skotizo",
-     "gain": 15
+     "gain": 17
     }
    ],
    "kc_all": [
     {
      "name": "Skotizo",
-     "gain": 15
+     "gain": 17
     }
    ]
   },
@@ -510,7 +564,7 @@
     },
     {
      "name": "Araxxor",
-     "kc": 1074
+     "kc": 1080
     },
     {
      "name": "Brutus",
@@ -544,8 +598,18 @@
    "notes": "No Wilderness. Happy to help teach ToA.",
    "baseline_has_log": false,
    "new_items": [],
-   "kc_gains": [],
-   "kc_all": []
+   "kc_gains": [
+    {
+     "name": "Araxxor",
+     "gain": 6
+    }
+   ],
+   "kc_all": [
+    {
+     "name": "Araxxor",
+     "gain": 6
+    }
+   ]
   }
  ],
  "grid": {
@@ -1963,8 +2027,13 @@
     "title": "Whats your angel?",
     "starred": false,
     "manual": false,
-    "kills": 0,
-    "kills_by": [],
+    "kills": 19,
+    "kills_by": [
+     {
+      "player": "DemonWolfy",
+      "kills": 19
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -2106,8 +2175,13 @@
     "title": "Can i Barrow some of your time?",
     "starred": false,
     "manual": false,
-    "kills": 0,
-    "kills_by": [],
+    "kills": 5,
+    "kills_by": [
+     {
+      "player": "Kitten Lissy",
+      "kills": 5
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -2123,8 +2197,13 @@
     "title": "Tell it ToMe Straight",
     "starred": false,
     "manual": false,
-    "kills": 0,
-    "kills_by": [],
+    "kills": 3,
+    "kills_by": [
+     {
+      "player": "Kitten Lissy",
+      "kills": 3
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -2289,9 +2368,24 @@
     "title": "Beefy Tile",
     "starred": false,
     "manual": false,
-    "kills": 0,
-    "kills_by": [],
-    "on_it_kills": [],
+    "kills": 388,
+    "kills_by": [
+     {
+      "player": "Kitten Lissy",
+      "kills": 241
+     },
+     {
+      "player": "Primal Sin",
+      "kills": 131
+     },
+     {
+      "player": "DemonWolfy",
+      "kills": 16
+     }
+    ],
+    "on_it_kills": [
+     "DemonWolfy"
+    ],
     "state": "on",
     "on_it": [
      "Kitten Lissy",
@@ -2378,11 +2472,11 @@
     "title": "Maggot Crusher",
     "starred": false,
     "manual": false,
-    "kills": 75,
+    "kills": 81,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 75
+      "kills": 81
      }
     ],
     "on_it_kills": [
@@ -2665,8 +2759,17 @@
     "title": "One man, One Jar",
     "starred": false,
     "manual": false,
-    "kills": 0,
-    "kills_by": [],
+    "kills": 11,
+    "kills_by": [
+     {
+      "player": "Caffeine Guy",
+      "kills": 6
+     },
+     {
+      "player": "Kitten Lissy",
+      "kills": 5
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -2730,8 +2833,21 @@
     "title": "Unholy Cow!",
     "starred": false,
     "manual": false,
-    "kills": 0,
-    "kills_by": [],
+    "kills": 388,
+    "kills_by": [
+     {
+      "player": "Kitten Lissy",
+      "kills": 241
+     },
+     {
+      "player": "Primal Sin",
+      "kills": 131
+     },
+     {
+      "player": "DemonWolfy",
+      "kills": 16
+     }
+    ],
     "on_it_kills": [],
     "state": "none",
     "on_it": [],
@@ -2806,54 +2922,86 @@
  },
  "leaderboard": [
   {
+   "player": "Kitten Lissy",
+   "board": "Little",
+   "kills": 249,
+   "top": [
+    {
+     "name": "Brutus",
+     "gain": 241
+    },
+    {
+     "name": "Barrows Chests",
+     "gain": 5
+    },
+    {
+     "name": "Tempoross",
+     "gain": 3
+    }
+   ]
+  },
+  {
+   "player": "Primal Sin",
+   "board": "Little",
+   "kills": 131,
+   "top": [
+    {
+     "name": "Brutus",
+     "gain": 131
+    }
+   ]
+  },
+  {
    "player": "SSora",
    "board": "Big",
-   "kills": 75,
+   "kills": 81,
    "top": [
     {
      "name": "Maggot King",
-     "gain": 75
+     "gain": 81
+    }
+   ]
+  },
+  {
+   "player": "DemonWolfy",
+   "board": "Little",
+   "kills": 35,
+   "top": [
+    {
+     "name": "Mad Angel",
+     "gain": 19
+    },
+    {
+     "name": "Brutus",
+     "gain": 16
     }
    ]
   },
   {
    "player": "Lasrgatr",
    "board": "Big",
-   "kills": 15,
+   "kills": 17,
    "top": [
     {
      "name": "Skotizo",
-     "gain": 15
+     "gain": 17
     }
    ]
   },
   {
-   "player": "Kitten Lissy",
-   "board": "Little",
-   "kills": 0,
-   "top": []
-  },
-  {
-   "player": "Primal Sin",
-   "board": "Little",
-   "kills": 0,
-   "top": []
-  },
-  {
-   "player": "DemonWolfy",
-   "board": "Little",
-   "kills": 0,
-   "top": []
+   "player": "Caffeine Guy",
+   "board": "Big",
+   "kills": 6,
+   "top": [
+    {
+     "name": "Araxxor",
+     "gain": 6
+    }
+   ]
   },
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 0,
-   "top": []
-  },
-  {
-   "player": "Caffeine Guy",
-   "board": "Big",
    "kills": 0,
    "top": []
   }
