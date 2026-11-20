@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20 14:25 UTC",
+ "checked": "2026-11-20 14:26 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -91,34 +91,6 @@
     },
     {
      "name": "Mooleta",
-     "tiles": [],
-     "starred": [],
-     "other_board": "",
-     "other_tiles": []
-    },
-    {
-     "name": "Prospector boots 29478",
-     "tiles": [],
-     "starred": [],
-     "other_board": "",
-     "other_tiles": []
-    },
-    {
-     "name": "Prospector helmet 29472",
-     "tiles": [],
-     "starred": [],
-     "other_board": "",
-     "other_tiles": []
-    },
-    {
-     "name": "Prospector jacket 29474",
-     "tiles": [],
-     "starred": [],
-     "other_board": "",
-     "other_tiles": []
-    },
-    {
-     "name": "Prospector legs 29476",
      "tiles": [],
      "starred": [],
      "other_board": "",

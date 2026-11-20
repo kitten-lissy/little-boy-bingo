@@ -169,6 +169,11 @@ def hiscores(name):
     return acts
 
 
+def norm_name(name):
+    """'Prospector boots 29478' and 'Prospector boots' are the same collection log slot."""
+    return re.sub(r"\s+\d+$", "", name).strip().lower()
+
+
 def tiles_for(board, item_name):
     return [t for t, pat in TILES[board].items() if re.search(pat, item_name, re.I)]
 
@@ -371,8 +376,15 @@ def main():
 
         new_items, kc_gains = [], []
         if base:
+            # Compare by item name, not ID: WikiSync and Temple sometimes use different IDs for the same item
+            base_names = {norm_name(n) for n in base["items"].values()}
+            seen = set()
             for iid, iname in sorted(logs.items(), key=lambda x: x[1]):
-                if iid not in base["items"]:
+                key = norm_name(iname)
+                if key in base_names or key in seen:
+                    continue
+                seen.add(key)
+                if True:
                     t = tiles_for(board, iname)
                     other = "Big" if board == "Little" else "Little"
                     cross = [x for x in tiles_for(other, iname) if x in STARRED[other]]
