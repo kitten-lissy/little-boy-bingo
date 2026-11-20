@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20 12:10 UTC",
+ "checked": "2026-11-20 14:16 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -59,7 +59,7 @@
      "kc": 3
     }
    ],
-   "log_items": 311,
+   "log_items": 314,
    "has_baseline": true,
    "log_since": "",
    "going": [
@@ -71,7 +71,31 @@
    ],
    "notes": "Needs DKs and all four GWD generals for the Fremennik Elite. On European time until mid-December (usually offline by 8\u20139 pm EST), then on North American time.",
    "baseline_has_log": true,
-   "new_items": [],
+   "new_items": [
+    {
+     "name": "Bottomless milk bucket (empty)",
+     "tiles": [],
+     "starred": [],
+     "other_board": "",
+     "other_tiles": []
+    },
+    {
+     "name": "Cow slippers",
+     "tiles": [
+      21
+     ],
+     "starred": [],
+     "other_board": "",
+     "other_tiles": []
+    },
+    {
+     "name": "Mooleta",
+     "tiles": [],
+     "starred": [],
+     "other_board": "",
+     "other_tiles": []
+    }
+   ],
    "kc_gains": [],
    "kc_all": []
   },
@@ -1061,8 +1085,8 @@
     "cells": [
      {
       "player": "Kitten Lissy",
-      "state": "claimed",
-      "why": ""
+      "state": "progress",
+      "why": "Cow slippers"
      },
      {
       "player": "Primal Sin",
@@ -1888,7 +1912,7 @@
    "tile": 21,
    "little": "Beefy Tile",
    "big": "Unholy Cow!",
-   "little_state": "claimed",
+   "little_state": "progress",
    "big_state": "open"
   },
   {
@@ -2259,7 +2283,12 @@
      "Kitten Lissy",
      "Primal Sin"
     ],
-    "drops": [],
+    "drops": [
+     {
+      "player": "Kitten Lissy",
+      "item": "Cow slippers"
+     }
+    ],
     "x2": false,
     "other_title": "Unholy Cow!",
     "other_state": "none"
