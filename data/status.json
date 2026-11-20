@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19 22:39 UTC",
+ "checked": "2026-11-20 00:59 UTC",
  "started": false,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -74,61 +74,17 @@
    "kc_gains": []
   },
   {
-   "name": "PrimalSin",
+   "name": "Primal Sin",
    "board": "Little",
    "note": "",
    "sources": [
-    "Hiscores"
+    "WikiSync",
+    "Temple"
    ],
-   "combat": 126,
-   "skills": {
-    "Attack": 99,
-    "Strength": 99,
-    "Defence": 99,
-    "Hitpoints": 99,
-    "Ranged": 99,
-    "Magic": 95,
-    "Prayer": 99,
-    "Slayer": 98,
-    "Agility": 81,
-    "Herblore": 72,
-    "Overall": 2068
-   },
-   "top_kc": [
-    {
-     "name": "Kraken",
-     "kc": 2317
-    },
-    {
-     "name": "Cerberus",
-     "kc": 824
-    },
-    {
-     "name": "General Graardor",
-     "kc": 512
-    },
-    {
-     "name": "King Black Dragon",
-     "kc": 362
-    },
-    {
-     "name": "Thermonuclear Smoke Devil",
-     "kc": 358
-    },
-    {
-     "name": "Giant Mole",
-     "kc": 331
-    },
-    {
-     "name": "Vorkath",
-     "kc": 196
-    },
-    {
-     "name": "Alchemical Hydra",
-     "kc": 157
-    }
-   ],
-   "log_items": 0,
+   "combat": null,
+   "skills": {},
+   "top_kc": [],
+   "log_items": 618,
    "has_baseline": false,
    "log_since": "",
    "going": [
@@ -137,7 +93,7 @@
     "Vorkath for visage and dragonbone necklace (14, 23)",
     "Yama any time"
    ],
-   "notes": "Might play the bingo on a different account; tracking PrimalSin for now. Prefers group content and tiles not logged yet. Only Little Boy who can do Krakens (tile 3).",
+   "notes": "Prefers group content and tiles not logged yet. Slayer 99, so the only Little Boy who can do Krakens for tile 3 (1,227 Kraken kills). Very experienced at the Dagannoth Kings (400+ kills of each), so a good partner for tile \u26068.",
    "baseline_has_log": false,
    "new_items": [],
    "kc_gains": []
@@ -163,7 +119,7 @@
     "Slayer": 75,
     "Agility": 74,
     "Herblore": 80,
-    "Overall": 1908
+    "Overall": 1909
    },
    "top_kc": [
     {
@@ -305,7 +261,7 @@
     },
     {
      "name": "Zulrah",
-     "kc": 1656
+     "kc": 1675
     },
     {
      "name": "Vardorvis",
@@ -355,57 +311,11 @@
    "board": "Big",
    "note": "",
    "sources": [
-    "WikiSync",
-    "Hiscores"
+    "WikiSync"
    ],
-   "combat": 126,
-   "skills": {
-    "Attack": 99,
-    "Strength": 99,
-    "Defence": 99,
-    "Hitpoints": 99,
-    "Ranged": 99,
-    "Magic": 99,
-    "Prayer": 99,
-    "Slayer": 99,
-    "Agility": 81,
-    "Herblore": 76,
-    "Overall": 2066
-   },
-   "top_kc": [
-    {
-     "name": "Vardorvis",
-     "kc": 2135
-    },
-    {
-     "name": "The Leviathan",
-     "kc": 2023
-    },
-    {
-     "name": "Araxxor",
-     "kc": 1296
-    },
-    {
-     "name": "Giant Mole",
-     "kc": 1293
-    },
-    {
-     "name": "Duke Sucellus",
-     "kc": 1123
-    },
-    {
-     "name": "The Whisperer",
-     "kc": 618
-    },
-    {
-     "name": "Wintertodt",
-     "kc": 581
-    },
-    {
-     "name": "The Hueycoatl",
-     "kc": 503
-    }
-   ],
+   "combat": null,
+   "skills": {},
+   "top_kc": [],
    "log_items": 302,
    "has_baseline": false,
    "log_since": "",
@@ -505,7 +415,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -532,7 +442,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -559,9 +469,9 @@
       "why": "Slayer 87 (has 81)"
      },
      {
-      "player": "PrimalSin",
-      "state": "can",
-      "why": ""
+      "player": "Primal Sin",
+      "state": "unknown",
+      "why": "check: Slayer 87"
      },
      {
       "player": "DemonWolfy",
@@ -586,7 +496,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -613,9 +523,9 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
-      "state": "can",
-      "why": ""
+      "player": "Primal Sin",
+      "state": "unknown",
+      "why": "check: Slayer 60"
      },
      {
       "player": "DemonWolfy",
@@ -640,7 +550,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -667,7 +577,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -694,7 +604,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -721,9 +631,9 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
-      "state": "cant",
-      "why": "Perilous Moons not started"
+      "player": "Primal Sin",
+      "state": "can",
+      "why": ""
      },
      {
       "player": "DemonWolfy",
@@ -748,7 +658,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -775,7 +685,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -802,7 +712,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -829,7 +739,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -856,7 +766,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "claimed",
       "why": ""
      },
@@ -883,7 +793,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "claimed",
       "why": ""
      },
@@ -910,9 +820,9 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
-      "state": "can",
-      "why": ""
+      "player": "Primal Sin",
+      "state": "unknown",
+      "why": "check: Slayer 75"
      },
      {
       "player": "DemonWolfy",
@@ -937,7 +847,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -964,7 +874,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -991,7 +901,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -1018,7 +928,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -1045,9 +955,9 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "claimed",
-      "why": "WikiSync says: The Ides of Milk not started (may be out of date)"
+      "why": ""
      },
      {
       "player": "DemonWolfy",
@@ -1072,9 +982,9 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
-      "state": "cant",
-      "why": "Troubled Tortugans not started"
+      "player": "Primal Sin",
+      "state": "can",
+      "why": ""
      },
      {
       "player": "DemonWolfy",
@@ -1099,7 +1009,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "claimed",
       "why": ""
      },
@@ -1126,7 +1036,7 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
+      "player": "Primal Sin",
       "state": "can",
       "why": ""
      },
@@ -1153,9 +1063,9 @@
       "why": ""
      },
      {
-      "player": "PrimalSin",
-      "state": "cant",
-      "why": "Children of the Sun not started"
+      "player": "Primal Sin",
+      "state": "unknown",
+      "why": "check: Herblore 60"
      },
      {
       "player": "DemonWolfy",
@@ -1404,7 +1314,7 @@
      {
       "player": "Lasrgatr",
       "state": "claimed",
-      "why": ""
+      "why": "check: Mining 70, Smithing 70"
      },
      {
       "player": "Caffeine Guy",
@@ -2075,7 +1985,7 @@
     "manual": false,
     "state": "on",
     "on_it": [
-     "PrimalSin"
+     "Primal Sin"
     ],
     "drops": [],
     "x2": true,
@@ -2089,7 +1999,7 @@
     "manual": false,
     "state": "on",
     "on_it": [
-     "PrimalSin"
+     "Primal Sin"
     ],
     "drops": [],
     "x2": true,
@@ -2167,7 +2077,7 @@
     "manual": true,
     "state": "on",
     "on_it": [
-     "PrimalSin"
+     "Primal Sin"
     ],
     "drops": [],
     "x2": false,
@@ -2193,7 +2103,7 @@
     "manual": false,
     "state": "on",
     "on_it": [
-     "PrimalSin"
+     "Primal Sin"
     ],
     "drops": [],
     "x2": true,

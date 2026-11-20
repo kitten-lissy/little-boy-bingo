@@ -25,7 +25,7 @@ UA = "little-boy-bingo-tracker"
 
 PLAYERS = [
     {"name": "Kitten Lissy", "board": "Little"},
-    {"name": "PrimalSin", "board": "Little"},
+    {"name": "Primal Sin", "board": "Little"},
     {"name": "DemonWolfy", "board": "Little"},
     {"name": "Trobro12", "board": "Little", "note": "Mobile only: no plugins, hiscores only"},
     {"name": "SSora", "board": "Big"},
