@@ -1,6 +1,6 @@
 {
- "checked": "2026-11-20 00:59 UTC",
- "started": false,
+ "checked": "2026-11-20 07:06 UTC",
+ "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
   {
@@ -36,7 +36,7 @@
     },
     {
      "name": "Tempoross",
-     "kc": 158
+     "kc": 162
     },
     {
      "name": "Hespori",
@@ -60,7 +60,7 @@
     }
    ],
    "log_items": 311,
-   "has_baseline": false,
+   "has_baseline": true,
    "log_since": "",
    "going": [
     "Dagannoth Kings: all four rings (\u26068)",
@@ -69,7 +69,7 @@
     "A learner raid with the team (4, 18)"
    ],
    "notes": "Needs DKs and all four GWD generals for the Fremennik Elite. On European time until mid-December (usually offline by 8\u20139 pm EST), then on North American time.",
-   "baseline_has_log": false,
+   "baseline_has_log": true,
    "new_items": [],
    "kc_gains": []
   },
@@ -79,13 +79,59 @@
    "note": "",
    "sources": [
     "WikiSync",
-    "Temple"
+    "Temple",
+    "Hiscores"
    ],
-   "combat": null,
-   "skills": {},
-   "top_kc": [],
+   "combat": 126,
+   "skills": {
+    "Attack": 99,
+    "Strength": 99,
+    "Defence": 99,
+    "Hitpoints": 99,
+    "Ranged": 99,
+    "Magic": 99,
+    "Prayer": 99,
+    "Slayer": 99,
+    "Agility": 91,
+    "Herblore": 99,
+    "Overall": 2349
+   },
+   "top_kc": [
+    {
+     "name": "Soul Wars Zeal",
+     "kc": 3101
+    },
+    {
+     "name": "Giant Mole",
+     "kc": 1570
+    },
+    {
+     "name": "Kraken",
+     "kc": 1227
+    },
+    {
+     "name": "Duke Sucellus",
+     "kc": 1000
+    },
+    {
+     "name": "Cerberus",
+     "kc": 940
+    },
+    {
+     "name": "Alchemical Hydra",
+     "kc": 888
+    },
+    {
+     "name": "Phantom Muspah",
+     "kc": 690
+    },
+    {
+     "name": "Araxxor",
+     "kc": 568
+    }
+   ],
    "log_items": 618,
-   "has_baseline": false,
+   "has_baseline": true,
    "log_since": "",
    "going": [
     "AFK Brutus for cow slippers (21)",
@@ -94,7 +140,7 @@
     "Yama any time"
    ],
    "notes": "Prefers group content and tiles not logged yet. Slayer 99, so the only Little Boy who can do Krakens for tile 3 (1,227 Kraken kills). Very experienced at the Dagannoth Kings (400+ kills of each), so a good partner for tile \u26068.",
-   "baseline_has_log": false,
+   "baseline_has_log": true,
    "new_items": [],
    "kc_gains": []
   },
@@ -156,7 +202,7 @@
     }
    ],
    "log_items": 136,
-   "has_baseline": false,
+   "has_baseline": true,
    "log_since": "",
    "going": [
     "Mad Angel (1)",
@@ -164,7 +210,7 @@
     "ToA (4, 18)"
    ],
    "notes": "First bingo, GMT. New to DKs and God Wars.",
-   "baseline_has_log": false,
+   "baseline_has_log": true,
    "new_items": [],
    "kc_gains": []
   },
@@ -185,9 +231,9 @@
     "Magic": 80,
     "Prayer": 69,
     "Slayer": 72,
-    "Agility": 65,
+    "Agility": 66,
     "Herblore": 83,
-    "Overall": 1803
+    "Overall": 1808
    },
    "top_kc": [
     {
@@ -204,7 +250,7 @@
     },
     {
      "name": "Hespori",
-     "kc": 44
+     "kc": 45
     },
     {
      "name": "Bryophyta",
@@ -224,7 +270,7 @@
     }
    ],
    "log_items": 0,
-   "has_baseline": false,
+   "has_baseline": true,
    "log_since": "",
    "going": [],
    "notes": "Mobile only, first bingo: no RuneLite plugins. Proof is a screenshot with the event password typed in chat. Good fit for tile 12 (Obor or Bryophyta): already has Bryophyta 43 and Obor 11 kills, and it works on mobile. The club or essence is 1/118 per boss kill.",
@@ -289,7 +335,7 @@
     }
    ],
    "log_items": 478,
-   "has_baseline": false,
+   "has_baseline": true,
    "log_since": "",
    "going": [
     "ToB (4)",
@@ -302,7 +348,7 @@
     "Inferno help"
    ],
    "notes": "Team captain. Can teach most content. Skipping tiles where they already have the CA (13, 14). Ping for group content.",
-   "baseline_has_log": false,
+   "baseline_has_log": true,
    "new_items": [],
    "kc_gains": []
   },
@@ -311,13 +357,59 @@
    "board": "Big",
    "note": "",
    "sources": [
-    "WikiSync"
+    "WikiSync",
+    "Hiscores"
    ],
-   "combat": null,
-   "skills": {},
-   "top_kc": [],
+   "combat": 126,
+   "skills": {
+    "Attack": 99,
+    "Strength": 99,
+    "Defence": 99,
+    "Hitpoints": 99,
+    "Ranged": 99,
+    "Magic": 99,
+    "Prayer": 99,
+    "Slayer": 99,
+    "Agility": 81,
+    "Herblore": 76,
+    "Overall": 2066
+   },
+   "top_kc": [
+    {
+     "name": "Vardorvis",
+     "kc": 2148
+    },
+    {
+     "name": "The Leviathan",
+     "kc": 2023
+    },
+    {
+     "name": "Araxxor",
+     "kc": 1296
+    },
+    {
+     "name": "Giant Mole",
+     "kc": 1293
+    },
+    {
+     "name": "Duke Sucellus",
+     "kc": 1123
+    },
+    {
+     "name": "The Whisperer",
+     "kc": 618
+    },
+    {
+     "name": "Wintertodt",
+     "kc": 581
+    },
+    {
+     "name": "The Hueycoatl",
+     "kc": 503
+    }
+   ],
    "log_items": 302,
-   "has_baseline": false,
+   "has_baseline": true,
    "log_since": "",
    "going": [
     "Raids (4, 10)",
@@ -325,7 +417,7 @@
     "Zalcano (11)"
    ],
    "notes": "",
-   "baseline_has_log": false,
+   "baseline_has_log": true,
    "new_items": [],
    "kc_gains": []
   },
@@ -385,7 +477,7 @@
     }
    ],
    "log_items": 0,
-   "has_baseline": false,
+   "has_baseline": true,
    "log_since": "",
    "going": [
     "Vardorvis axe piece (6)",
@@ -470,8 +562,8 @@
      },
      {
       "player": "Primal Sin",
-      "state": "unknown",
-      "why": "check: Slayer 87"
+      "state": "can",
+      "why": ""
      },
      {
       "player": "DemonWolfy",
@@ -524,8 +616,8 @@
      },
      {
       "player": "Primal Sin",
-      "state": "unknown",
-      "why": "check: Slayer 60"
+      "state": "can",
+      "why": ""
      },
      {
       "player": "DemonWolfy",
@@ -821,8 +913,8 @@
      },
      {
       "player": "Primal Sin",
-      "state": "unknown",
-      "why": "check: Slayer 75"
+      "state": "can",
+      "why": ""
      },
      {
       "player": "DemonWolfy",
@@ -1064,8 +1156,8 @@
      },
      {
       "player": "Primal Sin",
-      "state": "unknown",
-      "why": "check: Herblore 60"
+      "state": "can",
+      "why": ""
      },
      {
       "player": "DemonWolfy",
@@ -1314,7 +1406,7 @@
      {
       "player": "Lasrgatr",
       "state": "claimed",
-      "why": "check: Mining 70, Smithing 70"
+      "why": ""
      },
      {
       "player": "Caffeine Guy",
