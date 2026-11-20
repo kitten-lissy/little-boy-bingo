@@ -99,6 +99,34 @@ STARRED = {"Little": {2, 6, 8, 19}, "Big": {2, 7, 10, 11, 16, 20}}
 MANUAL = {"Little": {13, 21}, "Big": {13, 14, 18, 25}}
 
 QUESTS = {}
+# Hiscore bosses whose kills count as effort toward each tile.
+RAIDS = ["Chambers of Xeric", "Chambers of Xeric: Challenge Mode", "Theatre of Blood", "Theatre of Blood: Hard Mode", "Tombs of Amascut", "Tombs of Amascut: Expert Mode"]
+GWD = ["General Graardor", "Commander Zilyana", "Kree'Arra", "K'ril Tsutsaroth"]
+DT2 = ["Vardorvis", "Duke Sucellus", "The Leviathan", "The Whisperer"]
+KC_TILES = {
+    "Little": {
+        1: ["Mad Angel", "Grotesque Guardians"], 2: ["The Royal Titans"], 3: ["Zulrah", "Kraken"], 4: RAIDS,
+        6: GWD, 7: ["The Hueycoatl"], 8: ["Dagannoth Rex", "Dagannoth Prime", "Dagannoth Supreme"],
+        9: ["Lunar Chests"], 10: ["Barrows Chests"], 11: ["Wintertodt", "Tempoross", "The Hueycoatl"],
+        12: ["Obor", "Bryophyta"], 13: ["TzTok-Jad"], 14: ["Vorkath", "King Black Dragon"], 15: ["Sarachnis"],
+        16: ["Grotesque Guardians", "General Graardor"], 17: ["General Graardor", "Theatre of Blood"], 18: RAIDS,
+        19: GWD, 20: ["Scorpia", "Chaos Fanatic", "Crazy Archaeologist"], 21: ["Brutus"],
+        22: ["Shellbane Gryphon"], 23: ["Vorkath"],
+    },
+    "Big": {
+        1: ["Maggot King"], 2: ["Yama"], 3: ["Doom of Mokhaiotl"],
+        4: ["Theatre of Blood", "Theatre of Blood: Hard Mode", "Tombs of Amascut", "Tombs of Amascut: Expert Mode"],
+        6: DT2, 7: ["Nex"], 8: ["Chambers of Xeric", "Chambers of Xeric: Challenge Mode", "Theatre of Blood", "Theatre of Blood: Hard Mode"],
+        10: RAIDS, 11: ["Zalcano"], 12: ["Phantom Muspah"], 14: DT2, 15: ["The Gauntlet", "The Corrupted Gauntlet"],
+        16: GWD + ["Nex"],
+        17: ["Zulrah", "Grotesque Guardians", "Sarachnis", "Kalphite Queen", "Abyssal Sire", "Alchemical Hydra", "Cerberus",
+             "Kraken", "Thermonuclear Smoke Devil", "Giant Mole", "King Black Dragon", "Barrows Chests", "Nightmare", "Araxxor"],
+        18: ["Yama"], 19: ["Phantom Muspah"] + DT2,
+        20: ["Callisto", "Venenatis", "Vet'ion", "Artio", "Spindel", "Calvar'ion"], 21: ["Brutus"], 22: ["Sol Heredit"],
+        23: ["Phosani's Nightmare"], 25: ["TzTok-Jad", "TzKal-Zuk"],
+    },
+}
+
 ITEM_NAMES = json.loads((ROOT / "scripts" / "item_names.json").read_text())
 
 
@@ -274,9 +302,20 @@ def build_boards(players):
             drops += [{"player": m["player"], "item": m["item"], "manual": True}
                       for m in manual if m.get("board") == board and m.get("tile") == t]
             on_it = [p["name"] for p in roster if t in claims.get(p["name"], {}).get("tiles", [])]
-            state = "done" if t in done.get(board, []) else ("on" if on_it or drops else "none")
+            bosses = set(KC_TILES[board].get(t, []))
+            by = []
+            for p in players:
+                n = sum(k["gain"] for k in p.get("kc_all", []) if k["name"] in bosses)
+                if n:
+                    by.append({"player": p["name"], "kills": n})
+            by.sort(key=lambda x: -x["kills"])
+            # Players on this board grinding the tile's bosses count as "on it" even if they didn't say so
+            roster_names = {p["name"] for p in roster}
+            on_it_kills = [b["player"] for b in by if b["player"] in roster_names and b["player"] not in on_it]
+            state = "done" if t in done.get(board, []) else ("on" if on_it or drops or on_it_kills else "none")
             tiles.append({"tile": t, "title": TITLES[board][t - 1], "starred": t in STARRED[board],
                           "manual": t in MANUAL[board],
+                          "kills": sum(b["kills"] for b in by), "kills_by": by, "on_it_kills": on_it_kills,
                           "state": state, "on_it": on_it, "drops": drops})
         boards[board] = tiles
     for board, other in (("Little", "Big"), ("Big", "Little")):
@@ -362,11 +401,15 @@ def main():
             "going": claims_all.get(name, {}).get("going", []),
             "notes": claims_all.get(name, {}).get("notes", "") or p.get("note", ""),
             "baseline_has_log": bool(base and base["items"]),
-            "new_items": new_items, "kc_gains": kc_gains[:12],
+            "new_items": new_items, "kc_gains": kc_gains[:12], "kc_all": kc_gains,
         })
 
     out["grid"], out["doubling"] = build_grid(out["players"], skills_by_player)
     out["boards"] = build_boards(out["players"])
+    out["leaderboard"] = sorted(
+        [{"player": p["name"], "board": p["board"], "kills": sum(k["gain"] for k in p["kc_all"]),
+          "top": [{"name": k["name"], "gain": k["gain"]} for k in p["kc_all"][:3]]} for p in out["players"]],
+        key=lambda x: -x["kills"])
     DATA.mkdir(exist_ok=True)
     path = DATA / "status.json"
     if path.exists():
