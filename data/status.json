@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20 14:16 UTC",
+ "checked": "2026-11-20 14:25 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -8,6 +8,7 @@
    "board": "Little",
    "note": "",
    "sources": [
+    "WikiSync",
     "Temple",
     "Hiscores"
    ],
@@ -59,7 +60,7 @@
      "kc": 3
     }
    ],
-   "log_items": 314,
+   "log_items": 318,
    "has_baseline": true,
    "log_since": "",
    "going": [
@@ -90,6 +91,34 @@
     },
     {
      "name": "Mooleta",
+     "tiles": [],
+     "starred": [],
+     "other_board": "",
+     "other_tiles": []
+    },
+    {
+     "name": "Prospector boots 29478",
+     "tiles": [],
+     "starred": [],
+     "other_board": "",
+     "other_tiles": []
+    },
+    {
+     "name": "Prospector helmet 29472",
+     "tiles": [],
+     "starred": [],
+     "other_board": "",
+     "other_tiles": []
+    },
+    {
+     "name": "Prospector jacket 29474",
+     "tiles": [],
+     "starred": [],
+     "other_board": "",
+     "other_tiles": []
+    },
+    {
+     "name": "Prospector legs 29476",
      "tiles": [],
      "starred": [],
      "other_board": "",
