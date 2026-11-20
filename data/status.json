@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20 14:26 UTC",
+ "checked": "2026-11-20 14:45 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -65,6 +65,7 @@
    "log_since": "",
    "going": [
     "Brutus for cow slippers (21), alongside Primal Sin",
+    "Barrows: full set of one brother (10)",
     "Dagannoth Kings: all four rings (\u26068)",
     "God Wars generals: uniques for \u26066 and \u260619",
     "Tempoross (AFK): tome of water (11). Can switch to the Hueycoatl for a tome of earth if needed",
@@ -460,8 +461,18 @@
    "notes": "",
    "baseline_has_log": true,
    "new_items": [],
-   "kc_gains": [],
-   "kc_all": []
+   "kc_gains": [
+    {
+     "name": "Skotizo",
+     "gain": 15
+    }
+   ],
+   "kc_all": [
+    {
+     "name": "Skotizo",
+     "gain": 15
+    }
+   ]
   },
   {
    "name": "Caffeine Guy",
@@ -789,7 +800,7 @@
     "cells": [
      {
       "player": "Kitten Lissy",
-      "state": "can",
+      "state": "claimed",
       "why": ""
      },
      {
@@ -1836,7 +1847,7 @@
    "tile": 10,
    "little": "Can i Barrow some of your time?",
    "big": "Raid armor",
-   "little_state": "open",
+   "little_state": "claimed",
    "big_state": "claimed"
   },
   {
@@ -2098,8 +2109,10 @@
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
-    "state": "none",
-    "on_it": [],
+    "state": "on",
+    "on_it": [
+     "Kitten Lissy"
+    ],
     "drops": [],
     "x2": true,
     "other_title": "Raid armor",
@@ -2275,7 +2288,7 @@
     "tile": 21,
     "title": "Beefy Tile",
     "starred": false,
-    "manual": true,
+    "manual": false,
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2536,9 +2549,9 @@
      "Caffeine Guy"
     ],
     "drops": [],
-    "x2": false,
+    "x2": true,
     "other_title": "Can i Barrow some of your time?",
-    "other_state": "none"
+    "other_state": "on"
    },
    {
     "tile": 11,
@@ -2804,6 +2817,17 @@
    ]
   },
   {
+   "player": "Lasrgatr",
+   "board": "Big",
+   "kills": 15,
+   "top": [
+    {
+     "name": "Skotizo",
+     "gain": 15
+    }
+   ]
+  },
+  {
    "player": "Kitten Lissy",
    "board": "Little",
    "kills": 0,
@@ -2824,12 +2848,6 @@
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 0,
-   "top": []
-  },
-  {
-   "player": "Lasrgatr",
-   "board": "Big",
    "kills": 0,
    "top": []
   },

@@ -96,7 +96,7 @@ TILES = {
 }
 STARRED = {"Little": {2, 6, 8, 19}, "Big": {2, 7, 10, 11, 16, 20}}
 # Tiles the tracker can't see (CAs, kill tasks, every-member tiles): marked done by hand only.
-MANUAL = {"Little": {13, 21}, "Big": {13, 14, 18, 25}}
+MANUAL = {"Little": {13}, "Big": {13, 14, 18, 25}}
 
 QUESTS = {}
 # Hiscore bosses whose kills count as effort toward each tile.
