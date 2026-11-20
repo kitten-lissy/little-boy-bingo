@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20 11:27 UTC",
+ "checked": "2026-11-20 12:10 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -63,6 +63,7 @@
    "has_baseline": true,
    "log_since": "",
    "going": [
+    "Brutus for cow slippers (21), alongside Primal Sin",
     "Dagannoth Kings: all four rings (\u26068)",
     "God Wars generals: uniques for \u26066 and \u260619",
     "Tempoross (AFK): tome of water (11). Can switch to the Hueycoatl for a tome of earth if needed",
@@ -1060,7 +1061,7 @@
     "cells": [
      {
       "player": "Kitten Lissy",
-      "state": "can",
+      "state": "claimed",
       "why": ""
      },
      {
@@ -2255,6 +2256,7 @@
     "on_it_kills": [],
     "state": "on",
     "on_it": [
+     "Kitten Lissy",
      "Primal Sin"
     ],
     "drops": [],
