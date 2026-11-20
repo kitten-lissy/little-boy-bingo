@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20 11:07 UTC",
+ "checked": "2026-11-20 11:08 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -1985,7 +1985,7 @@
     "drops": [],
     "x2": true,
     "other_title": "Just Deserts",
-    "other_state": "on"
+    "other_state": "done"
    },
    {
     "tile": 7,
@@ -2049,7 +2049,7 @@
     "drops": [],
     "x2": true,
     "other_title": "Zalcanic mine",
-    "other_state": "on"
+    "other_state": "done"
    },
    {
     "tile": 12,
@@ -2068,9 +2068,15 @@
     "title": "Hot Stuff",
     "starred": false,
     "manual": true,
-    "state": "none",
+    "state": "on",
     "on_it": [],
-    "drops": [],
+    "drops": [
+     {
+      "player": "Primal Sin",
+      "item": "Fire cape",
+      "manual": true
+     }
+    ],
     "x2": false,
     "other_title": "Speedy Boys",
     "other_state": "none"
@@ -2305,13 +2311,19 @@
     "title": "Just Deserts",
     "starred": false,
     "manual": false,
-    "state": "on",
+    "state": "done",
     "on_it": [
      "SSora",
      "Lasrgatr",
      "Caffeine Guy"
     ],
-    "drops": [],
+    "drops": [
+     {
+      "player": "Lasrgatr",
+      "item": "Virtus robe bottom (Vardorvis)",
+      "manual": true
+     }
+    ],
     "x2": true,
     "other_title": "Godly Gamer",
     "other_state": "on"
@@ -2377,12 +2389,18 @@
     "title": "Zalcanic mine",
     "starred": true,
     "manual": false,
-    "state": "on",
+    "state": "done",
     "on_it": [
      "Lasrgatr",
      "Caffeine Guy"
     ],
-    "drops": [],
+    "drops": [
+     {
+      "player": "Lasrgatr",
+      "item": "Crystal tool seed (Zalcano)",
+      "manual": true
+     }
+    ],
     "x2": true,
     "other_title": "Tell it ToMe Straight",
     "other_state": "on"
@@ -2409,9 +2427,9 @@
     "state": "none",
     "on_it": [],
     "drops": [],
-    "x2": false,
+    "x2": true,
     "other_title": "Hot Stuff",
-    "other_state": "none"
+    "other_state": "on"
    },
    {
     "tile": 14,

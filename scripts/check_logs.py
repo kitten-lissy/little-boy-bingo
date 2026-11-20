@@ -260,6 +260,8 @@ def build_boards(players):
     """Per board, per tile: done, who's on it, drops spotted, and whether the same square on the other board is active."""
     claims = json.loads((DATA / "claims.json").read_text())
     done = json.loads((DATA / "done.json").read_text())
+    manual_file = DATA / "manual.json"
+    manual = json.loads(manual_file.read_text()).get("drops", []) if manual_file.exists() else []
     boards = {}
     for board in ("Little", "Big"):
         roster = [p for p in players if p["board"] == board]
@@ -269,6 +271,8 @@ def build_boards(players):
             drops = [{"player": p["name"], "item": i["name"]} for p in roster for i in p["new_items"] if t in i["tiles"]]
             drops += [{"player": p["name"], "item": i["name"], "cross": True}
                       for p in others for i in p["new_items"] if t in i.get("other_tiles", [])]
+            drops += [{"player": m["player"], "item": m["item"], "manual": True}
+                      for m in manual if m.get("board") == board and m.get("tile") == t]
             on_it = [p["name"] for p in roster if t in claims.get(p["name"], {}).get("tiles", [])]
             state = "done" if t in done.get(board, []) else ("on" if on_it or drops else "none")
             tiles.append({"tile": t, "title": TITLES[board][t - 1], "starred": t in STARRED[board],
