@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21 17:25 UTC",
+ "checked": "2026-11-21 23:11 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -44,12 +44,12 @@
      "kc": 165
     },
     {
-     "name": "Hespori",
-     "kc": 38
+     "name": "Barrows Chests",
+     "kc": 49
     },
     {
-     "name": "Barrows Chests",
-     "kc": 27
+     "name": "Hespori",
+     "kc": 38
     },
     {
      "name": "Vorkath",
@@ -132,7 +132,7 @@
     },
     {
      "name": "Barrows Chests",
-     "gain": 5
+     "gain": 27
     },
     {
      "name": "Tempoross",
@@ -146,7 +146,7 @@
     },
     {
      "name": "Barrows Chests",
-     "gain": 5
+     "gain": 27
     },
     {
      "name": "Tempoross",
@@ -271,7 +271,7 @@
    "top_kc": [
     {
      "name": "Brutus",
-     "kc": 606
+     "kc": 652
     },
     {
      "name": "Wintertodt",
@@ -317,7 +317,7 @@
    "kc_gains": [
     {
      "name": "Brutus",
-     "gain": 605
+     "gain": 651
     },
     {
      "name": "Mad Angel",
@@ -331,7 +331,7 @@
    "kc_all": [
     {
      "name": "Brutus",
-     "gain": 605
+     "gain": 651
     },
     {
      "name": "Mad Angel",
@@ -350,10 +350,10 @@
    "sources": [
     "Hiscores"
    ],
-   "combat": 102,
+   "combat": 103,
    "skills": {
     "Attack": 83,
-    "Strength": 81,
+    "Strength": 82,
     "Defence": 80,
     "Hitpoints": 84,
     "Ranged": 80,
@@ -362,12 +362,12 @@
     "Slayer": 73,
     "Agility": 66,
     "Herblore": 83,
-    "Overall": 1810
+    "Overall": 1811
    },
    "top_kc": [
     {
      "name": "The Royal Titans",
-     "kc": 105
+     "kc": 120
     },
     {
      "name": "Brutus",
@@ -408,13 +408,13 @@
    "kc_gains": [
     {
      "name": "The Royal Titans",
-     "gain": 39
+     "gain": 54
     }
    ],
    "kc_all": [
     {
      "name": "The Royal Titans",
-     "gain": 39
+     "gain": 54
     }
    ]
   },
@@ -2115,11 +2115,11 @@
     "title": "Titan your Belt",
     "starred": true,
     "manual": false,
-    "kills": 58,
+    "kills": 73,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 39
+      "kills": 54
      },
      {
       "player": "DemonWolfy",
@@ -2259,11 +2259,11 @@
     "title": "Can i Barrow some of your time?",
     "starred": false,
     "manual": false,
-    "kills": 5,
+    "kills": 27,
     "kills_by": [
      {
       "player": "Kitten Lissy",
-      "kills": 5
+      "kills": 27
      }
     ],
     "on_it_kills": [],
@@ -2485,11 +2485,11 @@
     "title": "Beefy Tile",
     "starred": false,
     "manual": false,
-    "kills": 977,
+    "kills": 1023,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 605
+      "kills": 651
      },
      {
       "player": "Kitten Lissy",
@@ -2981,11 +2981,11 @@
     "title": "Unholy Cow!",
     "starred": false,
     "manual": false,
-    "kills": 977,
+    "kills": 1023,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 605
+      "kills": 651
      },
      {
       "player": "Kitten Lissy",
@@ -3071,11 +3071,11 @@
  "kills_by_boss": [
   {
    "boss": "Brutus",
-   "kills": 977,
+   "kills": 1023,
    "by": [
     {
      "player": "DemonWolfy",
-     "kills": 605
+     "kills": 651
     },
     {
      "player": "Kitten Lissy",
@@ -3109,15 +3109,25 @@
   },
   {
    "boss": "The Royal Titans",
-   "kills": 58,
+   "kills": 73,
    "by": [
     {
      "player": "Trobro12",
-     "kills": 39
+     "kills": 54
     },
     {
      "player": "DemonWolfy",
      "kills": 19
+    }
+   ]
+  },
+  {
+   "boss": "Barrows Chests",
+   "kills": 27,
+   "by": [
+    {
+     "player": "Kitten Lissy",
+     "kills": 27
     }
    ]
   },
@@ -3152,16 +3162,6 @@
    ]
   },
   {
-   "boss": "Barrows Chests",
-   "kills": 5,
-   "by": [
-    {
-     "player": "Kitten Lissy",
-     "kills": 5
-    }
-   ]
-  },
-  {
    "boss": "Vardorvis",
    "kills": 4,
    "by": [
@@ -3186,11 +3186,11 @@
   {
    "player": "DemonWolfy",
    "board": "Little",
-   "kills": 643,
+   "kills": 689,
    "top": [
     {
      "name": "Brutus",
-     "gain": 605
+     "gain": 651
     },
     {
      "name": "Mad Angel",
@@ -3205,7 +3205,7 @@
   {
    "player": "Kitten Lissy",
    "board": "Little",
-   "kills": 249,
+   "kills": 271,
    "top": [
     {
      "name": "Brutus",
@@ -3213,7 +3213,7 @@
     },
     {
      "name": "Barrows Chests",
-     "gain": 5
+     "gain": 27
     },
     {
      "name": "Tempoross",
@@ -3250,11 +3250,11 @@
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 39,
+   "kills": 54,
    "top": [
     {
      "name": "The Royal Titans",
-     "gain": 39
+     "gain": 54
     }
    ]
   },
