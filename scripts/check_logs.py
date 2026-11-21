@@ -120,7 +120,7 @@ KC_TILES = {
         10: RAIDS, 11: ["Zalcano"], 12: ["Phantom Muspah"], 14: DT2, 15: ["The Gauntlet", "The Corrupted Gauntlet"],
         16: GWD + ["Nex"],
         17: ["Zulrah", "Grotesque Guardians", "Sarachnis", "Kalphite Queen", "Abyssal Sire", "Alchemical Hydra", "Cerberus",
-             "Kraken", "Thermonuclear Smoke Devil", "Giant Mole", "King Black Dragon", "Barrows Chests", "Nightmare", "Araxxor"],
+             "Kraken", "Thermonuclear Smoke Devil", "Giant Mole", "King Black Dragon", "Nightmare", "Araxxor"],
         18: ["Yama"], 19: ["Phantom Muspah"] + DT2,
         20: ["Callisto", "Venenatis", "Vet'ion", "Artio", "Spindel", "Calvar'ion"], 21: ["Brutus"], 22: ["Sol Heredit"],
         23: ["Phosani's Nightmare"], 25: ["TzTok-Jad", "TzKal-Zuk"],

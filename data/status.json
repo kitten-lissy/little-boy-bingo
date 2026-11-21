@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21 15:40 UTC",
+ "checked": "2026-11-21 15:42 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -224,57 +224,11 @@
    "note": "",
    "sources": [
     "WikiSync",
-    "Temple",
-    "Hiscores"
+    "Temple"
    ],
-   "combat": 112,
-   "skills": {
-    "Attack": 88,
-    "Strength": 88,
-    "Defence": 87,
-    "Hitpoints": 94,
-    "Ranged": 91,
-    "Magic": 94,
-    "Prayer": 80,
-    "Slayer": 75,
-    "Agility": 74,
-    "Herblore": 80,
-    "Overall": 1910
-   },
-   "top_kc": [
-    {
-     "name": "Brutus",
-     "kc": 606
-    },
-    {
-     "name": "Wintertodt",
-     "kc": 87
-    },
-    {
-     "name": "Deranged Archaeologist",
-     "kc": 25
-    },
-    {
-     "name": "Vorkath",
-     "kc": 20
-    },
-    {
-     "name": "The Royal Titans",
-     "kc": 20
-    },
-    {
-     "name": "Mad Angel",
-     "kc": 20
-    },
-    {
-     "name": "Tempoross",
-     "kc": 14
-    },
-    {
-     "name": "Tombs of Amascut",
-     "kc": 13
-    }
-   ],
+   "combat": null,
+   "skills": {},
+   "top_kc": [],
    "log_items": 136,
    "has_baseline": true,
    "log_since": "",
@@ -287,34 +241,8 @@
    "notes": "First bingo, GMT. New to DKs and God Wars.",
    "baseline_has_log": true,
    "new_items": [],
-   "kc_gains": [
-    {
-     "name": "Brutus",
-     "gain": 605
-    },
-    {
-     "name": "Mad Angel",
-     "gain": 19
-    },
-    {
-     "name": "The Royal Titans",
-     "gain": 19
-    }
-   ],
-   "kc_all": [
-    {
-     "name": "Brutus",
-     "gain": 605
-    },
-    {
-     "name": "Mad Angel",
-     "gain": 19
-    },
-    {
-     "name": "The Royal Titans",
-     "gain": 19
-    }
-   ]
+   "kc_gains": [],
+   "kc_all": []
   },
   {
    "name": "Trobro12",
@@ -724,8 +652,8 @@
      },
      {
       "player": "DemonWolfy",
-      "state": "cant",
-      "why": "Slayer 87 (has 75)"
+      "state": "unknown",
+      "why": "check: Slayer 87"
      },
      {
       "player": "Trobro12",
@@ -778,8 +706,8 @@
      },
      {
       "player": "DemonWolfy",
-      "state": "can",
-      "why": ""
+      "state": "unknown",
+      "why": "check: Slayer 60"
      },
      {
       "player": "Trobro12",
@@ -1075,8 +1003,8 @@
      },
      {
       "player": "DemonWolfy",
-      "state": "can",
-      "why": ""
+      "state": "unknown",
+      "why": "check: Slayer 75"
      },
      {
       "player": "Trobro12",
@@ -1319,7 +1247,7 @@
      {
       "player": "DemonWolfy",
       "state": "claimed",
-      "why": ""
+      "why": "check: Herblore 60"
      },
      {
       "player": "Trobro12",
@@ -2066,13 +1994,8 @@
     "title": "Whats your angel?",
     "starred": false,
     "manual": false,
-    "kills": 19,
-    "kills_by": [
-     {
-      "player": "DemonWolfy",
-      "kills": 19
-     }
-    ],
+    "kills": 0,
+    "kills_by": [],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -2088,20 +2011,15 @@
     "title": "Titan your Belt",
     "starred": true,
     "manual": false,
-    "kills": 53,
+    "kills": 34,
     "kills_by": [
      {
       "player": "Trobro12",
       "kills": 34
-     },
-     {
-      "player": "DemonWolfy",
-      "kills": 19
      }
     ],
     "on_it_kills": [
-     "Trobro12",
-     "DemonWolfy"
+     "Trobro12"
     ],
     "state": "on",
     "on_it": [],
@@ -2445,12 +2363,8 @@
     "title": "Beefy Tile",
     "starred": false,
     "manual": false,
-    "kills": 977,
+    "kills": 372,
     "kills_by": [
-     {
-      "player": "DemonWolfy",
-      "kills": 605
-     },
      {
       "player": "Kitten Lissy",
       "kills": 241
@@ -2858,15 +2772,11 @@
     "title": "One man, One Jar",
     "starred": false,
     "manual": false,
-    "kills": 25,
+    "kills": 20,
     "kills_by": [
      {
       "player": "Caffeine Guy",
       "kills": 20
-     },
-     {
-      "player": "Kitten Lissy",
-      "kills": 5
      }
     ],
     "on_it_kills": [],
@@ -2940,12 +2850,8 @@
     "title": "Unholy Cow!",
     "starred": false,
     "manual": false,
-    "kills": 977,
+    "kills": 372,
     "kills_by": [
-     {
-      "player": "DemonWolfy",
-      "kills": 605
-     },
      {
       "player": "Kitten Lissy",
       "kills": 241
@@ -3029,25 +2935,6 @@
  },
  "leaderboard": [
   {
-   "player": "DemonWolfy",
-   "board": "Little",
-   "kills": 643,
-   "top": [
-    {
-     "name": "Brutus",
-     "gain": 605
-    },
-    {
-     "name": "Mad Angel",
-     "gain": 19
-    },
-    {
-     "name": "The Royal Titans",
-     "gain": 19
-    }
-   ]
-  },
-  {
    "player": "Kitten Lissy",
    "board": "Little",
    "kills": 249,
@@ -3128,6 +3015,12 @@
      "gain": 20
     }
    ]
+  },
+  {
+   "player": "DemonWolfy",
+   "board": "Little",
+   "kills": 0,
+   "top": []
   }
  ]
 }

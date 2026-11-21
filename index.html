@@ -326,7 +326,7 @@ footer{color:var(--muted);font-size:13px}
       var who=t.on_it.concat((t.on_it_kills||[]).map(function(n){return n+' (from kills)';}));
       var head=t.state==='done'?'✅ Done':(who.length?'🟡 On it: '+who.join(', '):(t.state==='on'?'🟡 Drop spotted':'⚪ Nobody yet'));
       var drops=t.drops.map(function(x){return esc(x.player)+': '+esc(x.item);}).join('; ');
-      el.innerHTML='<b>'+esc(head)+'</b>'+(t.x2?' <span class="x2" title="Same square on the other board ('+esc(t.other_title)+') is active">×2</span>':'')+(drops?'<br><small>Drop spotted: '+drops+'</small>':'')+(t.manual&&t.state!=='done'?'<br><small>Not auto-detected: post it in the team chat when done.</small>':'')+(t.kills?'<br><small>⚔ '+t.kills+' team kills since start ('+t.kills_by.map(function(k){return esc(k.player)+' '+k.kills;}).join(', ')+')</small>':'');
+      el.innerHTML='<b>'+esc(head)+'</b>'+(t.x2?' <span class="x2" title="Same square on the other board ('+esc(t.other_title)+') is active">×2</span>':'')+(drops?'<br><small>Drop spotted: '+drops+'</small>':'')+(t.manual&&t.state!=='done'?'<br><small>Not auto-detected: post it in the team chat when done.</small>':'')+(t.kills?'<br><small>⚔ '+t.kills+' team kills since start, any board ('+t.kills_by.map(function(k){return esc(k.player)+' '+k.kills;}).join(', ')+')</small>':'');
     });
   }).catch(function(){ document.querySelectorAll('.st').forEach(function(el){ el.innerHTML='<small>Status shows on the GitHub page.</small>'; }); });
 })();
