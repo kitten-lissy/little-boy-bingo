@@ -1,8 +1,33 @@
 {
-  "_note": "Drops confirmed from the #team-1-screenshots channel (event password visible). Times are from the screenshots, in UTC.",
-  "drops": [
-    {"player": "Lasrgatr", "board": "Big", "tile": 6, "item": "Virtus robe bottom (Vardorvis)", "when": "2026-11-20 01:39 UTC"},
-    {"player": "Primal Sin", "board": "Little", "tile": 13, "item": "Fire cape", "when": "2026-11-20 03:32 UTC"},
-    {"player": "Lasrgatr", "board": "Big", "tile": 11, "item": "Crystal tool seed (Zalcano)", "when": "2026-11-20 03:39 UTC"}
-  ]
+ "_note": "Drops confirmed from the #team-1-screenshots channel (event password visible). Times are from the screenshots, in UTC.",
+ "drops": [
+  {
+   "player": "Lasrgatr",
+   "board": "Big",
+   "tile": 6,
+   "item": "Virtus robe bottom (Vardorvis)",
+   "when": "2026-11-20 01:39 UTC"
+  },
+  {
+   "player": "Primal Sin",
+   "board": "Little",
+   "tile": 13,
+   "item": "Fire cape",
+   "when": "2026-11-20 03:32 UTC"
+  },
+  {
+   "player": "Lasrgatr",
+   "board": "Big",
+   "tile": 11,
+   "item": "Crystal tool seed (Zalcano)",
+   "when": "2026-11-20 03:39 UTC"
+  },
+  {
+   "player": "DemonWolfy",
+   "board": "Little",
+   "tile": 24,
+   "item": "Beef (pet, from Brutus)",
+   "when": "2026-11-20 (team chat)"
+  }
+ ]
 }

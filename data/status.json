@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21 09:45 UTC",
+ "checked": "2026-11-21 15:40 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -191,7 +191,8 @@
     "AFK Brutus for cow slippers (21)",
     "Sarachnis (15)",
     "Vorkath for visage and dragonbone necklace (14, 23)",
-    "Yama any time"
+    "Yama any time",
+    "Bandos for God Wars uniques (\u26066, \u260619)"
    ],
    "notes": "Prefers group content and tiles not logged yet. Slayer 99, so the only Little Boy who can do Krakens for tile 3 (1,227 Kraken kills). Very experienced at the Dagannoth Kings (400+ kills of each), so a good partner for tile \u26068.",
    "baseline_has_log": true,
@@ -228,7 +229,7 @@
    ],
    "combat": 112,
    "skills": {
-    "Attack": 87,
+    "Attack": 88,
     "Strength": 88,
     "Defence": 87,
     "Hitpoints": 94,
@@ -238,12 +239,12 @@
     "Slayer": 75,
     "Agility": 74,
     "Herblore": 80,
-    "Overall": 1909
+    "Overall": 1910
    },
    "top_kc": [
     {
      "name": "Brutus",
-     "kc": 500
+     "kc": 606
     },
     {
      "name": "Wintertodt",
@@ -280,7 +281,8 @@
    "going": [
     "Mad Angel (1)",
     "Mixology: chugging barrel or potion storage (25)",
-    "ToA (4, 18)"
+    "ToA (4, 18)",
+    "Brutus for cow slippers (21): ~500 kills, two Beef pets so far"
    ],
    "notes": "First bingo, GMT. New to DKs and God Wars.",
    "baseline_has_log": true,
@@ -288,7 +290,7 @@
    "kc_gains": [
     {
      "name": "Brutus",
-     "gain": 499
+     "gain": 605
     },
     {
      "name": "Mad Angel",
@@ -302,7 +304,7 @@
    "kc_all": [
     {
      "name": "Brutus",
-     "gain": 499
+     "gain": 605
     },
     {
      "name": "Mad Angel",
@@ -338,7 +340,7 @@
    "top_kc": [
     {
      "name": "The Royal Titans",
-     "kc": 89
+     "kc": 100
     },
     {
      "name": "Brutus",
@@ -379,13 +381,13 @@
    "kc_gains": [
     {
      "name": "The Royal Titans",
-     "gain": 23
+     "gain": 34
     }
    ],
    "kc_all": [
     {
      "name": "The Royal Titans",
-     "gain": 23
+     "gain": 34
     }
    ]
   },
@@ -536,7 +538,10 @@
    "going": [
     "Raids (4, 10)",
     "DT2 bosses (6, 14)",
-    "Zalcano (11)"
+    "Zalcano (11)",
+    "God Wars squad this week (\u260616, and helps Little \u26066/\u260619)",
+    "Yama duos (\u26062, 18)",
+    "Quartz for the sceptre (19)"
    ],
    "notes": "",
    "baseline_has_log": true,
@@ -629,7 +634,7 @@
     "ToA (10)",
     "Wants to learn Nightmare (23) and Yama (\u26062, 18)"
    ],
-   "notes": "No Wilderness. Happy to help teach ToA.",
+   "notes": "No Wilderness. Happy to help teach ToA. Rebuilding their PC; running Araxxor on a laptop for a jar in the meantime.",
    "baseline_has_log": false,
    "new_items": [],
    "kc_gains": [
@@ -795,7 +800,7 @@
      },
      {
       "player": "Primal Sin",
-      "state": "can",
+      "state": "claimed",
       "why": ""
      },
      {
@@ -1146,7 +1151,7 @@
      },
      {
       "player": "Primal Sin",
-      "state": "can",
+      "state": "claimed",
       "why": ""
      },
      {
@@ -1205,7 +1210,7 @@
      },
      {
       "player": "DemonWolfy",
-      "state": "can",
+      "state": "claimed",
       "why": ""
      },
      {
@@ -1359,7 +1364,7 @@
      },
      {
       "player": "Lasrgatr",
-      "state": "can",
+      "state": "claimed",
       "why": ""
      },
      {
@@ -1667,7 +1672,7 @@
      },
      {
       "player": "Lasrgatr",
-      "state": "can",
+      "state": "claimed",
       "why": ""
      },
      {
@@ -1711,7 +1716,7 @@
      },
      {
       "player": "Lasrgatr",
-      "state": "can",
+      "state": "claimed",
       "why": ""
      },
      {
@@ -1733,7 +1738,7 @@
      },
      {
       "player": "Lasrgatr",
-      "state": "can",
+      "state": "claimed",
       "why": ""
      },
      {
@@ -2009,7 +2014,7 @@
    "little": "You GODa be kidding me",
    "big": "Fancy Staff",
    "little_state": "claimed",
-   "big_state": "open"
+   "big_state": "claimed"
   },
   {
    "tile": 20,
@@ -2083,11 +2088,11 @@
     "title": "Titan your Belt",
     "starred": true,
     "manual": false,
-    "kills": 42,
+    "kills": 53,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 23
+      "kills": 34
      },
      {
       "player": "DemonWolfy",
@@ -2164,12 +2169,11 @@
       "kills": 90
      }
     ],
-    "on_it_kills": [
-     "Primal Sin"
-    ],
+    "on_it_kills": [],
     "state": "on",
     "on_it": [
-     "Kitten Lissy"
+     "Kitten Lissy",
+     "Primal Sin"
     ],
     "drops": [],
     "x2": true,
@@ -2410,12 +2414,11 @@
       "kills": 90
      }
     ],
-    "on_it_kills": [
-     "Primal Sin"
-    ],
+    "on_it_kills": [],
     "state": "on",
     "on_it": [
-     "Kitten Lissy"
+     "Kitten Lissy",
+     "Primal Sin"
     ],
     "drops": [],
     "x2": true,
@@ -2442,11 +2445,11 @@
     "title": "Beefy Tile",
     "starred": false,
     "manual": false,
-    "kills": 871,
+    "kills": 977,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 499
+      "kills": 605
      },
      {
       "player": "Kitten Lissy",
@@ -2457,13 +2460,12 @@
       "kills": 131
      }
     ],
-    "on_it_kills": [
-     "DemonWolfy"
-    ],
+    "on_it_kills": [],
     "state": "on",
     "on_it": [
      "Kitten Lissy",
-     "Primal Sin"
+     "Primal Sin",
+     "DemonWolfy"
     ],
     "drops": [
      {
@@ -2515,9 +2517,15 @@
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
-    "state": "none",
+    "state": "done",
     "on_it": [],
-    "drops": [],
+    "drops": [
+     {
+      "player": "DemonWolfy",
+      "item": "Beef (pet, from Brutus)",
+      "manual": true
+     }
+    ],
     "x2": false,
     "other_title": "Can I pet it?",
     "other_state": "none"
@@ -2573,6 +2581,7 @@
     "on_it_kills": [],
     "state": "on",
     "on_it": [
+     "Lasrgatr",
      "Caffeine Guy"
     ],
     "drops": [],
@@ -2836,6 +2845,7 @@
     "on_it_kills": [],
     "state": "on",
     "on_it": [
+     "Lasrgatr",
      "Caffeine Guy"
     ],
     "drops": [],
@@ -2880,6 +2890,7 @@
     "on_it_kills": [],
     "state": "on",
     "on_it": [
+     "Lasrgatr",
      "Caffeine Guy"
     ],
     "drops": [],
@@ -2899,11 +2910,11 @@
       "kills": 4
      }
     ],
-    "on_it_kills": [
+    "on_it_kills": [],
+    "state": "on",
+    "on_it": [
      "Lasrgatr"
     ],
-    "state": "on",
-    "on_it": [],
     "drops": [],
     "x2": true,
     "other_title": "You GODa be kidding me",
@@ -2929,11 +2940,11 @@
     "title": "Unholy Cow!",
     "starred": false,
     "manual": false,
-    "kills": 871,
+    "kills": 977,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 499
+      "kills": 605
      },
      {
       "player": "Kitten Lissy",
@@ -2995,9 +3006,9 @@
     "state": "none",
     "on_it": [],
     "drops": [],
-    "x2": false,
+    "x2": true,
     "other_title": "What's Following me?",
-    "other_state": "none"
+    "other_state": "done"
    },
    {
     "tile": 25,
@@ -3020,11 +3031,11 @@
   {
    "player": "DemonWolfy",
    "board": "Little",
-   "kills": 537,
+   "kills": 643,
    "top": [
     {
      "name": "Brutus",
-     "gain": 499
+     "gain": 605
     },
     {
      "name": "Mad Angel",
@@ -3084,11 +3095,11 @@
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 23,
+   "kills": 34,
    "top": [
     {
      "name": "The Royal Titans",
-     "gain": 23
+     "gain": 34
     }
    ]
   },
