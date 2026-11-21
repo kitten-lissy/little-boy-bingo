@@ -161,7 +161,11 @@ def temple(name):
 
 
 def hiscores(name):
-    d = get_json(f"https://secure.runescape.com/m=hiscore_oldschool/index_lite.json?player={urllib.parse.quote(name)}")
+    url = f"https://secure.runescape.com/m=hiscore_oldschool/index_lite.json?player={urllib.parse.quote(name)}"
+    d = get_json(url)
+    if not d or "activities" not in d:
+        time.sleep(5)          # one retry: the hiscores occasionally fail a request
+        d = get_json(url)
     if not d or "activities" not in d:
         return None
     acts = {a["name"]: a["score"] for a in d["activities"] if a["score"] > 0}
@@ -353,9 +357,15 @@ def main():
             logs.update(tp)
             sources.append("Temple")
         kc = hiscores(name)
-        skills_by_player[name] = (kc or {}).get("_skills", {})
+        last_file = DATA / "last_kc" / f"{name.replace(' ', '_')}.json"
         if kc is not None:
             sources.append("Hiscores")
+            last_file.parent.mkdir(parents=True, exist_ok=True)
+            last_file.write_text(json.dumps(kc, indent=1, sort_keys=True))
+        elif last_file.exists():
+            kc = json.loads(last_file.read_text())   # keep the last known kills instead of dropping to zero
+            sources.append("Hiscores (last known)")
+        skills_by_player[name] = (kc or {}).get("_skills", {})
 
         snap = {"items": logs, "kc": {k: v for k, v in (kc or {}).items() if k != "_skills"}}
         base_file = BASE / f"{name.replace(' ', '_')}.json"
