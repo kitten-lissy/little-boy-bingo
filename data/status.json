@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21 23:11 UTC",
+ "checked": "2026-11-21 23:21 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -354,7 +354,7 @@
    "skills": {
     "Attack": 83,
     "Strength": 82,
-    "Defence": 80,
+    "Defence": 81,
     "Hitpoints": 84,
     "Ranged": 80,
     "Magic": 80,
@@ -362,12 +362,12 @@
     "Slayer": 73,
     "Agility": 66,
     "Herblore": 83,
-    "Overall": 1811
+    "Overall": 1812
    },
    "top_kc": [
     {
      "name": "The Royal Titans",
-     "kc": 120
+     "kc": 128
     },
     {
      "name": "Brutus",
@@ -408,13 +408,13 @@
    "kc_gains": [
     {
      "name": "The Royal Titans",
-     "gain": 54
+     "gain": 62
     }
    ],
    "kc_all": [
     {
      "name": "The Royal Titans",
-     "gain": 54
+     "gain": 62
     }
    ]
   },
@@ -2115,11 +2115,11 @@
     "title": "Titan your Belt",
     "starred": true,
     "manual": false,
-    "kills": 73,
+    "kills": 81,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 54
+      "kills": 62
      },
      {
       "player": "DemonWolfy",
@@ -3109,11 +3109,11 @@
   },
   {
    "boss": "The Royal Titans",
-   "kills": 73,
+   "kills": 81,
    "by": [
     {
      "player": "Trobro12",
-     "kills": 54
+     "kills": 62
     },
     {
      "player": "DemonWolfy",
@@ -3250,11 +3250,11 @@
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 54,
+   "kills": 62,
    "top": [
     {
      "name": "The Royal Titans",
-     "gain": 54
+     "gain": 62
     }
    ]
   },
