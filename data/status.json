@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21 01:29 UTC",
+ "checked": "2026-11-21 09:45 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -133,11 +133,57 @@
    "note": "",
    "sources": [
     "WikiSync",
-    "Temple"
+    "Temple",
+    "Hiscores"
    ],
-   "combat": null,
-   "skills": {},
-   "top_kc": [],
+   "combat": 126,
+   "skills": {
+    "Attack": 99,
+    "Strength": 99,
+    "Defence": 99,
+    "Hitpoints": 99,
+    "Ranged": 99,
+    "Magic": 99,
+    "Prayer": 99,
+    "Slayer": 99,
+    "Agility": 91,
+    "Herblore": 99,
+    "Overall": 2349
+   },
+   "top_kc": [
+    {
+     "name": "Soul Wars Zeal",
+     "kc": 3101
+    },
+    {
+     "name": "Giant Mole",
+     "kc": 1570
+    },
+    {
+     "name": "Kraken",
+     "kc": 1227
+    },
+    {
+     "name": "Duke Sucellus",
+     "kc": 1000
+    },
+    {
+     "name": "Cerberus",
+     "kc": 940
+    },
+    {
+     "name": "Alchemical Hydra",
+     "kc": 888
+    },
+    {
+     "name": "Phantom Muspah",
+     "kc": 690
+    },
+    {
+     "name": "Brutus",
+     "kc": 581
+    }
+   ],
    "log_items": 618,
    "has_baseline": true,
    "log_since": "",
@@ -150,8 +196,26 @@
    "notes": "Prefers group content and tiles not logged yet. Slayer 99, so the only Little Boy who can do Krakens for tile 3 (1,227 Kraken kills). Very experienced at the Dagannoth Kings (400+ kills of each), so a good partner for tile \u26068.",
    "baseline_has_log": true,
    "new_items": [],
-   "kc_gains": [],
-   "kc_all": []
+   "kc_gains": [
+    {
+     "name": "Brutus",
+     "gain": 131
+    },
+    {
+     "name": "General Graardor",
+     "gain": 90
+    }
+   ],
+   "kc_all": [
+    {
+     "name": "Brutus",
+     "gain": 131
+    },
+    {
+     "name": "General Graardor",
+     "gain": 90
+    }
+   ]
   },
   {
    "name": "DemonWolfy",
@@ -179,7 +243,7 @@
    "top_kc": [
     {
      "name": "Brutus",
-     "kc": 351
+     "kc": 500
     },
     {
      "name": "Wintertodt",
@@ -224,7 +288,7 @@
    "kc_gains": [
     {
      "name": "Brutus",
-     "gain": 350
+     "gain": 499
     },
     {
      "name": "Mad Angel",
@@ -238,7 +302,7 @@
    "kc_all": [
     {
      "name": "Brutus",
-     "gain": 350
+     "gain": 499
     },
     {
      "name": "Mad Angel",
@@ -260,25 +324,25 @@
    "combat": 102,
    "skills": {
     "Attack": 83,
-    "Strength": 80,
+    "Strength": 81,
     "Defence": 80,
     "Hitpoints": 84,
     "Ranged": 80,
     "Magic": 80,
     "Prayer": 69,
-    "Slayer": 72,
+    "Slayer": 73,
     "Agility": 66,
     "Herblore": 83,
-    "Overall": 1808
+    "Overall": 1810
    },
    "top_kc": [
     {
-     "name": "Brutus",
-     "kc": 88
+     "name": "The Royal Titans",
+     "kc": 89
     },
     {
-     "name": "The Royal Titans",
-     "kc": 76
+     "name": "Brutus",
+     "kc": 88
     },
     {
      "name": "Nightmare",
@@ -315,13 +379,13 @@
    "kc_gains": [
     {
      "name": "The Royal Titans",
-     "gain": 10
+     "gain": 23
     }
    ],
    "kc_all": [
     {
      "name": "The Royal Titans",
-     "gain": 10
+     "gain": 23
     }
    ]
   },
@@ -400,13 +464,13 @@
    "kc_gains": [
     {
      "name": "Maggot King",
-     "gain": 118
+     "gain": 164
     }
    ],
    "kc_all": [
     {
      "name": "Maggot King",
-     "gain": 118
+     "gain": 164
     }
    ]
   },
@@ -415,11 +479,57 @@
    "board": "Big",
    "note": "",
    "sources": [
-    "WikiSync"
+    "WikiSync",
+    "Hiscores"
    ],
-   "combat": null,
-   "skills": {},
-   "top_kc": [],
+   "combat": 126,
+   "skills": {
+    "Attack": 99,
+    "Strength": 99,
+    "Defence": 99,
+    "Hitpoints": 99,
+    "Ranged": 99,
+    "Magic": 99,
+    "Prayer": 99,
+    "Slayer": 99,
+    "Agility": 81,
+    "Herblore": 76,
+    "Overall": 2066
+   },
+   "top_kc": [
+    {
+     "name": "Vardorvis",
+     "kc": 2152
+    },
+    {
+     "name": "The Leviathan",
+     "kc": 2023
+    },
+    {
+     "name": "Araxxor",
+     "kc": 1296
+    },
+    {
+     "name": "Giant Mole",
+     "kc": 1293
+    },
+    {
+     "name": "Duke Sucellus",
+     "kc": 1123
+    },
+    {
+     "name": "The Whisperer",
+     "kc": 618
+    },
+    {
+     "name": "Wintertodt",
+     "kc": 581
+    },
+    {
+     "name": "The Hueycoatl",
+     "kc": 503
+    }
+   ],
    "log_items": 302,
    "has_baseline": true,
    "log_since": "",
@@ -431,8 +541,26 @@
    "notes": "",
    "baseline_has_log": true,
    "new_items": [],
-   "kc_gains": [],
-   "kc_all": []
+   "kc_gains": [
+    {
+     "name": "Skotizo",
+     "gain": 17
+    },
+    {
+     "name": "Vardorvis",
+     "gain": 4
+    }
+   ],
+   "kc_all": [
+    {
+     "name": "Skotizo",
+     "gain": 17
+    },
+    {
+     "name": "Vardorvis",
+     "gain": 4
+    }
+   ]
   },
   {
    "name": "Caffeine Guy",
@@ -586,8 +714,8 @@
      },
      {
       "player": "Primal Sin",
-      "state": "unknown",
-      "why": "check: Slayer 87"
+      "state": "can",
+      "why": ""
      },
      {
       "player": "DemonWolfy",
@@ -597,7 +725,7 @@
      {
       "player": "Trobro12",
       "state": "cant",
-      "why": "Slayer 87 (has 72)"
+      "why": "Slayer 87 (has 73)"
      }
     ]
    },
@@ -640,8 +768,8 @@
      },
      {
       "player": "Primal Sin",
-      "state": "unknown",
-      "why": "check: Slayer 60"
+      "state": "can",
+      "why": ""
      },
      {
       "player": "DemonWolfy",
@@ -937,8 +1065,8 @@
      },
      {
       "player": "Primal Sin",
-      "state": "unknown",
-      "why": "check: Slayer 75"
+      "state": "can",
+      "why": ""
      },
      {
       "player": "DemonWolfy",
@@ -948,7 +1076,7 @@
      {
       "player": "Trobro12",
       "state": "cant",
-      "why": "Slayer 75 (has 72)"
+      "why": "Slayer 75 (has 73)"
      }
     ]
    },
@@ -1180,8 +1308,8 @@
      },
      {
       "player": "Primal Sin",
-      "state": "unknown",
-      "why": "check: Herblore 60"
+      "state": "can",
+      "why": ""
      },
      {
       "player": "DemonWolfy",
@@ -1430,7 +1558,7 @@
      {
       "player": "Lasrgatr",
       "state": "claimed",
-      "why": "check: Mining 70, Smithing 70"
+      "why": ""
      },
      {
       "player": "Caffeine Guy",
@@ -1955,20 +2083,20 @@
     "title": "Titan your Belt",
     "starred": true,
     "manual": false,
-    "kills": 29,
+    "kills": 42,
     "kills_by": [
+     {
+      "player": "Trobro12",
+      "kills": 23
+     },
      {
       "player": "DemonWolfy",
       "kills": 19
-     },
-     {
-      "player": "Trobro12",
-      "kills": 10
      }
     ],
     "on_it_kills": [
-     "DemonWolfy",
-     "Trobro12"
+     "Trobro12",
+     "DemonWolfy"
     ],
     "state": "on",
     "on_it": [],
@@ -2029,9 +2157,16 @@
     "title": "Godly Gamer",
     "starred": true,
     "manual": false,
-    "kills": 0,
-    "kills_by": [],
-    "on_it_kills": [],
+    "kills": 90,
+    "kills_by": [
+     {
+      "player": "Primal Sin",
+      "kills": 90
+     }
+    ],
+    "on_it_kills": [
+     "Primal Sin"
+    ],
     "state": "on",
     "on_it": [
      "Kitten Lissy"
@@ -2207,10 +2342,17 @@
     "title": "Sweet kicks",
     "starred": false,
     "manual": false,
-    "kills": 0,
-    "kills_by": [],
-    "on_it_kills": [],
-    "state": "none",
+    "kills": 90,
+    "kills_by": [
+     {
+      "player": "Primal Sin",
+      "kills": 90
+     }
+    ],
+    "on_it_kills": [
+     "Primal Sin"
+    ],
+    "state": "on",
     "on_it": [],
     "drops": [],
     "x2": true,
@@ -2222,10 +2364,17 @@
     "title": "Dropping Defence Matters",
     "starred": false,
     "manual": false,
-    "kills": 0,
-    "kills_by": [],
-    "on_it_kills": [],
-    "state": "none",
+    "kills": 90,
+    "kills_by": [
+     {
+      "player": "Primal Sin",
+      "kills": 90
+     }
+    ],
+    "on_it_kills": [
+     "Primal Sin"
+    ],
+    "state": "on",
     "on_it": [],
     "drops": [],
     "x2": true,
@@ -2254,17 +2403,24 @@
     "title": "You GODa be kidding me",
     "starred": true,
     "manual": false,
-    "kills": 0,
-    "kills_by": [],
-    "on_it_kills": [],
+    "kills": 90,
+    "kills_by": [
+     {
+      "player": "Primal Sin",
+      "kills": 90
+     }
+    ],
+    "on_it_kills": [
+     "Primal Sin"
+    ],
     "state": "on",
     "on_it": [
      "Kitten Lissy"
     ],
     "drops": [],
-    "x2": false,
+    "x2": true,
     "other_title": "Fancy Staff",
-    "other_state": "none"
+    "other_state": "on"
    },
    {
     "tile": 20,
@@ -2286,15 +2442,19 @@
     "title": "Beefy Tile",
     "starred": false,
     "manual": false,
-    "kills": 591,
+    "kills": 871,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 350
+      "kills": 499
      },
      {
       "player": "Kitten Lissy",
       "kills": 241
+     },
+     {
+      "player": "Primal Sin",
+      "kills": 131
      }
     ],
     "on_it_kills": [
@@ -2386,11 +2546,11 @@
     "title": "Maggot Crusher",
     "starred": false,
     "manual": false,
-    "kills": 118,
+    "kills": 164,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 118
+      "kills": 164
      }
     ],
     "on_it_kills": [
@@ -2473,8 +2633,13 @@
     "title": "Just Deserts",
     "starred": false,
     "manual": false,
-    "kills": 0,
-    "kills_by": [],
+    "kills": 4,
+    "kills_by": [
+     {
+      "player": "Lasrgatr",
+      "kills": 4
+     }
+    ],
     "on_it_kills": [],
     "state": "done",
     "on_it": [
@@ -2622,8 +2787,13 @@
     "title": "WAKE ME UP",
     "starred": false,
     "manual": true,
-    "kills": 0,
-    "kills_by": [],
+    "kills": 4,
+    "kills_by": [
+     {
+      "player": "Lasrgatr",
+      "kills": 4
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -2656,17 +2826,22 @@
     "title": "FETCH THE GODSWORD",
     "starred": true,
     "manual": false,
-    "kills": 0,
-    "kills_by": [],
+    "kills": 90,
+    "kills_by": [
+     {
+      "player": "Primal Sin",
+      "kills": 90
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
      "Caffeine Guy"
     ],
     "drops": [],
-    "x2": false,
+    "x2": true,
     "other_title": "Sweet kicks",
-    "other_state": "none"
+    "other_state": "on"
    },
    {
     "tile": 17,
@@ -2691,9 +2866,9 @@
      "Caffeine Guy"
     ],
     "drops": [],
-    "x2": false,
+    "x2": true,
     "other_title": "Dropping Defence Matters",
-    "other_state": "none"
+    "other_state": "on"
    },
    {
     "tile": 18,
@@ -2717,10 +2892,17 @@
     "title": "Fancy Staff",
     "starred": false,
     "manual": false,
-    "kills": 0,
-    "kills_by": [],
-    "on_it_kills": [],
-    "state": "none",
+    "kills": 4,
+    "kills_by": [
+     {
+      "player": "Lasrgatr",
+      "kills": 4
+     }
+    ],
+    "on_it_kills": [
+     "Lasrgatr"
+    ],
+    "state": "on",
     "on_it": [],
     "drops": [],
     "x2": true,
@@ -2747,15 +2929,19 @@
     "title": "Unholy Cow!",
     "starred": false,
     "manual": false,
-    "kills": 591,
+    "kills": 871,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 350
+      "kills": 499
      },
      {
       "player": "Kitten Lissy",
       "kills": 241
+     },
+     {
+      "player": "Primal Sin",
+      "kills": 131
      }
     ],
     "on_it_kills": [],
@@ -2834,11 +3020,11 @@
   {
    "player": "DemonWolfy",
    "board": "Little",
-   "kills": 388,
+   "kills": 537,
    "top": [
     {
      "name": "Brutus",
-     "gain": 350
+     "gain": 499
     },
     {
      "name": "Mad Angel",
@@ -2870,13 +3056,54 @@
    ]
   },
   {
+   "player": "Primal Sin",
+   "board": "Little",
+   "kills": 221,
+   "top": [
+    {
+     "name": "Brutus",
+     "gain": 131
+    },
+    {
+     "name": "General Graardor",
+     "gain": 90
+    }
+   ]
+  },
+  {
    "player": "SSora",
    "board": "Big",
-   "kills": 118,
+   "kills": 164,
    "top": [
     {
      "name": "Maggot King",
-     "gain": 118
+     "gain": 164
+    }
+   ]
+  },
+  {
+   "player": "Trobro12",
+   "board": "Little",
+   "kills": 23,
+   "top": [
+    {
+     "name": "The Royal Titans",
+     "gain": 23
+    }
+   ]
+  },
+  {
+   "player": "Lasrgatr",
+   "board": "Big",
+   "kills": 21,
+   "top": [
+    {
+     "name": "Skotizo",
+     "gain": 17
+    },
+    {
+     "name": "Vardorvis",
+     "gain": 4
     }
    ]
   },
@@ -2890,29 +3117,6 @@
      "gain": 20
     }
    ]
-  },
-  {
-   "player": "Trobro12",
-   "board": "Little",
-   "kills": 10,
-   "top": [
-    {
-     "name": "The Royal Titans",
-     "gain": 10
-    }
-   ]
-  },
-  {
-   "player": "Primal Sin",
-   "board": "Little",
-   "kills": 0,
-   "top": []
-  },
-  {
-   "player": "Lasrgatr",
-   "board": "Big",
-   "kills": 0,
-   "top": []
   }
  ]
 }
