@@ -297,6 +297,8 @@ def build_boards(players):
     """Per board, per tile: done, who's on it, drops spotted, and whether the same square on the other board is active."""
     claims = json.loads((DATA / "claims.json").read_text())
     done = json.loads((DATA / "done.json").read_text())
+    prog_file = DATA / "progress.json"
+    progress = json.loads(prog_file.read_text()) if prog_file.exists() else {}
     manual_file = DATA / "manual.json"
     manual = json.loads(manual_file.read_text()).get("drops", []) if manual_file.exists() else []
     boards = {}
@@ -321,9 +323,11 @@ def build_boards(players):
             # Players on this board grinding the tile's bosses count as "on it" even if they didn't say so
             roster_names = {p["name"] for p in roster}
             on_it_kills = [b["player"] for b in by if b["player"] in roster_names and b["player"] not in on_it]
-            state = "done" if t in done.get(board, []) else ("on" if on_it or drops or on_it_kills else "none")
+            state = "done" if t in done.get(board, []) else (
+                "on" if on_it or drops or on_it_kills or progress.get(board, {}).get(str(t)) else "none")
             tiles.append({"tile": t, "title": TITLES[board][t - 1], "starred": t in STARRED[board],
                           "manual": t in MANUAL[board],
+                          "progress": progress.get(board, {}).get(str(t), ""),
                           "kills": sum(b["kills"] for b in by), "kills_by": by, "on_it_kills": on_it_kills,
                           "state": state, "on_it": on_it, "drops": drops})
         boards[board] = tiles

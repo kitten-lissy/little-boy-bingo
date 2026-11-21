@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21 23:21 UTC",
+ "checked": "2026-11-21 23:48 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -2093,6 +2093,7 @@
     "title": "Whats your angel?",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 19,
     "kills_by": [
      {
@@ -2115,6 +2116,7 @@
     "title": "Titan your Belt",
     "starred": true,
     "manual": false,
+    "progress": "1 of 2 crowns (official board)",
     "kills": 81,
     "kills_by": [
      {
@@ -2142,6 +2144,7 @@
     "title": "Tried and Dented",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2157,6 +2160,7 @@
     "title": "ZE PANTY RAID",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2174,6 +2178,7 @@
     "title": "Guarding my face",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2189,6 +2194,7 @@
     "title": "Godly Gamer",
     "starred": true,
     "manual": false,
+    "progress": "",
     "kills": 108,
     "kills_by": [
      {
@@ -2212,6 +2218,7 @@
     "title": "Hueycoatl and the News",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2227,6 +2234,7 @@
     "title": "Daggan These Nuts",
     "starred": true,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2244,6 +2252,7 @@
     "title": "Perilous Times",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2259,6 +2268,7 @@
     "title": "Can i Barrow some of your time?",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 27,
     "kills_by": [
      {
@@ -2294,6 +2304,7 @@
     "title": "Tell it ToMe Straight",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 3,
     "kills_by": [
      {
@@ -2316,6 +2327,7 @@
     "title": "Big mean Greenie or Mr Mammal?",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2331,6 +2343,7 @@
     "title": "Hot Stuff",
     "starred": false,
     "manual": true,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2352,6 +2365,7 @@
     "title": "Draconic Dreams",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2369,6 +2383,7 @@
     "title": "Big Ass Spider",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2386,6 +2401,7 @@
     "title": "Sweet kicks",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 108,
     "kills_by": [
      {
@@ -2408,6 +2424,7 @@
     "title": "Dropping Defence Matters",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 108,
     "kills_by": [
      {
@@ -2430,6 +2447,7 @@
     "title": "Getting the hang of this",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2447,6 +2465,7 @@
     "title": "You GODa be kidding me",
     "starred": true,
     "manual": false,
+    "progress": "",
     "kills": 108,
     "kills_by": [
      {
@@ -2470,6 +2489,7 @@
     "title": "Warding off Evil",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2485,6 +2505,7 @@
     "title": "Beefy Tile",
     "starred": false,
     "manual": false,
+    "progress": "3 of 4 pairs (official board)",
     "kills": 1023,
     "kills_by": [
      {
@@ -2527,6 +2548,7 @@
     "title": "Pigeon Crusher",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2542,6 +2564,7 @@
     "title": "Dragon Slayer",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2559,6 +2582,7 @@
     "title": "What's Following me?",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2580,6 +2604,7 @@
     "title": "CHUG CHUG CHUG",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2599,6 +2624,7 @@
     "title": "Maggot Crusher",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 164,
     "kills_by": [
      {
@@ -2621,6 +2647,7 @@
     "title": "Yama Time",
     "starred": true,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2639,6 +2666,7 @@
     "title": "Dinner with the bug",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2654,6 +2682,7 @@
     "title": "Uncomfortable Raider",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2672,6 +2701,7 @@
     "title": "HOW RARE IS IT??",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2687,6 +2717,7 @@
     "title": "Just Deserts",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 4,
     "kills_by": [
      {
@@ -2717,6 +2748,7 @@
     "title": "Time to get Nexy",
     "starred": true,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2734,6 +2766,7 @@
     "title": "Nice Recolor!",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2751,6 +2784,7 @@
     "title": "Spooky Ghosts!",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2766,6 +2800,7 @@
     "title": "Raid armor",
     "starred": true,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2785,6 +2820,7 @@
     "title": "Zalcanic mine",
     "starred": true,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2809,6 +2845,7 @@
     "title": "Purple Prison",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2826,6 +2863,7 @@
     "title": "Speedy Boys",
     "starred": false,
     "manual": true,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2841,6 +2879,7 @@
     "title": "WAKE ME UP",
     "starred": false,
     "manual": true,
+    "progress": "",
     "kills": 4,
     "kills_by": [
      {
@@ -2863,6 +2902,7 @@
     "title": "Big Mean Prison",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2880,6 +2920,7 @@
     "title": "FETCH THE GODSWORD",
     "starred": true,
     "manual": false,
+    "progress": "",
     "kills": 108,
     "kills_by": [
      {
@@ -2903,6 +2944,7 @@
     "title": "One man, One Jar",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 20,
     "kills_by": [
      {
@@ -2926,6 +2968,7 @@
     "title": "Contract Killer",
     "starred": false,
     "manual": true,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2944,6 +2987,7 @@
     "title": "Fancy Staff",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 4,
     "kills_by": [
      {
@@ -2966,6 +3010,7 @@
     "title": "Void Gatherer",
     "starred": true,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -2981,6 +3026,7 @@
     "title": "Unholy Cow!",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 1023,
     "kills_by": [
      {
@@ -3009,6 +3055,7 @@
     "title": "Showmanship",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -3024,6 +3071,7 @@
     "title": "Kasper's Nightmare",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -3041,6 +3089,7 @@
     "title": "Can I pet it?",
     "starred": false,
     "manual": false,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
@@ -3056,6 +3105,7 @@
     "title": "You can't Be Tzharrious",
     "starred": false,
     "manual": true,
+    "progress": "",
     "kills": 0,
     "kills_by": [],
     "on_it_kills": [],
