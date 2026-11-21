@@ -428,6 +428,15 @@ def main():
 
     out["grid"], out["doubling"] = build_grid(out["players"], skills_by_player)
     out["boards"] = build_boards(out["players"])
+    by_boss = {}
+    for p in out["players"]:
+        for k in p["kc_all"]:
+            e = by_boss.setdefault(k["name"], {"boss": k["name"], "kills": 0, "by": []})
+            e["kills"] += k["gain"]
+            e["by"].append({"player": p["name"], "kills": k["gain"]})
+    for e in by_boss.values():
+        e["by"].sort(key=lambda x: -x["kills"])
+    out["kills_by_boss"] = sorted(by_boss.values(), key=lambda x: -x["kills"])
     out["leaderboard"] = sorted(
         [{"player": p["name"], "board": p["board"], "kills": sum(k["gain"] for k in p["kc_all"]),
           "top": [{"name": k["name"], "gain": k["gain"]} for k in p["kc_all"][:3]]} for p in out["players"]],

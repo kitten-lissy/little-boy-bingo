@@ -155,8 +155,8 @@ footer{color:var(--muted);font-size:13px}
     </ul>
   </div>
   </div>
-  <h2>Kills since the start</h2>
-  <p class="lede" id="lb-meta">Boss kills from the hiscores since the bingo started (slayer monsters and minigames like Mixology aren't on the hiscores).</p>
+  <h2>Kills by boss since the start</h2>
+  <p class="lede" id="lb-meta">What the team has been killing since the bingo started, from the hiscores (updates when people log out). Slayer monsters and minigames like Mixology aren't on the hiscores.</p>
   <div class="tablebox"><table class="grid" id="leaderboard"></table></div>
   <h2>Everyone on the team</h2>
   <div class="tablebox"><table>
@@ -335,10 +335,11 @@ footer{color:var(--muted);font-size:13px}
   function esc(t){return String(t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
   var el=document.getElementById('leaderboard'); if(!el) return;
   fetch('data/status.json',{cache:'no-store'}).then(function(r){ if(!r.ok) throw 0; return r.json(); }).then(function(d){
-    if(!d.leaderboard) return;
-    el.innerHTML='<thead><tr><th>#</th><th>Player</th><th>Board</th><th>Kills</th><th>Mostly</th></tr></thead><tbody>'+
-      d.leaderboard.map(function(x,i){return '<tr><td class="num">'+(i+1)+'</td><td class="tile">'+esc(x.player)+'</td><td>'+esc(x.board)+'</td><td class="num">'+x.kills+'</td><td class="status">'+x.top.map(function(k){return esc(k.name)+' '+k.gain;}).join(', ')+'</td></tr>';}).join('')+'</tbody>';
-  }).catch(function(){ el.outerHTML='<p class="lede">The leaderboard shows on the GitHub page.</p>'; });
+    var rows=d.kills_by_boss||[];
+    if(!rows.length){ el.outerHTML='<p class="lede">No kills recorded since the start yet.</p>'; return; }
+    el.innerHTML='<thead><tr><th>Boss</th><th>Team kills</th><th>Who</th></tr></thead><tbody>'+
+      rows.map(function(x){return '<tr><td class="tile">'+esc(x.boss)+'</td><td class="num">'+x.kills+'</td><td class="status">'+x.by.map(function(k){return esc(k.player)+' '+k.kills;}).join(', ')+'</td></tr>';}).join('')+'</tbody>';
+  }).catch(function(){ el.outerHTML='<p class="lede">The kills table shows on the GitHub page.</p>'; });
 })();
 </script>
 </body>

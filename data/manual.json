@@ -28,6 +28,13 @@
    "tile": 24,
    "item": "Beef (pet, from Brutus)",
    "when": "2026-11-20 (team chat)"
+  },
+  {
+   "player": "DemonWolfy",
+   "board": "Little",
+   "tile": 21,
+   "item": "Cow slippers",
+   "when": "2026-11-21 (seen by Kitten Lissy)"
   }
  ]
 }

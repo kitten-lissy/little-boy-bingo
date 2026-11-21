@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21 17:17 UTC",
+ "checked": "2026-11-21 17:25 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -60,7 +60,7 @@
      "kc": 4
     }
    ],
-   "log_items": 318,
+   "log_items": 321,
    "has_baseline": true,
    "log_since": "",
    "going": [
@@ -75,6 +75,15 @@
    "baseline_has_log": true,
    "new_items": [
     {
+     "name": "Ahrim's robetop",
+     "tiles": [
+      10
+     ],
+     "starred": [],
+     "other_board": "",
+     "other_tiles": []
+    },
+    {
      "name": "Bottomless milk bucket (empty)",
      "tiles": [],
      "starred": [],
@@ -85,6 +94,24 @@
      "name": "Cow slippers",
      "tiles": [
       21
+     ],
+     "starred": [],
+     "other_board": "",
+     "other_tiles": []
+    },
+    {
+     "name": "Guthan's helm",
+     "tiles": [
+      10
+     ],
+     "starred": [],
+     "other_board": "",
+     "other_tiles": []
+    },
+    {
+     "name": "Karil's leatherskirt",
+     "tiles": [
+      10
      ],
      "starred": [],
      "other_board": "",
@@ -903,8 +930,8 @@
     "cells": [
      {
       "player": "Kitten Lissy",
-      "state": "claimed",
-      "why": ""
+      "state": "progress",
+      "why": "Ahrim's robetop, Guthan's helm, Karil's leatherskirt"
      },
      {
       "player": "Primal Sin",
@@ -1950,7 +1977,7 @@
    "tile": 10,
    "little": "Can i Barrow some of your time?",
    "big": "Raid armor",
-   "little_state": "claimed",
+   "little_state": "progress",
    "big_state": "claimed"
   },
   {
@@ -2244,7 +2271,20 @@
     "on_it": [
      "Kitten Lissy"
     ],
-    "drops": [],
+    "drops": [
+     {
+      "player": "Kitten Lissy",
+      "item": "Ahrim's robetop"
+     },
+     {
+      "player": "Kitten Lissy",
+      "item": "Guthan's helm"
+     },
+     {
+      "player": "Kitten Lissy",
+      "item": "Karil's leatherskirt"
+     }
+    ],
     "x2": true,
     "other_title": "Raid armor",
     "other_state": "on"
@@ -2471,6 +2511,11 @@
      {
       "player": "Kitten Lissy",
       "item": "Cow slippers"
+     },
+     {
+      "player": "DemonWolfy",
+      "item": "Cow slippers",
+      "manual": true
      }
     ],
     "x2": false,
@@ -3023,6 +3068,120 @@
    }
   ]
  },
+ "kills_by_boss": [
+  {
+   "boss": "Brutus",
+   "kills": 977,
+   "by": [
+    {
+     "player": "DemonWolfy",
+     "kills": 605
+    },
+    {
+     "player": "Kitten Lissy",
+     "kills": 241
+    },
+    {
+     "player": "Primal Sin",
+     "kills": 131
+    }
+   ]
+  },
+  {
+   "boss": "Maggot King",
+   "kills": 164,
+   "by": [
+    {
+     "player": "SSora",
+     "kills": 164
+    }
+   ]
+  },
+  {
+   "boss": "General Graardor",
+   "kills": 108,
+   "by": [
+    {
+     "player": "Primal Sin",
+     "kills": 108
+    }
+   ]
+  },
+  {
+   "boss": "The Royal Titans",
+   "kills": 58,
+   "by": [
+    {
+     "player": "Trobro12",
+     "kills": 39
+    },
+    {
+     "player": "DemonWolfy",
+     "kills": 19
+    }
+   ]
+  },
+  {
+   "boss": "Araxxor",
+   "kills": 20,
+   "by": [
+    {
+     "player": "Caffeine Guy",
+     "kills": 20
+    }
+   ]
+  },
+  {
+   "boss": "Mad Angel",
+   "kills": 19,
+   "by": [
+    {
+     "player": "DemonWolfy",
+     "kills": 19
+    }
+   ]
+  },
+  {
+   "boss": "Skotizo",
+   "kills": 17,
+   "by": [
+    {
+     "player": "Lasrgatr",
+     "kills": 17
+    }
+   ]
+  },
+  {
+   "boss": "Barrows Chests",
+   "kills": 5,
+   "by": [
+    {
+     "player": "Kitten Lissy",
+     "kills": 5
+    }
+   ]
+  },
+  {
+   "boss": "Vardorvis",
+   "kills": 4,
+   "by": [
+    {
+     "player": "Lasrgatr",
+     "kills": 4
+    }
+   ]
+  },
+  {
+   "boss": "Tempoross",
+   "kills": 3,
+   "by": [
+    {
+     "player": "Kitten Lissy",
+     "kills": 3
+    }
+   ]
+  }
+ ],
  "leaderboard": [
   {
    "player": "DemonWolfy",
