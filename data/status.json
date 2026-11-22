@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-22 11:16 UTC",
+ "checked": "2026-11-22 18:32 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -294,6 +294,10 @@
      "kc": 87
     },
     {
+     "name": "Mad Angel",
+     "kc": 40
+    },
+    {
      "name": "Deranged Archaeologist",
      "kc": 25
     },
@@ -303,10 +307,6 @@
     },
     {
      "name": "The Royal Titans",
-     "kc": 20
-    },
-    {
-     "name": "Mad Angel",
      "kc": 20
     },
     {
@@ -337,7 +337,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 19
+     "gain": 39
     },
     {
      "name": "The Royal Titans",
@@ -351,7 +351,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 19
+     "gain": 39
     },
     {
      "name": "The Royal Titans",
@@ -1876,7 +1876,7 @@
     },
     {
      "name": "Araxxor",
-     "kc": 1094
+     "kc": 1103
     },
     {
      "name": "Brutus",
@@ -1913,13 +1913,13 @@
    "kc_gains": [
     {
      "name": "Araxxor",
-     "gain": 20
+     "gain": 29
     }
    ],
    "kc_all": [
     {
      "name": "Araxxor",
-     "gain": 20
+     "gain": 29
     }
    ]
   }
@@ -3340,11 +3340,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 19,
+    "kills": 39,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 19
+      "kills": 39
      }
     ],
     "on_it_kills": [],
@@ -4247,11 +4247,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 20,
+    "kills": 29,
     "kills_by": [
      {
       "player": "Caffeine Guy",
-      "kills": 20
+      "kills": 29
      }
     ],
     "on_it_kills": [],
@@ -4511,6 +4511,16 @@
    ]
   },
   {
+   "boss": "Mad Angel",
+   "kills": 39,
+   "by": [
+    {
+     "player": "DemonWolfy",
+     "kills": 39
+    }
+   ]
+  },
+  {
    "boss": "Barrows Chests",
    "kills": 30,
    "by": [
@@ -4522,21 +4532,11 @@
   },
   {
    "boss": "Araxxor",
-   "kills": 20,
+   "kills": 29,
    "by": [
     {
      "player": "Caffeine Guy",
-     "kills": 20
-    }
-   ]
-  },
-  {
-   "boss": "Mad Angel",
-   "kills": 19,
-   "by": [
-    {
-     "player": "DemonWolfy",
-     "kills": 19
+     "kills": 29
     }
    ]
   },
@@ -4625,7 +4625,7 @@
   {
    "player": "DemonWolfy",
    "board": "Little",
-   "kills": 689,
+   "kills": 709,
    "top": [
     {
      "name": "Brutus",
@@ -4633,7 +4633,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 19
+     "gain": 39
     },
     {
      "name": "The Royal Titans",
@@ -4710,6 +4710,17 @@
    ]
   },
   {
+   "player": "Caffeine Guy",
+   "board": "Big",
+   "kills": 29,
+   "top": [
+    {
+     "name": "Araxxor",
+     "gain": 29
+    }
+   ]
+  },
+  {
    "player": "Lasrgatr",
    "board": "Big",
    "kills": 23,
@@ -4725,17 +4736,6 @@
     {
      "name": "The Corrupted Gauntlet",
      "gain": 2
-    }
-   ]
-  },
-  {
-   "player": "Caffeine Guy",
-   "board": "Big",
-   "kills": 20,
-   "top": [
-    {
-     "name": "Araxxor",
-     "gain": 20
     }
    ]
   }
