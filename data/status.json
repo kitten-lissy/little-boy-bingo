@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-21 23:52 UTC",
+ "checked": "2026-11-22 03:08 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -45,7 +45,7 @@
     },
     {
      "name": "Barrows Chests",
-     "kc": 49
+     "kc": 52
     },
     {
      "name": "Hespori",
@@ -132,7 +132,7 @@
     },
     {
      "name": "Barrows Chests",
-     "gain": 27
+     "gain": 30
     },
     {
      "name": "Tempoross",
@@ -146,7 +146,7 @@
     },
     {
      "name": "Barrows Chests",
-     "gain": 27
+     "gain": 30
     },
     {
      "name": "Tempoross",
@@ -211,7 +211,7 @@
      "kc": 581
     }
    ],
-   "log_items": 618,
+   "log_items": 619,
    "has_baseline": true,
    "log_since": "",
    "going": [
@@ -226,22 +226,22 @@
    "new_items": [],
    "kc_gains": [
     {
-     "name": "Brutus",
-     "gain": 131
+     "name": "General Graardor",
+     "gain": 161
     },
     {
-     "name": "General Graardor",
-     "gain": 108
+     "name": "Brutus",
+     "gain": 131
     }
    ],
    "kc_all": [
     {
-     "name": "Brutus",
-     "gain": 131
+     "name": "General Graardor",
+     "gain": 161
     },
     {
-     "name": "General Graardor",
-     "gain": 108
+     "name": "Brutus",
+     "gain": 131
     }
    ]
   },
@@ -424,7 +424,7 @@
    "note": "",
    "sources": [
     "WikiSync",
-    "Hiscores"
+    "Hiscores (last known)"
    ],
    "combat": 126,
    "skills": {
@@ -2201,11 +2201,11 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 108,
+    "kills": 161,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 108
+      "kills": 161
      }
     ],
     "on_it_kills": [],
@@ -2275,11 +2275,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 27,
+    "kills": 30,
     "kills_by": [
      {
       "player": "Kitten Lissy",
-      "kills": 27
+      "kills": 30
      }
     ],
     "on_it_kills": [],
@@ -2408,11 +2408,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 108,
+    "kills": 161,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 108
+      "kills": 161
      }
     ],
     "on_it_kills": [
@@ -2431,11 +2431,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 108,
+    "kills": 161,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 108
+      "kills": 161
      }
     ],
     "on_it_kills": [
@@ -2472,11 +2472,11 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 108,
+    "kills": 161,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 108
+      "kills": 161
      }
     ],
     "on_it_kills": [],
@@ -2927,11 +2927,11 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 108,
+    "kills": 161,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 108
+      "kills": 161
      }
     ],
     "on_it_kills": [],
@@ -3155,11 +3155,11 @@
   },
   {
    "boss": "General Graardor",
-   "kills": 108,
+   "kills": 161,
    "by": [
     {
      "player": "Primal Sin",
-     "kills": 108
+     "kills": 161
     }
    ]
   },
@@ -3179,11 +3179,11 @@
   },
   {
    "boss": "Barrows Chests",
-   "kills": 27,
+   "kills": 30,
    "by": [
     {
      "player": "Kitten Lissy",
-     "kills": 27
+     "kills": 30
     }
    ]
   },
@@ -3259,9 +3259,24 @@
    ]
   },
   {
+   "player": "Primal Sin",
+   "board": "Little",
+   "kills": 292,
+   "top": [
+    {
+     "name": "General Graardor",
+     "gain": 161
+    },
+    {
+     "name": "Brutus",
+     "gain": 131
+    }
+   ]
+  },
+  {
    "player": "Kitten Lissy",
    "board": "Little",
-   "kills": 271,
+   "kills": 274,
    "top": [
     {
      "name": "Brutus",
@@ -3269,26 +3284,11 @@
     },
     {
      "name": "Barrows Chests",
-     "gain": 27
+     "gain": 30
     },
     {
      "name": "Tempoross",
      "gain": 3
-    }
-   ]
-  },
-  {
-   "player": "Primal Sin",
-   "board": "Little",
-   "kills": 239,
-   "top": [
-    {
-     "name": "Brutus",
-     "gain": 131
-    },
-    {
-     "name": "General Graardor",
-     "gain": 108
     }
    ]
   },
