@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-23 08:59 UTC",
+ "checked": "2026-11-23 21:17 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -282,7 +282,7 @@
    "skills": {
     "Attack": 88,
     "Strength": 88,
-    "Defence": 87,
+    "Defence": 88,
     "Hitpoints": 94,
     "Ranged": 91,
     "Magic": 94,
@@ -290,7 +290,7 @@
     "Slayer": 75,
     "Agility": 74,
     "Herblore": 81,
-    "Overall": 1911
+    "Overall": 1912
    },
    "top_kc": [
     {
@@ -298,12 +298,12 @@
      "kc": 652
     },
     {
-     "name": "Wintertodt",
-     "kc": 87
+     "name": "Mad Angel",
+     "kc": 101
     },
     {
-     "name": "Mad Angel",
-     "kc": 40
+     "name": "Wintertodt",
+     "kc": 87
     },
     {
      "name": "Deranged Archaeologist",
@@ -345,7 +345,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 39
+     "gain": 100
     },
     {
      "name": "The Royal Titans",
@@ -367,7 +367,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 39
+     "gain": 100
     },
     {
      "name": "The Royal Titans",
@@ -394,7 +394,7 @@
    "skills": {
     "Attack": 83,
     "Strength": 82,
-    "Defence": 81,
+    "Defence": 82,
     "Hitpoints": 85,
     "Ranged": 80,
     "Magic": 81,
@@ -402,12 +402,12 @@
     "Slayer": 73,
     "Agility": 66,
     "Herblore": 83,
-    "Overall": 1814
+    "Overall": 1815
    },
    "top_kc": [
     {
      "name": "Brutus",
-     "kc": 232
+     "kc": 307
     },
     {
      "name": "The Royal Titans",
@@ -447,12 +447,12 @@
    "new_items": [],
    "kc_gains": [
     {
-     "name": "The Royal Titans",
-     "gain": 153
+     "name": "Brutus",
+     "gain": 219
     },
     {
-     "name": "Brutus",
-     "gain": 144
+     "name": "The Royal Titans",
+     "gain": 153
     },
     {
      "name": "Hespori",
@@ -465,12 +465,12 @@
    ],
    "kc_all": [
     {
-     "name": "The Royal Titans",
-     "gain": 153
+     "name": "Brutus",
+     "gain": 219
     },
     {
-     "name": "Brutus",
-     "gain": 144
+     "name": "The Royal Titans",
+     "gain": 153
     },
     {
      "name": "Hespori",
@@ -512,7 +512,7 @@
     },
     {
      "name": "Zulrah",
-     "kc": 1675
+     "kc": 1699
     },
     {
      "name": "Vardorvis",
@@ -531,12 +531,12 @@
      "kc": 860
     },
     {
-     "name": "General Graardor",
-     "kc": 655
+     "name": "Phantom Muspah",
+     "kc": 664
     },
     {
-     "name": "Phantom Muspah",
-     "kc": 646
+     "name": "General Graardor",
+     "kc": 655
     }
    ],
    "log_items": 633,
@@ -1759,11 +1759,19 @@
     },
     {
      "name": "Phantom Muspah",
-     "gain": 77
+     "gain": 95
+    },
+    {
+     "name": "Zulrah",
+     "gain": 24
     },
     {
      "name": "The Fractured Archive",
      "gain": 4
+    },
+    {
+     "name": "Alchemical Hydra",
+     "gain": 1
     },
     {
      "name": "Brutus",
@@ -1781,11 +1789,19 @@
     },
     {
      "name": "Phantom Muspah",
-     "gain": 77
+     "gain": 95
+    },
+    {
+     "name": "Zulrah",
+     "gain": 24
     },
     {
      "name": "The Fractured Archive",
      "gain": 4
+    },
+    {
+     "name": "Alchemical Hydra",
+     "gain": 1
     },
     {
      "name": "Brutus",
@@ -3396,11 +3412,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 39,
+    "kills": 100,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 39
+      "kills": 100
      }
     ],
     "on_it_kills": [],
@@ -3458,8 +3474,13 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
+    "kills": 24,
+    "kills_by": [
+     {
+      "player": "SSora",
+      "kills": 24
+     }
+    ],
     "on_it_kills": [],
     "state": "none",
     "on_it": [],
@@ -3867,7 +3888,7 @@
     "starred": false,
     "manual": false,
     "progress": "3 of 4 pairs (official board)",
-    "kills": 1168,
+    "kills": 1243,
     "kills_by": [
      {
       "player": "DemonWolfy",
@@ -3879,7 +3900,7 @@
      },
      {
       "player": "Trobro12",
-      "kills": 144
+      "kills": 219
      },
      {
       "player": "Primal Sin",
@@ -4242,11 +4263,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 77,
+    "kills": 95,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 77
+      "kills": 95
      }
     ],
     "on_it_kills": [
@@ -4355,11 +4376,15 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 29,
+    "kills": 54,
     "kills_by": [
      {
       "player": "Caffeine Guy",
       "kills": 29
+     },
+     {
+      "player": "SSora",
+      "kills": 25
      }
     ],
     "on_it_kills": [],
@@ -4398,11 +4423,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 81,
+    "kills": 99,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 77
+      "kills": 95
      },
      {
       "player": "Lasrgatr",
@@ -4443,7 +4468,7 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 1168,
+    "kills": 1243,
     "kills_by": [
      {
       "player": "DemonWolfy",
@@ -4455,7 +4480,7 @@
      },
      {
       "player": "Trobro12",
-      "kills": 144
+      "kills": 219
      },
      {
       "player": "Primal Sin",
@@ -4574,7 +4599,7 @@
  "kills_by_boss": [
   {
    "boss": "Brutus",
-   "kills": 1168,
+   "kills": 1243,
    "by": [
     {
      "player": "DemonWolfy",
@@ -4586,7 +4611,7 @@
     },
     {
      "player": "Trobro12",
-     "kills": 144
+     "kills": 219
     },
     {
      "player": "Primal Sin",
@@ -4637,22 +4662,22 @@
    ]
   },
   {
-   "boss": "Phantom Muspah",
-   "kills": 77,
+   "boss": "Mad Angel",
+   "kills": 100,
    "by": [
     {
-     "player": "SSora",
-     "kills": 77
+     "player": "DemonWolfy",
+     "kills": 100
     }
    ]
   },
   {
-   "boss": "Mad Angel",
-   "kills": 39,
+   "boss": "Phantom Muspah",
+   "kills": 95,
    "by": [
     {
-     "player": "DemonWolfy",
-     "kills": 39
+     "player": "SSora",
+     "kills": 95
     }
    ]
   },
@@ -4683,6 +4708,16 @@
     {
      "player": "Caffeine Guy",
      "kills": 29
+    }
+   ]
+  },
+  {
+   "boss": "Zulrah",
+   "kills": 24,
+   "by": [
+    {
+     "player": "SSora",
+     "kills": 24
     }
    ]
   },
@@ -4781,6 +4816,16 @@
    ]
   },
   {
+   "boss": "Alchemical Hydra",
+   "kills": 1,
+   "by": [
+    {
+     "player": "SSora",
+     "kills": 1
+    }
+   ]
+  },
+  {
    "boss": "Phosani's Nightmare",
    "kills": 1,
    "by": [
@@ -4795,7 +4840,7 @@
   {
    "player": "DemonWolfy",
    "board": "Little",
-   "kills": 713,
+   "kills": 774,
    "top": [
     {
      "name": "Brutus",
@@ -4803,7 +4848,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 39
+     "gain": 100
     },
     {
      "name": "The Royal Titans",
@@ -4833,19 +4878,38 @@
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 299,
+   "kills": 374,
    "top": [
+    {
+     "name": "Brutus",
+     "gain": 219
+    },
     {
      "name": "The Royal Titans",
      "gain": 153
     },
     {
-     "name": "Brutus",
-     "gain": 144
-    },
-    {
      "name": "Hespori",
      "gain": 1
+    }
+   ]
+  },
+  {
+   "player": "SSora",
+   "board": "Big",
+   "kills": 315,
+   "top": [
+    {
+     "name": "Maggot King",
+     "gain": 189
+    },
+    {
+     "name": "Phantom Muspah",
+     "gain": 95
+    },
+    {
+     "name": "Zulrah",
+     "gain": 24
     }
    ]
   },
@@ -4865,25 +4929,6 @@
     {
      "name": "Tempoross",
      "gain": 3
-    }
-   ]
-  },
-  {
-   "player": "SSora",
-   "board": "Big",
-   "kills": 272,
-   "top": [
-    {
-     "name": "Maggot King",
-     "gain": 189
-    },
-    {
-     "name": "Phantom Muspah",
-     "gain": 77
-    },
-    {
-     "name": "The Fractured Archive",
-     "gain": 4
     }
    ]
   },
