@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-22 18:32 UTC",
+ "checked": "2026-11-23 00:17 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -235,10 +235,14 @@
     },
     {
      "name": "The Royal Titans",
-     "gain": 58
+     "gain": 79
     },
     {
      "name": "Obor",
+     "gain": 20
+    },
+    {
+     "name": "The Hueycoatl",
      "gain": 2
     }
    ],
@@ -253,10 +257,14 @@
     },
     {
      "name": "The Royal Titans",
-     "gain": 58
+     "gain": 79
     },
     {
      "name": "Obor",
+     "gain": 20
+    },
+    {
+     "name": "The Hueycoatl",
      "gain": 2
     }
    ]
@@ -342,6 +350,14 @@
     {
      "name": "The Royal Titans",
      "gain": 19
+    },
+    {
+     "name": "The Hueycoatl",
+     "gain": 3
+    },
+    {
+     "name": "Bryophyta",
+     "gain": 1
     }
    ],
    "kc_all": [
@@ -356,6 +372,14 @@
     {
      "name": "The Royal Titans",
      "gain": 19
+    },
+    {
+     "name": "The Hueycoatl",
+     "gain": 3
+    },
+    {
+     "name": "Bryophyta",
+     "gain": 1
     }
    ]
   },
@@ -373,17 +397,17 @@
     "Defence": 81,
     "Hitpoints": 85,
     "Ranged": 80,
-    "Magic": 80,
+    "Magic": 81,
     "Prayer": 69,
     "Slayer": 73,
     "Agility": 66,
     "Herblore": 83,
-    "Overall": 1813
+    "Overall": 1814
    },
    "top_kc": [
     {
      "name": "The Royal Titans",
-     "kc": 198
+     "kc": 219
     },
     {
      "name": "Brutus",
@@ -395,7 +419,7 @@
     },
     {
      "name": "Hespori",
-     "kc": 45
+     "kc": 46
     },
     {
      "name": "Bryophyta",
@@ -424,13 +448,29 @@
    "kc_gains": [
     {
      "name": "The Royal Titans",
-     "gain": 132
+     "gain": 153
+    },
+    {
+     "name": "Hespori",
+     "gain": 1
+    },
+    {
+     "name": "Vorkath",
+     "gain": 1
     }
    ],
    "kc_all": [
     {
      "name": "The Royal Titans",
-     "gain": 132
+     "gain": 153
+    },
+    {
+     "name": "Hespori",
+     "gain": 1
+    },
+    {
+     "name": "Vorkath",
+     "gain": 1
     }
    ]
   },
@@ -1711,11 +1751,15 @@
     },
     {
      "name": "Phantom Muspah",
-     "gain": 8
+     "gain": 10
     },
     {
      "name": "The Fractured Archive",
      "gain": 3
+    },
+    {
+     "name": "Brutus",
+     "gain": 1
     },
     {
      "name": "Phosani's Nightmare",
@@ -1729,11 +1773,15 @@
     },
     {
      "name": "Phantom Muspah",
-     "gain": 8
+     "gain": 10
     },
     {
      "name": "The Fractured Archive",
      "gain": 3
+    },
+    {
+     "name": "Brutus",
+     "gain": 1
     },
     {
      "name": "Phosani's Nightmare",
@@ -3363,15 +3411,15 @@
     "starred": true,
     "manual": false,
     "progress": "1 of 2 crowns: fire done, ice crown still needed",
-    "kills": 209,
+    "kills": 251,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 132
+      "kills": 153
      },
      {
       "player": "Primal Sin",
-      "kills": 58
+      "kills": 79
      },
      {
       "player": "DemonWolfy",
@@ -3476,10 +3524,22 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
-    "on_it_kills": [],
-    "state": "none",
+    "kills": 5,
+    "kills_by": [
+     {
+      "player": "DemonWolfy",
+      "kills": 3
+     },
+     {
+      "player": "Primal Sin",
+      "kills": 2
+     }
+    ],
+    "on_it_kills": [
+     "DemonWolfy",
+     "Primal Sin"
+    ],
+    "state": "on",
     "on_it": [],
     "drops": [],
     "x2": true,
@@ -3568,14 +3628,25 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 3,
+    "kills": 8,
     "kills_by": [
      {
       "player": "Kitten Lissy",
       "kills": 3
+     },
+     {
+      "player": "DemonWolfy",
+      "kills": 3
+     },
+     {
+      "player": "Primal Sin",
+      "kills": 2
      }
     ],
-    "on_it_kills": [],
+    "on_it_kills": [
+     "DemonWolfy",
+     "Primal Sin"
+    ],
     "state": "on",
     "on_it": [
      "Kitten Lissy"
@@ -3591,15 +3662,20 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 2,
+    "kills": 21,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 2
+      "kills": 20
+     },
+     {
+      "player": "DemonWolfy",
+      "kills": 1
      }
     ],
     "on_it_kills": [
-     "Primal Sin"
+     "Primal Sin",
+     "DemonWolfy"
     ],
     "state": "on",
     "on_it": [],
@@ -3636,9 +3712,16 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
-    "on_it_kills": [],
+    "kills": 1,
+    "kills_by": [
+     {
+      "player": "Trobro12",
+      "kills": 1
+     }
+    ],
+    "on_it_kills": [
+     "Trobro12"
+    ],
     "state": "on",
     "on_it": [
      "Primal Sin"
@@ -3776,7 +3859,7 @@
     "starred": false,
     "manual": false,
     "progress": "3 of 4 pairs (official board)",
-    "kills": 1023,
+    "kills": 1024,
     "kills_by": [
      {
       "player": "DemonWolfy",
@@ -3789,6 +3872,10 @@
      {
       "player": "Primal Sin",
       "kills": 131
+     },
+     {
+      "player": "SSora",
+      "kills": 1
      }
     ],
     "on_it_kills": [],
@@ -3835,9 +3922,16 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
-    "on_it_kills": [],
+    "kills": 1,
+    "kills_by": [
+     {
+      "player": "Trobro12",
+      "kills": 1
+     }
+    ],
+    "on_it_kills": [
+     "Trobro12"
+    ],
     "state": "on",
     "on_it": [
      "Primal Sin"
@@ -4045,9 +4139,9 @@
      "SSora"
     ],
     "drops": [],
-    "x2": false,
+    "x2": true,
     "other_title": "Hueycoatl and the News",
-    "other_state": "none"
+    "other_state": "on"
    },
    {
     "tile": 8,
@@ -4134,11 +4228,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 8,
+    "kills": 10,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 8
+      "kills": 10
      }
     ],
     "on_it_kills": [
@@ -4290,11 +4384,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 12,
+    "kills": 14,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 8
+      "kills": 10
      },
      {
       "player": "Lasrgatr",
@@ -4335,7 +4429,7 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 1023,
+    "kills": 1024,
     "kills_by": [
      {
       "player": "DemonWolfy",
@@ -4348,9 +4442,15 @@
      {
       "player": "Primal Sin",
       "kills": 131
+     },
+     {
+      "player": "SSora",
+      "kills": 1
      }
     ],
-    "on_it_kills": [],
+    "on_it_kills": [
+     "SSora"
+    ],
     "state": "on",
     "on_it": [],
     "drops": [
@@ -4456,7 +4556,7 @@
  "kills_by_boss": [
   {
    "boss": "Brutus",
-   "kills": 1023,
+   "kills": 1024,
    "by": [
     {
      "player": "DemonWolfy",
@@ -4469,20 +4569,24 @@
     {
      "player": "Primal Sin",
      "kills": 131
+    },
+    {
+     "player": "SSora",
+     "kills": 1
     }
    ]
   },
   {
    "boss": "The Royal Titans",
-   "kills": 209,
+   "kills": 251,
    "by": [
     {
      "player": "Trobro12",
-     "kills": 132
+     "kills": 153
     },
     {
      "player": "Primal Sin",
-     "kills": 58
+     "kills": 79
     },
     {
      "player": "DemonWolfy",
@@ -4541,6 +4645,16 @@
    ]
   },
   {
+   "boss": "Obor",
+   "kills": 20,
+   "by": [
+    {
+     "player": "Primal Sin",
+     "kills": 20
+    }
+   ]
+  },
+  {
    "boss": "Skotizo",
    "kills": 17,
    "by": [
@@ -4552,11 +4666,25 @@
   },
   {
    "boss": "Phantom Muspah",
-   "kills": 8,
+   "kills": 10,
    "by": [
     {
      "player": "SSora",
-     "kills": 8
+     "kills": 10
+    }
+   ]
+  },
+  {
+   "boss": "The Hueycoatl",
+   "kills": 5,
+   "by": [
+    {
+     "player": "DemonWolfy",
+     "kills": 3
+    },
+    {
+     "player": "Primal Sin",
+     "kills": 2
     }
    ]
   },
@@ -4591,22 +4719,42 @@
    ]
   },
   {
-   "boss": "Obor",
-   "kills": 2,
-   "by": [
-    {
-     "player": "Primal Sin",
-     "kills": 2
-    }
-   ]
-  },
-  {
    "boss": "The Corrupted Gauntlet",
    "kills": 2,
    "by": [
     {
      "player": "Lasrgatr",
      "kills": 2
+    }
+   ]
+  },
+  {
+   "boss": "Bryophyta",
+   "kills": 1,
+   "by": [
+    {
+     "player": "DemonWolfy",
+     "kills": 1
+    }
+   ]
+  },
+  {
+   "boss": "Hespori",
+   "kills": 1,
+   "by": [
+    {
+     "player": "Trobro12",
+     "kills": 1
+    }
+   ]
+  },
+  {
+   "boss": "Vorkath",
+   "kills": 1,
+   "by": [
+    {
+     "player": "Trobro12",
+     "kills": 1
     }
    ]
   },
@@ -4625,7 +4773,7 @@
   {
    "player": "DemonWolfy",
    "board": "Little",
-   "kills": 709,
+   "kills": 713,
    "top": [
     {
      "name": "Brutus",
@@ -4644,7 +4792,7 @@
   {
    "player": "Primal Sin",
    "board": "Little",
-   "kills": 352,
+   "kills": 393,
    "top": [
     {
      "name": "General Graardor",
@@ -4656,7 +4804,7 @@
     },
     {
      "name": "The Royal Titans",
-     "gain": 58
+     "gain": 79
     }
    ]
   },
@@ -4682,7 +4830,7 @@
   {
    "player": "SSora",
    "board": "Big",
-   "kills": 201,
+   "kills": 204,
    "top": [
     {
      "name": "Maggot King",
@@ -4690,7 +4838,7 @@
     },
     {
      "name": "Phantom Muspah",
-     "gain": 8
+     "gain": 10
     },
     {
      "name": "The Fractured Archive",
@@ -4701,11 +4849,19 @@
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 132,
+   "kills": 155,
    "top": [
     {
      "name": "The Royal Titans",
-     "gain": 132
+     "gain": 153
+    },
+    {
+     "name": "Hespori",
+     "gain": 1
+    },
+    {
+     "name": "Vorkath",
+     "gain": 1
     }
    ]
   },
