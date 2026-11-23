@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-23 00:17 UTC",
+ "checked": "2026-11-23 08:59 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -239,7 +239,7 @@
     },
     {
      "name": "Obor",
-     "gain": 20
+     "gain": 31
     },
     {
      "name": "The Hueycoatl",
@@ -261,7 +261,7 @@
     },
     {
      "name": "Obor",
-     "gain": 20
+     "gain": 31
     },
     {
      "name": "The Hueycoatl",
@@ -289,8 +289,8 @@
     "Prayer": 80,
     "Slayer": 75,
     "Agility": 74,
-    "Herblore": 80,
-    "Overall": 1910
+    "Herblore": 81,
+    "Overall": 1911
    },
    "top_kc": [
     {
@@ -406,12 +406,12 @@
    },
    "top_kc": [
     {
-     "name": "The Royal Titans",
-     "kc": 219
+     "name": "Brutus",
+     "kc": 232
     },
     {
-     "name": "Brutus",
-     "kc": 88
+     "name": "The Royal Titans",
+     "kc": 219
     },
     {
      "name": "Nightmare",
@@ -451,6 +451,10 @@
      "gain": 153
     },
     {
+     "name": "Brutus",
+     "gain": 144
+    },
+    {
      "name": "Hespori",
      "gain": 1
     },
@@ -463,6 +467,10 @@
     {
      "name": "The Royal Titans",
      "gain": 153
+    },
+    {
+     "name": "Brutus",
+     "gain": 144
     },
     {
      "name": "Hespori",
@@ -527,8 +535,8 @@
      "kc": 655
     },
     {
-     "name": "Rifts closed",
-     "kc": 609
+     "name": "Phantom Muspah",
+     "kc": 646
     }
    ],
    "log_items": 633,
@@ -1751,11 +1759,11 @@
     },
     {
      "name": "Phantom Muspah",
-     "gain": 10
+     "gain": 77
     },
     {
      "name": "The Fractured Archive",
-     "gain": 3
+     "gain": 4
     },
     {
      "name": "Brutus",
@@ -1773,11 +1781,11 @@
     },
     {
      "name": "Phantom Muspah",
-     "gain": 10
+     "gain": 77
     },
     {
      "name": "The Fractured Archive",
-     "gain": 3
+     "gain": 4
     },
     {
      "name": "Brutus",
@@ -1870,7 +1878,7 @@
     },
     {
      "name": "The Corrupted Gauntlet",
-     "gain": 2
+     "gain": 3
     }
    ],
    "kc_all": [
@@ -1884,7 +1892,7 @@
     },
     {
      "name": "The Corrupted Gauntlet",
-     "gain": 2
+     "gain": 3
     }
    ]
   },
@@ -3662,11 +3670,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 21,
+    "kills": 32,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 20
+      "kills": 31
      },
      {
       "player": "DemonWolfy",
@@ -3859,7 +3867,7 @@
     "starred": false,
     "manual": false,
     "progress": "3 of 4 pairs (official board)",
-    "kills": 1024,
+    "kills": 1168,
     "kills_by": [
      {
       "player": "DemonWolfy",
@@ -3870,6 +3878,10 @@
       "kills": 241
      },
      {
+      "player": "Trobro12",
+      "kills": 144
+     },
+     {
       "player": "Primal Sin",
       "kills": 131
      },
@@ -3878,7 +3890,9 @@
       "kills": 1
      }
     ],
-    "on_it_kills": [],
+    "on_it_kills": [
+     "Trobro12"
+    ],
     "state": "on",
     "on_it": [
      "Kitten Lissy",
@@ -4228,11 +4242,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 10,
+    "kills": 77,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 10
+      "kills": 77
      }
     ],
     "on_it_kills": [
@@ -4292,11 +4306,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 2,
+    "kills": 3,
     "kills_by": [
      {
       "player": "Lasrgatr",
-      "kills": 2
+      "kills": 3
      }
     ],
     "on_it_kills": [
@@ -4384,11 +4398,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 14,
+    "kills": 81,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 10
+      "kills": 77
      },
      {
       "player": "Lasrgatr",
@@ -4429,7 +4443,7 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 1024,
+    "kills": 1168,
     "kills_by": [
      {
       "player": "DemonWolfy",
@@ -4438,6 +4452,10 @@
      {
       "player": "Kitten Lissy",
       "kills": 241
+     },
+     {
+      "player": "Trobro12",
+      "kills": 144
      },
      {
       "player": "Primal Sin",
@@ -4556,7 +4574,7 @@
  "kills_by_boss": [
   {
    "boss": "Brutus",
-   "kills": 1024,
+   "kills": 1168,
    "by": [
     {
      "player": "DemonWolfy",
@@ -4565,6 +4583,10 @@
     {
      "player": "Kitten Lissy",
      "kills": 241
+    },
+    {
+     "player": "Trobro12",
+     "kills": 144
     },
     {
      "player": "Primal Sin",
@@ -4615,12 +4637,32 @@
    ]
   },
   {
+   "boss": "Phantom Muspah",
+   "kills": 77,
+   "by": [
+    {
+     "player": "SSora",
+     "kills": 77
+    }
+   ]
+  },
+  {
    "boss": "Mad Angel",
    "kills": 39,
    "by": [
     {
      "player": "DemonWolfy",
      "kills": 39
+    }
+   ]
+  },
+  {
+   "boss": "Obor",
+   "kills": 31,
+   "by": [
+    {
+     "player": "Primal Sin",
+     "kills": 31
     }
    ]
   },
@@ -4645,32 +4687,12 @@
    ]
   },
   {
-   "boss": "Obor",
-   "kills": 20,
-   "by": [
-    {
-     "player": "Primal Sin",
-     "kills": 20
-    }
-   ]
-  },
-  {
    "boss": "Skotizo",
    "kills": 17,
    "by": [
     {
      "player": "Lasrgatr",
      "kills": 17
-    }
-   ]
-  },
-  {
-   "boss": "Phantom Muspah",
-   "kills": 10,
-   "by": [
-    {
-     "player": "SSora",
-     "kills": 10
     }
    ]
   },
@@ -4685,6 +4707,16 @@
     {
      "player": "Primal Sin",
      "kills": 2
+    }
+   ]
+  },
+  {
+   "boss": "The Fractured Archive",
+   "kills": 4,
+   "by": [
+    {
+     "player": "SSora",
+     "kills": 4
     }
    ]
   },
@@ -4709,22 +4741,12 @@
    ]
   },
   {
-   "boss": "The Fractured Archive",
+   "boss": "The Corrupted Gauntlet",
    "kills": 3,
    "by": [
     {
-     "player": "SSora",
-     "kills": 3
-    }
-   ]
-  },
-  {
-   "boss": "The Corrupted Gauntlet",
-   "kills": 2,
-   "by": [
-    {
      "player": "Lasrgatr",
-     "kills": 2
+     "kills": 3
     }
    ]
   },
@@ -4792,7 +4814,7 @@
   {
    "player": "Primal Sin",
    "board": "Little",
-   "kills": 393,
+   "kills": 404,
    "top": [
     {
      "name": "General Graardor",
@@ -4805,6 +4827,25 @@
     {
      "name": "The Royal Titans",
      "gain": 79
+    }
+   ]
+  },
+  {
+   "player": "Trobro12",
+   "board": "Little",
+   "kills": 299,
+   "top": [
+    {
+     "name": "The Royal Titans",
+     "gain": 153
+    },
+    {
+     "name": "Brutus",
+     "gain": 144
+    },
+    {
+     "name": "Hespori",
+     "gain": 1
     }
    ]
   },
@@ -4830,7 +4871,7 @@
   {
    "player": "SSora",
    "board": "Big",
-   "kills": 204,
+   "kills": 272,
    "top": [
     {
      "name": "Maggot King",
@@ -4838,30 +4879,11 @@
     },
     {
      "name": "Phantom Muspah",
-     "gain": 10
+     "gain": 77
     },
     {
      "name": "The Fractured Archive",
-     "gain": 3
-    }
-   ]
-  },
-  {
-   "player": "Trobro12",
-   "board": "Little",
-   "kills": 155,
-   "top": [
-    {
-     "name": "The Royal Titans",
-     "gain": 153
-    },
-    {
-     "name": "Hespori",
-     "gain": 1
-    },
-    {
-     "name": "Vorkath",
-     "gain": 1
+     "gain": 4
     }
    ]
   },
@@ -4879,7 +4901,7 @@
   {
    "player": "Lasrgatr",
    "board": "Big",
-   "kills": 23,
+   "kills": 24,
    "top": [
     {
      "name": "Skotizo",
@@ -4891,7 +4913,7 @@
     },
     {
      "name": "The Corrupted Gauntlet",
-     "gain": 2
+     "gain": 3
     }
    ]
   }
