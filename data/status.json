@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-23 21:17 UTC",
+ "checked": "2026-11-24 05:59 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -227,7 +227,7 @@
    "kc_gains": [
     {
      "name": "General Graardor",
-     "gain": 161
+     "gain": 199
     },
     {
      "name": "Brutus",
@@ -239,7 +239,7 @@
     },
     {
      "name": "Obor",
-     "gain": 31
+     "gain": 43
     },
     {
      "name": "The Hueycoatl",
@@ -249,7 +249,7 @@
    "kc_all": [
     {
      "name": "General Graardor",
-     "gain": 161
+     "gain": 199
     },
     {
      "name": "Brutus",
@@ -261,7 +261,7 @@
     },
     {
      "name": "Obor",
-     "gain": 31
+     "gain": 43
     },
     {
      "name": "The Hueycoatl",
@@ -411,7 +411,7 @@
     },
     {
      "name": "The Royal Titans",
-     "kc": 219
+     "kc": 220
     },
     {
      "name": "Nightmare",
@@ -452,7 +452,7 @@
     },
     {
      "name": "The Royal Titans",
-     "gain": 153
+     "gain": 154
     },
     {
      "name": "Hespori",
@@ -470,7 +470,7 @@
     },
     {
      "name": "The Royal Titans",
-     "gain": 153
+     "gain": 154
     },
     {
      "name": "Hespori",
@@ -1770,6 +1770,10 @@
      "gain": 4
     },
     {
+     "name": "Theatre of Blood",
+     "gain": 2
+    },
+    {
      "name": "Alchemical Hydra",
      "gain": 1
     },
@@ -1798,6 +1802,10 @@
     {
      "name": "The Fractured Archive",
      "gain": 4
+    },
+    {
+     "name": "Theatre of Blood",
+     "gain": 2
     },
     {
      "name": "Alchemical Hydra",
@@ -3435,11 +3443,11 @@
     "starred": true,
     "manual": false,
     "progress": "1 of 2 crowns: fire done, ice crown still needed",
-    "kills": 251,
+    "kills": 252,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 153
+      "kills": 154
      },
      {
       "player": "Primal Sin",
@@ -3495,8 +3503,13 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
+    "kills": 2,
+    "kills_by": [
+     {
+      "player": "SSora",
+      "kills": 2
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -3529,11 +3542,11 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 161,
+    "kills": 199,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 161
+      "kills": 199
      }
     ],
     "on_it_kills": [],
@@ -3691,11 +3704,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 32,
+    "kills": 44,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 31
+      "kills": 43
      },
      {
       "player": "DemonWolfy",
@@ -3784,11 +3797,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 161,
+    "kills": 199,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 161
+      "kills": 199
      }
     ],
     "on_it_kills": [
@@ -3807,11 +3820,15 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 161,
+    "kills": 201,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 161
+      "kills": 199
+     },
+     {
+      "player": "SSora",
+      "kills": 2
      }
     ],
     "on_it_kills": [
@@ -3830,8 +3847,13 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
+    "kills": 2,
+    "kills_by": [
+     {
+      "player": "SSora",
+      "kills": 2
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -3848,11 +3870,11 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 161,
+    "kills": 199,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 161
+      "kills": 199
      }
     ],
     "on_it_kills": [],
@@ -4096,8 +4118,13 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
+    "kills": 2,
+    "kills_by": [
+     {
+      "player": "SSora",
+      "kills": 2
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -4184,8 +4211,13 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
+    "kills": 2,
+    "kills_by": [
+     {
+      "player": "SSora",
+      "kills": 2
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -4218,8 +4250,13 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
+    "kills": 2,
+    "kills_by": [
+     {
+      "player": "SSora",
+      "kills": 2
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -4352,11 +4389,11 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 161,
+    "kills": 199,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 161
+      "kills": 199
      }
     ],
     "on_it_kills": [],
@@ -4625,11 +4662,11 @@
   },
   {
    "boss": "The Royal Titans",
-   "kills": 251,
+   "kills": 252,
    "by": [
     {
      "player": "Trobro12",
-     "kills": 153
+     "kills": 154
     },
     {
      "player": "Primal Sin",
@@ -4642,22 +4679,22 @@
    ]
   },
   {
+   "boss": "General Graardor",
+   "kills": 199,
+   "by": [
+    {
+     "player": "Primal Sin",
+     "kills": 199
+    }
+   ]
+  },
+  {
    "boss": "Maggot King",
    "kills": 189,
    "by": [
     {
      "player": "SSora",
      "kills": 189
-    }
-   ]
-  },
-  {
-   "boss": "General Graardor",
-   "kills": 161,
-   "by": [
-    {
-     "player": "Primal Sin",
-     "kills": 161
     }
    ]
   },
@@ -4683,11 +4720,11 @@
   },
   {
    "boss": "Obor",
-   "kills": 31,
+   "kills": 43,
    "by": [
     {
      "player": "Primal Sin",
-     "kills": 31
+     "kills": 43
     }
    ]
   },
@@ -4786,6 +4823,16 @@
    ]
   },
   {
+   "boss": "Theatre of Blood",
+   "kills": 2,
+   "by": [
+    {
+     "player": "SSora",
+     "kills": 2
+    }
+   ]
+  },
+  {
    "boss": "Bryophyta",
    "kills": 1,
    "by": [
@@ -4859,11 +4906,11 @@
   {
    "player": "Primal Sin",
    "board": "Little",
-   "kills": 404,
+   "kills": 454,
    "top": [
     {
      "name": "General Graardor",
-     "gain": 161
+     "gain": 199
     },
     {
      "name": "Brutus",
@@ -4878,7 +4925,7 @@
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 374,
+   "kills": 375,
    "top": [
     {
      "name": "Brutus",
@@ -4886,7 +4933,7 @@
     },
     {
      "name": "The Royal Titans",
-     "gain": 153
+     "gain": 154
     },
     {
      "name": "Hespori",
@@ -4897,7 +4944,7 @@
   {
    "player": "SSora",
    "board": "Big",
-   "kills": 315,
+   "kills": 317,
    "top": [
     {
      "name": "Maggot King",
