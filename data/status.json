@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-24 05:59 UTC",
+ "checked": "2026-11-24 17:39 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -299,7 +299,7 @@
     },
     {
      "name": "Mad Angel",
-     "kc": 101
+     "kc": 127
     },
     {
      "name": "Wintertodt",
@@ -345,7 +345,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 100
+     "gain": 126
     },
     {
      "name": "The Royal Titans",
@@ -358,6 +358,10 @@
     {
      "name": "Bryophyta",
      "gain": 1
+    },
+    {
+     "name": "Tombs of Amascut: Expert Mode",
+     "gain": 1
     }
    ],
    "kc_all": [
@@ -367,7 +371,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 100
+     "gain": 126
     },
     {
      "name": "The Royal Titans",
@@ -379,6 +383,10 @@
     },
     {
      "name": "Bryophyta",
+     "gain": 1
+    },
+    {
+     "name": "Tombs of Amascut: Expert Mode",
      "gain": 1
     }
    ]
@@ -3420,11 +3428,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 100,
+    "kills": 126,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 100
+      "kills": 126
      }
     ],
     "on_it_kills": [],
@@ -3503,11 +3511,15 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 2,
+    "kills": 3,
     "kills_by": [
      {
       "player": "SSora",
       "kills": 2
+     },
+     {
+      "player": "DemonWolfy",
+      "kills": 1
      }
     ],
     "on_it_kills": [],
@@ -3847,11 +3859,15 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 2,
+    "kills": 3,
     "kills_by": [
      {
       "player": "SSora",
       "kills": 2
+     },
+     {
+      "player": "DemonWolfy",
+      "kills": 1
      }
     ],
     "on_it_kills": [],
@@ -4118,11 +4134,15 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 2,
+    "kills": 3,
     "kills_by": [
      {
       "player": "SSora",
       "kills": 2
+     },
+     {
+      "player": "DemonWolfy",
+      "kills": 1
      }
     ],
     "on_it_kills": [],
@@ -4250,11 +4270,15 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 2,
+    "kills": 3,
     "kills_by": [
      {
       "player": "SSora",
       "kills": 2
+     },
+     {
+      "player": "DemonWolfy",
+      "kills": 1
      }
     ],
     "on_it_kills": [],
@@ -4700,11 +4724,11 @@
   },
   {
    "boss": "Mad Angel",
-   "kills": 100,
+   "kills": 126,
    "by": [
     {
      "player": "DemonWolfy",
-     "kills": 100
+     "kills": 126
     }
    ]
   },
@@ -4843,6 +4867,16 @@
    ]
   },
   {
+   "boss": "Tombs of Amascut: Expert Mode",
+   "kills": 1,
+   "by": [
+    {
+     "player": "DemonWolfy",
+     "kills": 1
+    }
+   ]
+  },
+  {
    "boss": "Hespori",
    "kills": 1,
    "by": [
@@ -4887,7 +4921,7 @@
   {
    "player": "DemonWolfy",
    "board": "Little",
-   "kills": 774,
+   "kills": 801,
    "top": [
     {
      "name": "Brutus",
@@ -4895,7 +4929,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 100
+     "gain": 126
     },
     {
      "name": "The Royal Titans",
