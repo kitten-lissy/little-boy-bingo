@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-25 02:22 UTC",
+ "checked": "2026-11-25 12:47 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -239,7 +239,7 @@
     },
     {
      "name": "Obor",
-     "gain": 43
+     "gain": 67
     },
     {
      "name": "The Hueycoatl",
@@ -261,7 +261,7 @@
     },
     {
      "name": "Obor",
-     "gain": 43
+     "gain": 67
     },
     {
      "name": "The Hueycoatl",
@@ -520,7 +520,7 @@
     },
     {
      "name": "Zulrah",
-     "kc": 1778
+     "kc": 1810
     },
     {
      "name": "Vardorvis",
@@ -1767,7 +1767,7 @@
     },
     {
      "name": "Zulrah",
-     "gain": 103
+     "gain": 135
     },
     {
      "name": "Phantom Muspah",
@@ -1805,7 +1805,7 @@
     },
     {
      "name": "Zulrah",
-     "gain": 103
+     "gain": 135
     },
     {
      "name": "Phantom Muspah",
@@ -3498,11 +3498,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 103,
+    "kills": 135,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 103
+      "kills": 135
      }
     ],
     "on_it_kills": [],
@@ -3724,11 +3724,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 44,
+    "kills": 68,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 43
+      "kills": 67
      },
      {
       "player": "DemonWolfy",
@@ -4445,11 +4445,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 133,
+    "kills": 165,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 104
+      "kills": 136
      },
      {
       "player": "Caffeine Guy",
@@ -4731,22 +4731,22 @@
    ]
   },
   {
+   "boss": "Zulrah",
+   "kills": 135,
+   "by": [
+    {
+     "player": "SSora",
+     "kills": 135
+    }
+   ]
+  },
+  {
    "boss": "Mad Angel",
    "kills": 126,
    "by": [
     {
      "player": "DemonWolfy",
      "kills": 126
-    }
-   ]
-  },
-  {
-   "boss": "Zulrah",
-   "kills": 103,
-   "by": [
-    {
-     "player": "SSora",
-     "kills": 103
     }
    ]
   },
@@ -4762,11 +4762,11 @@
   },
   {
    "boss": "Obor",
-   "kills": 43,
+   "kills": 67,
    "by": [
     {
      "player": "Primal Sin",
-     "kills": 43
+     "kills": 67
     }
    ]
   },
@@ -4952,7 +4952,7 @@
   {
    "player": "Primal Sin",
    "board": "Little",
-   "kills": 454,
+   "kills": 478,
    "top": [
     {
      "name": "General Graardor",
@@ -4971,7 +4971,7 @@
   {
    "player": "SSora",
    "board": "Big",
-   "kills": 412,
+   "kills": 444,
    "top": [
     {
      "name": "Maggot King",
@@ -4979,7 +4979,7 @@
     },
     {
      "name": "Zulrah",
-     "gain": 103
+     "gain": 135
     },
     {
      "name": "Phantom Muspah",
