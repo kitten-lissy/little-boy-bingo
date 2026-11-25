@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-25 12:47 UTC",
+ "checked": "2026-11-25 22:28 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -278,10 +278,10 @@
     "Temple",
     "Hiscores"
    ],
-   "combat": 112,
+   "combat": 113,
    "skills": {
     "Attack": 88,
-    "Strength": 88,
+    "Strength": 89,
     "Defence": 88,
     "Hitpoints": 94,
     "Ranged": 91,
@@ -290,7 +290,7 @@
     "Slayer": 75,
     "Agility": 74,
     "Herblore": 81,
-    "Overall": 1912
+    "Overall": 1913
    },
    "top_kc": [
     {
@@ -299,7 +299,7 @@
     },
     {
      "name": "Mad Angel",
-     "kc": 127
+     "kc": 170
     },
     {
      "name": "Wintertodt",
@@ -345,7 +345,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 126
+     "gain": 169
     },
     {
      "name": "The Royal Titans",
@@ -361,6 +361,10 @@
     },
     {
      "name": "Tombs of Amascut: Expert Mode",
+     "gain": 1
+    },
+    {
+     "name": "TzTok-Jad",
      "gain": 1
     }
    ],
@@ -371,7 +375,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 126
+     "gain": 169
     },
     {
      "name": "The Royal Titans",
@@ -387,6 +391,10 @@
     },
     {
      "name": "Tombs of Amascut: Expert Mode",
+     "gain": 1
+    },
+    {
+     "name": "TzTok-Jad",
      "gain": 1
     }
    ]
@@ -404,13 +412,13 @@
     "Strength": 82,
     "Defence": 82,
     "Hitpoints": 85,
-    "Ranged": 80,
+    "Ranged": 81,
     "Magic": 81,
     "Prayer": 69,
     "Slayer": 74,
     "Agility": 66,
     "Herblore": 83,
-    "Overall": 1816
+    "Overall": 1817
    },
    "top_kc": [
     {
@@ -427,7 +435,7 @@
     },
     {
      "name": "Hespori",
-     "kc": 46
+     "kc": 47
     },
     {
      "name": "Bryophyta",
@@ -464,7 +472,7 @@
     },
     {
      "name": "Hespori",
-     "gain": 1
+     "gain": 2
     },
     {
      "name": "Vorkath",
@@ -482,7 +490,7 @@
     },
     {
      "name": "Hespori",
-     "gain": 1
+     "gain": 2
     },
     {
      "name": "Vorkath",
@@ -1980,11 +1988,11 @@
     },
     {
      "name": "Alchemical Hydra",
-     "kc": 733
+     "kc": 734
     },
     {
      "name": "The Gauntlet",
-     "kc": 562
+     "kc": 563
     },
     {
      "name": "Zalcano",
@@ -2010,12 +2018,28 @@
     {
      "name": "Araxxor",
      "gain": 29
+    },
+    {
+     "name": "Alchemical Hydra",
+     "gain": 1
+    },
+    {
+     "name": "The Gauntlet",
+     "gain": 1
     }
    ],
    "kc_all": [
     {
      "name": "Araxxor",
      "gain": 29
+    },
+    {
+     "name": "Alchemical Hydra",
+     "gain": 1
+    },
+    {
+     "name": "The Gauntlet",
+     "gain": 1
     }
    ]
   }
@@ -3436,11 +3460,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 126,
+    "kills": 169,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 126
+      "kills": 169
      }
     ],
     "on_it_kills": [],
@@ -3752,9 +3776,16 @@
     "starred": false,
     "manual": true,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
-    "on_it_kills": [],
+    "kills": 1,
+    "kills_by": [
+     {
+      "player": "DemonWolfy",
+      "kills": 1
+     }
+    ],
+    "on_it_kills": [
+     "DemonWolfy"
+    ],
     "state": "on",
     "on_it": [],
     "drops": [
@@ -4396,15 +4427,20 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 3,
+    "kills": 4,
     "kills_by": [
      {
       "player": "Lasrgatr",
       "kills": 3
+     },
+     {
+      "player": "Caffeine Guy",
+      "kills": 1
      }
     ],
     "on_it_kills": [
-     "Lasrgatr"
+     "Lasrgatr",
+     "Caffeine Guy"
     ],
     "state": "on",
     "on_it": [
@@ -4445,7 +4481,7 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 165,
+    "kills": 166,
     "kills_by": [
      {
       "player": "SSora",
@@ -4453,7 +4489,7 @@
      },
      {
       "player": "Caffeine Guy",
-      "kills": 29
+      "kills": 30
      }
     ],
     "on_it_kills": [],
@@ -4653,8 +4689,13 @@
     "starred": false,
     "manual": true,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
+    "kills": 1,
+    "kills_by": [
+     {
+      "player": "DemonWolfy",
+      "kills": 1
+     }
+    ],
     "on_it_kills": [],
     "state": "none",
     "on_it": [],
@@ -4731,22 +4772,22 @@
    ]
   },
   {
+   "boss": "Mad Angel",
+   "kills": 169,
+   "by": [
+    {
+     "player": "DemonWolfy",
+     "kills": 169
+    }
+   ]
+  },
+  {
    "boss": "Zulrah",
    "kills": 135,
    "by": [
     {
      "player": "SSora",
      "kills": 135
-    }
-   ]
-  },
-  {
-   "boss": "Mad Angel",
-   "kills": 126,
-   "by": [
-    {
-     "player": "DemonWolfy",
-     "kills": 126
     }
    ]
   },
@@ -4859,12 +4900,36 @@
    ]
   },
   {
+   "boss": "Hespori",
+   "kills": 2,
+   "by": [
+    {
+     "player": "Trobro12",
+     "kills": 2
+    }
+   ]
+  },
+  {
    "boss": "Theatre of Blood",
    "kills": 2,
    "by": [
     {
      "player": "SSora",
      "kills": 2
+    }
+   ]
+  },
+  {
+   "boss": "Alchemical Hydra",
+   "kills": 2,
+   "by": [
+    {
+     "player": "SSora",
+     "kills": 1
+    },
+    {
+     "player": "Caffeine Guy",
+     "kills": 1
     }
    ]
   },
@@ -4889,11 +4954,11 @@
    ]
   },
   {
-   "boss": "Hespori",
+   "boss": "TzTok-Jad",
    "kills": 1,
    "by": [
     {
-     "player": "Trobro12",
+     "player": "DemonWolfy",
      "kills": 1
     }
    ]
@@ -4909,7 +4974,7 @@
    ]
   },
   {
-   "boss": "Alchemical Hydra",
+   "boss": "Phosani's Nightmare",
    "kills": 1,
    "by": [
     {
@@ -4919,11 +4984,11 @@
    ]
   },
   {
-   "boss": "Phosani's Nightmare",
+   "boss": "The Gauntlet",
    "kills": 1,
    "by": [
     {
-     "player": "SSora",
+     "player": "Caffeine Guy",
      "kills": 1
     }
    ]
@@ -4933,7 +4998,7 @@
   {
    "player": "DemonWolfy",
    "board": "Little",
-   "kills": 801,
+   "kills": 845,
    "top": [
     {
      "name": "Brutus",
@@ -4941,7 +5006,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 126
+     "gain": 169
     },
     {
      "name": "The Royal Titans",
@@ -4990,7 +5055,7 @@
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 377,
+   "kills": 378,
    "top": [
     {
      "name": "Brutus",
@@ -5002,7 +5067,7 @@
     },
     {
      "name": "Hespori",
-     "gain": 1
+     "gain": 2
     }
    ]
   },
@@ -5028,11 +5093,19 @@
   {
    "player": "Caffeine Guy",
    "board": "Big",
-   "kills": 29,
+   "kills": 31,
    "top": [
     {
      "name": "Araxxor",
      "gain": 29
+    },
+    {
+     "name": "Alchemical Hydra",
+     "gain": 1
+    },
+    {
+     "name": "The Gauntlet",
+     "gain": 1
     }
    ]
   },
