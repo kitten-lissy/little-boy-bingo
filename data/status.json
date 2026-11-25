@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-24 17:39 UTC",
+ "checked": "2026-11-25 02:22 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -407,10 +407,10 @@
     "Ranged": 80,
     "Magic": 81,
     "Prayer": 69,
-    "Slayer": 73,
+    "Slayer": 74,
     "Agility": 66,
     "Herblore": 83,
-    "Overall": 1815
+    "Overall": 1816
    },
    "top_kc": [
     {
@@ -419,7 +419,7 @@
     },
     {
      "name": "The Royal Titans",
-     "kc": 220
+     "kc": 222
     },
     {
      "name": "Nightmare",
@@ -460,7 +460,7 @@
     },
     {
      "name": "The Royal Titans",
-     "gain": 154
+     "gain": 156
     },
     {
      "name": "Hespori",
@@ -478,7 +478,7 @@
     },
     {
      "name": "The Royal Titans",
-     "gain": 154
+     "gain": 156
     },
     {
      "name": "Hespori",
@@ -520,7 +520,7 @@
     },
     {
      "name": "Zulrah",
-     "kc": 1699
+     "kc": 1778
     },
     {
      "name": "Vardorvis",
@@ -1766,12 +1766,16 @@
      "gain": 189
     },
     {
+     "name": "Zulrah",
+     "gain": 103
+    },
+    {
      "name": "Phantom Muspah",
      "gain": 95
     },
     {
-     "name": "Zulrah",
-     "gain": 24
+     "name": "Skotizo",
+     "gain": 16
     },
     {
      "name": "The Fractured Archive",
@@ -1800,12 +1804,16 @@
      "gain": 189
     },
     {
+     "name": "Zulrah",
+     "gain": 103
+    },
+    {
      "name": "Phantom Muspah",
      "gain": 95
     },
     {
-     "name": "Zulrah",
-     "gain": 24
+     "name": "Skotizo",
+     "gain": 16
     },
     {
      "name": "The Fractured Archive",
@@ -2091,7 +2099,7 @@
      {
       "player": "Trobro12",
       "state": "cant",
-      "why": "Slayer 87 (has 73)"
+      "why": "Slayer 87 (has 74)"
      }
     ]
    },
@@ -2442,7 +2450,7 @@
      {
       "player": "Trobro12",
       "state": "cant",
-      "why": "Slayer 75 (has 73)"
+      "why": "Slayer 75 (has 74)"
      }
     ]
    },
@@ -3451,11 +3459,11 @@
     "starred": true,
     "manual": false,
     "progress": "1 of 2 crowns: fire done, ice crown still needed",
-    "kills": 252,
+    "kills": 254,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 154
+      "kills": 156
      },
      {
       "player": "Primal Sin",
@@ -3490,11 +3498,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 24,
+    "kills": 103,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 24
+      "kills": 103
      }
     ],
     "on_it_kills": [],
@@ -4437,15 +4445,15 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 54,
+    "kills": 133,
     "kills_by": [
+     {
+      "player": "SSora",
+      "kills": 104
+     },
      {
       "player": "Caffeine Guy",
       "kills": 29
-     },
-     {
-      "player": "SSora",
-      "kills": 25
      }
     ],
     "on_it_kills": [],
@@ -4686,11 +4694,11 @@
   },
   {
    "boss": "The Royal Titans",
-   "kills": 252,
+   "kills": 254,
    "by": [
     {
      "player": "Trobro12",
-     "kills": 154
+     "kills": 156
     },
     {
      "player": "Primal Sin",
@@ -4733,6 +4741,16 @@
    ]
   },
   {
+   "boss": "Zulrah",
+   "kills": 103,
+   "by": [
+    {
+     "player": "SSora",
+     "kills": 103
+    }
+   ]
+  },
+  {
    "boss": "Phantom Muspah",
    "kills": 95,
    "by": [
@@ -4753,6 +4771,20 @@
    ]
   },
   {
+   "boss": "Skotizo",
+   "kills": 33,
+   "by": [
+    {
+     "player": "Lasrgatr",
+     "kills": 17
+    },
+    {
+     "player": "SSora",
+     "kills": 16
+    }
+   ]
+  },
+  {
    "boss": "Barrows Chests",
    "kills": 30,
    "by": [
@@ -4769,26 +4801,6 @@
     {
      "player": "Caffeine Guy",
      "kills": 29
-    }
-   ]
-  },
-  {
-   "boss": "Zulrah",
-   "kills": 24,
-   "by": [
-    {
-     "player": "SSora",
-     "kills": 24
-    }
-   ]
-  },
-  {
-   "boss": "Skotizo",
-   "kills": 17,
-   "by": [
-    {
-     "player": "Lasrgatr",
-     "kills": 17
     }
    ]
   },
@@ -4957,9 +4969,28 @@
    ]
   },
   {
+   "player": "SSora",
+   "board": "Big",
+   "kills": 412,
+   "top": [
+    {
+     "name": "Maggot King",
+     "gain": 189
+    },
+    {
+     "name": "Zulrah",
+     "gain": 103
+    },
+    {
+     "name": "Phantom Muspah",
+     "gain": 95
+    }
+   ]
+  },
+  {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 375,
+   "kills": 377,
    "top": [
     {
      "name": "Brutus",
@@ -4967,30 +4998,11 @@
     },
     {
      "name": "The Royal Titans",
-     "gain": 154
+     "gain": 156
     },
     {
      "name": "Hespori",
      "gain": 1
-    }
-   ]
-  },
-  {
-   "player": "SSora",
-   "board": "Big",
-   "kills": 317,
-   "top": [
-    {
-     "name": "Maggot King",
-     "gain": 189
-    },
-    {
-     "name": "Phantom Muspah",
-     "gain": 95
-    },
-    {
-     "name": "Zulrah",
-     "gain": 24
     }
    ]
   },
