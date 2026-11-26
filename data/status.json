@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-26 15:09 UTC",
+ "checked": "2026-11-26 23:49 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -291,14 +291,14 @@
     "Attack": 88,
     "Strength": 89,
     "Defence": 88,
-    "Hitpoints": 94,
-    "Ranged": 91,
+    "Hitpoints": 95,
+    "Ranged": 92,
     "Magic": 94,
     "Prayer": 80,
     "Slayer": 75,
     "Agility": 74,
     "Herblore": 81,
-    "Overall": 1913
+    "Overall": 1917
    },
    "top_kc": [
     {
@@ -364,15 +364,15 @@
      "gain": 3
     },
     {
+     "name": "Tombs of Amascut: Expert Mode",
+     "gain": 2
+    },
+    {
      "name": "Bryophyta",
      "gain": 1
     },
     {
      "name": "Tombs of Amascut",
-     "gain": 1
-    },
-    {
-     "name": "Tombs of Amascut: Expert Mode",
      "gain": 1
     },
     {
@@ -398,15 +398,15 @@
      "gain": 3
     },
     {
+     "name": "Tombs of Amascut: Expert Mode",
+     "gain": 2
+    },
+    {
      "name": "Bryophyta",
      "gain": 1
     },
     {
      "name": "Tombs of Amascut",
-     "gain": 1
-    },
-    {
-     "name": "Tombs of Amascut: Expert Mode",
      "gain": 1
     },
     {
@@ -488,7 +488,7 @@
     },
     {
      "name": "Vorkath",
-     "gain": 5
+     "gain": 6
     },
     {
      "name": "Hespori",
@@ -506,7 +506,7 @@
     },
     {
      "name": "Vorkath",
-     "gain": 5
+     "gain": 6
     },
     {
      "name": "Hespori",
@@ -3583,11 +3583,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 4,
+    "kills": 5,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 2
+      "kills": 3
      },
      {
       "player": "SSora",
@@ -3845,11 +3845,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 5,
+    "kills": 6,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 5
+      "kills": 6
      }
     ],
     "on_it_kills": [
@@ -3943,11 +3943,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 4,
+    "kills": 5,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 2
+      "kills": 3
      },
      {
       "player": "SSora",
@@ -4079,11 +4079,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 5,
+    "kills": 6,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 5
+      "kills": 6
      }
     ],
     "on_it_kills": [
@@ -4218,11 +4218,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 4,
+    "kills": 5,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 2
+      "kills": 3
      },
      {
       "player": "SSora",
@@ -4358,11 +4358,11 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 4,
+    "kills": 5,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 2
+      "kills": 3
      },
      {
       "player": "SSora",
@@ -4915,6 +4915,16 @@
    ]
   },
   {
+   "boss": "Vorkath",
+   "kills": 6,
+   "by": [
+    {
+     "player": "Trobro12",
+     "kills": 6
+    }
+   ]
+  },
+  {
    "boss": "The Hueycoatl",
    "kills": 5,
    "by": [
@@ -4925,16 +4935,6 @@
     {
      "player": "Primal Sin",
      "kills": 2
-    }
-   ]
-  },
-  {
-   "boss": "Vorkath",
-   "kills": 5,
-   "by": [
-    {
-     "player": "Trobro12",
-     "kills": 5
     }
    ]
   },
@@ -4985,6 +4985,16 @@
     {
      "player": "Kitten Lissy",
      "kills": 3
+    }
+   ]
+  },
+  {
+   "boss": "Tombs of Amascut: Expert Mode",
+   "kills": 2,
+   "by": [
+    {
+     "player": "DemonWolfy",
+     "kills": 2
     }
    ]
   },
@@ -5053,16 +5063,6 @@
    ]
   },
   {
-   "boss": "Tombs of Amascut: Expert Mode",
-   "kills": 1,
-   "by": [
-    {
-     "player": "DemonWolfy",
-     "kills": 1
-    }
-   ]
-  },
-  {
    "boss": "TzTok-Jad",
    "kills": 1,
    "by": [
@@ -5087,7 +5087,7 @@
   {
    "player": "DemonWolfy",
    "board": "Little",
-   "kills": 846,
+   "kills": 847,
    "top": [
     {
      "name": "Brutus",
@@ -5144,7 +5144,7 @@
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 382,
+   "kills": 383,
    "top": [
     {
      "name": "Brutus",
@@ -5156,7 +5156,7 @@
     },
     {
      "name": "Vorkath",
-     "gain": 5
+     "gain": 6
     }
    ]
   },
