@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-26 04:59 UTC",
+ "checked": "2026-11-26 15:09 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -243,7 +243,7 @@
     },
     {
      "name": "Obor",
-     "gain": 93
+     "gain": 96
     },
     {
      "name": "The Royal Titans",
@@ -265,7 +265,7 @@
     },
     {
      "name": "Obor",
-     "gain": 93
+     "gain": 96
     },
     {
      "name": "The Royal Titans",
@@ -548,7 +548,7 @@
     },
     {
      "name": "Vardorvis",
-     "kc": 1614
+     "kc": 1619
     },
     {
      "name": "Kraken",
@@ -1802,7 +1802,15 @@
      "gain": 16
     },
     {
+     "name": "Vardorvis",
+     "gain": 5
+    },
+    {
      "name": "Duke Sucellus",
+     "gain": 4
+    },
+    {
+     "name": "Sarachnis",
      "gain": 4
     },
     {
@@ -1844,7 +1852,15 @@
      "gain": 16
     },
     {
+     "name": "Vardorvis",
+     "gain": 5
+    },
+    {
      "name": "Duke Sucellus",
+     "gain": 4
+    },
+    {
+     "name": "Sarachnis",
      "gain": 4
     },
     {
@@ -3772,11 +3788,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 94,
+    "kills": 97,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 93
+      "kills": 96
      },
      {
       "player": "DemonWolfy",
@@ -3854,8 +3870,13 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
+    "kills": 4,
+    "kills_by": [
+     {
+      "player": "SSora",
+      "kills": 4
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -4241,11 +4262,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 8,
+    "kills": 13,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 4
+      "kills": 9
      },
      {
       "player": "Lasrgatr",
@@ -4432,11 +4453,11 @@
     "starred": false,
     "manual": true,
     "progress": "",
-    "kills": 8,
+    "kills": 13,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 4
+      "kills": 9
      },
      {
       "player": "Lasrgatr",
@@ -4515,11 +4536,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 172,
+    "kills": 176,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 136
+      "kills": 140
      },
      {
       "player": "Caffeine Guy",
@@ -4562,11 +4583,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 103,
+    "kills": 108,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 99
+      "kills": 104
      },
      {
       "player": "Lasrgatr",
@@ -4826,22 +4847,22 @@
    ]
   },
   {
+   "boss": "Obor",
+   "kills": 96,
+   "by": [
+    {
+     "player": "Primal Sin",
+     "kills": 96
+    }
+   ]
+  },
+  {
    "boss": "Phantom Muspah",
    "kills": 95,
    "by": [
     {
      "player": "SSora",
      "kills": 95
-    }
-   ]
-  },
-  {
-   "boss": "Obor",
-   "kills": 93,
-   "by": [
-    {
-     "player": "Primal Sin",
-     "kills": 93
     }
    ]
   },
@@ -4880,6 +4901,20 @@
    ]
   },
   {
+   "boss": "Vardorvis",
+   "kills": 9,
+   "by": [
+    {
+     "player": "SSora",
+     "kills": 5
+    },
+    {
+     "player": "Lasrgatr",
+     "kills": 4
+    }
+   ]
+  },
+  {
    "boss": "The Hueycoatl",
    "kills": 5,
    "by": [
@@ -4914,6 +4949,16 @@
    ]
   },
   {
+   "boss": "Sarachnis",
+   "kills": 4,
+   "by": [
+    {
+     "player": "SSora",
+     "kills": 4
+    }
+   ]
+  },
+  {
    "boss": "The Fractured Archive",
    "kills": 4,
    "by": [
@@ -4925,16 +4970,6 @@
   },
   {
    "boss": "The Corrupted Gauntlet",
-   "kills": 4,
-   "by": [
-    {
-     "player": "Lasrgatr",
-     "kills": 4
-    }
-   ]
-  },
-  {
-   "boss": "Vardorvis",
    "kills": 4,
    "by": [
     {
@@ -5071,7 +5106,7 @@
   {
    "player": "Primal Sin",
    "board": "Little",
-   "kills": 504,
+   "kills": 507,
    "top": [
     {
      "name": "General Graardor",
@@ -5083,14 +5118,14 @@
     },
     {
      "name": "Obor",
-     "gain": 93
+     "gain": 96
     }
    ]
   },
   {
    "player": "SSora",
    "board": "Big",
-   "kills": 448,
+   "kills": 457,
    "top": [
     {
      "name": "Maggot King",
