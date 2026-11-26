@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-25 22:28 UTC",
+ "checked": "2026-11-26 04:59 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -223,7 +223,15 @@
    ],
    "notes": "Prefers group content and tiles not logged yet. Slayer 99, so the only Little Boy who can do Krakens for tile 3 (1,227 Kraken kills). Very experienced at the Dagannoth Kings (400+ kills of each), so a good partner for tile \u26068.",
    "baseline_has_log": true,
-   "new_items": [],
+   "new_items": [
+    {
+     "name": "Dragon shortsword",
+     "tiles": [],
+     "starred": [],
+     "other_board": "",
+     "other_tiles": []
+    }
+   ],
    "kc_gains": [
     {
      "name": "General Graardor",
@@ -234,12 +242,12 @@
      "gain": 131
     },
     {
-     "name": "The Royal Titans",
-     "gain": 79
+     "name": "Obor",
+     "gain": 93
     },
     {
-     "name": "Obor",
-     "gain": 67
+     "name": "The Royal Titans",
+     "gain": 79
     },
     {
      "name": "The Hueycoatl",
@@ -256,12 +264,12 @@
      "gain": 131
     },
     {
-     "name": "The Royal Titans",
-     "gain": 79
+     "name": "Obor",
+     "gain": 93
     },
     {
-     "name": "Obor",
-     "gain": 67
+     "name": "The Royal Titans",
+     "gain": 79
     },
     {
      "name": "The Hueycoatl",
@@ -318,12 +326,12 @@
      "kc": 20
     },
     {
-     "name": "Tempoross",
+     "name": "Tombs of Amascut",
      "kc": 14
     },
     {
-     "name": "Tombs of Amascut",
-     "kc": 13
+     "name": "Tempoross",
+     "kc": 14
     }
    ],
    "log_items": 136,
@@ -360,6 +368,10 @@
      "gain": 1
     },
     {
+     "name": "Tombs of Amascut",
+     "gain": 1
+    },
+    {
      "name": "Tombs of Amascut: Expert Mode",
      "gain": 1
     },
@@ -387,6 +399,10 @@
     },
     {
      "name": "Bryophyta",
+     "gain": 1
+    },
+    {
+     "name": "Tombs of Amascut",
      "gain": 1
     },
     {
@@ -418,7 +434,7 @@
     "Slayer": 74,
     "Agility": 66,
     "Herblore": 83,
-    "Overall": 1817
+    "Overall": 1818
    },
    "top_kc": [
     {
@@ -471,12 +487,12 @@
      "gain": 156
     },
     {
-     "name": "Hespori",
-     "gain": 2
+     "name": "Vorkath",
+     "gain": 5
     },
     {
-     "name": "Vorkath",
-     "gain": 1
+     "name": "Hespori",
+     "gain": 2
     }
    ],
    "kc_all": [
@@ -489,12 +505,12 @@
      "gain": 156
     },
     {
-     "name": "Hespori",
-     "gain": 2
+     "name": "Vorkath",
+     "gain": 5
     },
     {
-     "name": "Vorkath",
-     "gain": 1
+     "name": "Hespori",
+     "gain": 2
     }
    ]
   },
@@ -1786,6 +1802,10 @@
      "gain": 16
     },
     {
+     "name": "Duke Sucellus",
+     "gain": 4
+    },
+    {
      "name": "The Fractured Archive",
      "gain": 4
     },
@@ -1822,6 +1842,10 @@
     {
      "name": "Skotizo",
      "gain": 16
+    },
+    {
+     "name": "Duke Sucellus",
+     "gain": 4
     },
     {
      "name": "The Fractured Archive",
@@ -1921,12 +1945,12 @@
      "gain": 17
     },
     {
-     "name": "Vardorvis",
+     "name": "The Corrupted Gauntlet",
      "gain": 4
     },
     {
-     "name": "The Corrupted Gauntlet",
-     "gain": 3
+     "name": "Vardorvis",
+     "gain": 4
     }
    ],
    "kc_all": [
@@ -1935,12 +1959,12 @@
      "gain": 17
     },
     {
-     "name": "Vardorvis",
+     "name": "The Corrupted Gauntlet",
      "gain": 4
     },
     {
-     "name": "The Corrupted Gauntlet",
-     "gain": 3
+     "name": "Vardorvis",
+     "gain": 4
     }
    ]
   },
@@ -1980,7 +2004,7 @@
     },
     {
      "name": "Araxxor",
-     "kc": 1103
+     "kc": 1109
     },
     {
      "name": "Brutus",
@@ -1992,7 +2016,7 @@
     },
     {
      "name": "The Gauntlet",
-     "kc": 563
+     "kc": 564
     },
     {
      "name": "Zalcano",
@@ -2017,28 +2041,28 @@
    "kc_gains": [
     {
      "name": "Araxxor",
-     "gain": 29
-    },
-    {
-     "name": "Alchemical Hydra",
-     "gain": 1
+     "gain": 35
     },
     {
      "name": "The Gauntlet",
+     "gain": 2
+    },
+    {
+     "name": "Alchemical Hydra",
      "gain": 1
     }
    ],
    "kc_all": [
     {
      "name": "Araxxor",
-     "gain": 29
-    },
-    {
-     "name": "Alchemical Hydra",
-     "gain": 1
+     "gain": 35
     },
     {
      "name": "The Gauntlet",
+     "gain": 2
+    },
+    {
+     "name": "Alchemical Hydra",
      "gain": 1
     }
    ]
@@ -3543,15 +3567,15 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 3,
+    "kills": 4,
     "kills_by": [
      {
-      "player": "SSora",
+      "player": "DemonWolfy",
       "kills": 2
      },
      {
-      "player": "DemonWolfy",
-      "kills": 1
+      "player": "SSora",
+      "kills": 2
      }
     ],
     "on_it_kills": [],
@@ -3748,11 +3772,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 68,
+    "kills": 94,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 67
+      "kills": 93
      },
      {
       "player": "DemonWolfy",
@@ -3805,11 +3829,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 1,
+    "kills": 5,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 1
+      "kills": 5
      }
     ],
     "on_it_kills": [
@@ -3898,15 +3922,15 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 3,
+    "kills": 4,
     "kills_by": [
      {
-      "player": "SSora",
+      "player": "DemonWolfy",
       "kills": 2
      },
      {
-      "player": "DemonWolfy",
-      "kills": 1
+      "player": "SSora",
+      "kills": 2
      }
     ],
     "on_it_kills": [],
@@ -4034,11 +4058,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 1,
+    "kills": 5,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 1
+      "kills": 5
      }
     ],
     "on_it_kills": [
@@ -4173,15 +4197,15 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 3,
+    "kills": 4,
     "kills_by": [
      {
-      "player": "SSora",
+      "player": "DemonWolfy",
       "kills": 2
      },
      {
-      "player": "DemonWolfy",
-      "kills": 1
+      "player": "SSora",
+      "kills": 2
      }
     ],
     "on_it_kills": [],
@@ -4217,8 +4241,12 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 4,
+    "kills": 8,
     "kills_by": [
+     {
+      "player": "SSora",
+      "kills": 4
+     },
      {
       "player": "Lasrgatr",
       "kills": 4
@@ -4309,15 +4337,15 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 3,
+    "kills": 4,
     "kills_by": [
      {
-      "player": "SSora",
+      "player": "DemonWolfy",
       "kills": 2
      },
      {
-      "player": "DemonWolfy",
-      "kills": 1
+      "player": "SSora",
+      "kills": 2
      }
     ],
     "on_it_kills": [],
@@ -4404,14 +4432,20 @@
     "starred": false,
     "manual": true,
     "progress": "",
-    "kills": 4,
+    "kills": 8,
     "kills_by": [
+     {
+      "player": "SSora",
+      "kills": 4
+     },
      {
       "player": "Lasrgatr",
       "kills": 4
      }
     ],
-    "on_it_kills": [],
+    "on_it_kills": [
+     "SSora"
+    ],
     "state": "on",
     "on_it": [
      "Lasrgatr"
@@ -4427,15 +4461,15 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 4,
+    "kills": 6,
     "kills_by": [
      {
       "player": "Lasrgatr",
-      "kills": 3
+      "kills": 4
      },
      {
       "player": "Caffeine Guy",
-      "kills": 1
+      "kills": 2
      }
     ],
     "on_it_kills": [
@@ -4481,7 +4515,7 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 166,
+    "kills": 172,
     "kills_by": [
      {
       "player": "SSora",
@@ -4489,7 +4523,7 @@
      },
      {
       "player": "Caffeine Guy",
-      "kills": 30
+      "kills": 36
      }
     ],
     "on_it_kills": [],
@@ -4528,11 +4562,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 99,
+    "kills": 103,
     "kills_by": [
      {
       "player": "SSora",
-      "kills": 95
+      "kills": 99
      },
      {
       "player": "Lasrgatr",
@@ -4803,11 +4837,21 @@
   },
   {
    "boss": "Obor",
-   "kills": 67,
+   "kills": 93,
    "by": [
     {
      "player": "Primal Sin",
-     "kills": 67
+     "kills": 93
+    }
+   ]
+  },
+  {
+   "boss": "Araxxor",
+   "kills": 35,
+   "by": [
+    {
+     "player": "Caffeine Guy",
+     "kills": 35
     }
    ]
   },
@@ -4836,16 +4880,6 @@
    ]
   },
   {
-   "boss": "Araxxor",
-   "kills": 29,
-   "by": [
-    {
-     "player": "Caffeine Guy",
-     "kills": 29
-    }
-   ]
-  },
-  {
    "boss": "The Hueycoatl",
    "kills": 5,
    "by": [
@@ -4860,11 +4894,41 @@
    ]
   },
   {
+   "boss": "Vorkath",
+   "kills": 5,
+   "by": [
+    {
+     "player": "Trobro12",
+     "kills": 5
+    }
+   ]
+  },
+  {
+   "boss": "Duke Sucellus",
+   "kills": 4,
+   "by": [
+    {
+     "player": "SSora",
+     "kills": 4
+    }
+   ]
+  },
+  {
    "boss": "The Fractured Archive",
    "kills": 4,
    "by": [
     {
      "player": "SSora",
+     "kills": 4
+    }
+   ]
+  },
+  {
+   "boss": "The Corrupted Gauntlet",
+   "kills": 4,
+   "by": [
+    {
+     "player": "Lasrgatr",
      "kills": 4
     }
    ]
@@ -4885,16 +4949,6 @@
    "by": [
     {
      "player": "Kitten Lissy",
-     "kills": 3
-    }
-   ]
-  },
-  {
-   "boss": "The Corrupted Gauntlet",
-   "kills": 3,
-   "by": [
-    {
-     "player": "Lasrgatr",
      "kills": 3
     }
    ]
@@ -4934,7 +4988,27 @@
    ]
   },
   {
+   "boss": "The Gauntlet",
+   "kills": 2,
+   "by": [
+    {
+     "player": "Caffeine Guy",
+     "kills": 2
+    }
+   ]
+  },
+  {
    "boss": "Bryophyta",
+   "kills": 1,
+   "by": [
+    {
+     "player": "DemonWolfy",
+     "kills": 1
+    }
+   ]
+  },
+  {
+   "boss": "Tombs of Amascut",
    "kills": 1,
    "by": [
     {
@@ -4964,31 +5038,11 @@
    ]
   },
   {
-   "boss": "Vorkath",
-   "kills": 1,
-   "by": [
-    {
-     "player": "Trobro12",
-     "kills": 1
-    }
-   ]
-  },
-  {
    "boss": "Phosani's Nightmare",
    "kills": 1,
    "by": [
     {
      "player": "SSora",
-     "kills": 1
-    }
-   ]
-  },
-  {
-   "boss": "The Gauntlet",
-   "kills": 1,
-   "by": [
-    {
-     "player": "Caffeine Guy",
      "kills": 1
     }
    ]
@@ -4998,7 +5052,7 @@
   {
    "player": "DemonWolfy",
    "board": "Little",
-   "kills": 845,
+   "kills": 846,
    "top": [
     {
      "name": "Brutus",
@@ -5017,7 +5071,7 @@
   {
    "player": "Primal Sin",
    "board": "Little",
-   "kills": 478,
+   "kills": 504,
    "top": [
     {
      "name": "General Graardor",
@@ -5028,15 +5082,15 @@
      "gain": 131
     },
     {
-     "name": "The Royal Titans",
-     "gain": 79
+     "name": "Obor",
+     "gain": 93
     }
    ]
   },
   {
    "player": "SSora",
    "board": "Big",
-   "kills": 444,
+   "kills": 448,
    "top": [
     {
      "name": "Maggot King",
@@ -5055,7 +5109,7 @@
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 378,
+   "kills": 382,
    "top": [
     {
      "name": "Brutus",
@@ -5066,8 +5120,8 @@
      "gain": 156
     },
     {
-     "name": "Hespori",
-     "gain": 2
+     "name": "Vorkath",
+     "gain": 5
     }
    ]
   },
@@ -5093,18 +5147,18 @@
   {
    "player": "Caffeine Guy",
    "board": "Big",
-   "kills": 31,
+   "kills": 38,
    "top": [
     {
      "name": "Araxxor",
-     "gain": 29
-    },
-    {
-     "name": "Alchemical Hydra",
-     "gain": 1
+     "gain": 35
     },
     {
      "name": "The Gauntlet",
+     "gain": 2
+    },
+    {
+     "name": "Alchemical Hydra",
      "gain": 1
     }
    ]
@@ -5112,19 +5166,19 @@
   {
    "player": "Lasrgatr",
    "board": "Big",
-   "kills": 24,
+   "kills": 25,
    "top": [
     {
      "name": "Skotizo",
      "gain": 17
     },
     {
-     "name": "Vardorvis",
+     "name": "The Corrupted Gauntlet",
      "gain": 4
     },
     {
-     "name": "The Corrupted Gauntlet",
-     "gain": 3
+     "name": "Vardorvis",
+     "gain": 4
     }
    ]
   }
