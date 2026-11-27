@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-26 23:49 UTC",
+ "checked": "2026-11-27 08:22 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -243,11 +243,15 @@
     },
     {
      "name": "Obor",
-     "gain": 96
+     "gain": 107
     },
     {
      "name": "The Royal Titans",
      "gain": 79
+    },
+    {
+     "name": "Yama",
+     "gain": 30
     },
     {
      "name": "The Hueycoatl",
@@ -265,11 +269,15 @@
     },
     {
      "name": "Obor",
-     "gain": 96
+     "gain": 107
     },
     {
      "name": "The Royal Titans",
      "gain": 79
+    },
+    {
+     "name": "Yama",
+     "gain": 30
     },
     {
      "name": "The Hueycoatl",
@@ -422,19 +430,19 @@
    "sources": [
     "Hiscores"
    ],
-   "combat": 103,
+   "combat": 104,
    "skills": {
     "Attack": 83,
     "Strength": 82,
     "Defence": 82,
-    "Hitpoints": 85,
-    "Ranged": 81,
+    "Hitpoints": 86,
+    "Ranged": 82,
     "Magic": 81,
     "Prayer": 69,
     "Slayer": 74,
     "Agility": 66,
     "Herblore": 83,
-    "Overall": 1818
+    "Overall": 1821
    },
    "top_kc": [
     {
@@ -462,12 +470,12 @@
      "kc": 35
     },
     {
-     "name": "Chambers of Xeric",
-     "kc": 22
+     "name": "Vorkath",
+     "kc": 27
     },
     {
-     "name": "Vet'ion",
-     "kc": 16
+     "name": "Chambers of Xeric",
+     "kc": 22
     }
    ],
    "log_items": 0,
@@ -488,7 +496,7 @@
     },
     {
      "name": "Vorkath",
-     "gain": 6
+     "gain": 27
     },
     {
      "name": "Hespori",
@@ -506,7 +514,7 @@
     },
     {
      "name": "Vorkath",
-     "gain": 6
+     "gain": 27
     },
     {
      "name": "Hespori",
@@ -2020,7 +2028,7 @@
     },
     {
      "name": "Araxxor",
-     "kc": 1109
+     "kc": 1122
     },
     {
      "name": "Brutus",
@@ -2057,7 +2065,11 @@
    "kc_gains": [
     {
      "name": "Araxxor",
-     "gain": 35
+     "gain": 48
+    },
+    {
+     "name": "Sarachnis",
+     "gain": 17
     },
     {
      "name": "The Gauntlet",
@@ -2071,7 +2083,11 @@
    "kc_all": [
     {
      "name": "Araxxor",
-     "gain": 35
+     "gain": 48
+    },
+    {
+     "name": "Sarachnis",
+     "gain": 17
     },
     {
      "name": "The Gauntlet",
@@ -3788,11 +3804,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 97,
+    "kills": 108,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 96
+      "kills": 107
      },
      {
       "player": "DemonWolfy",
@@ -3845,11 +3861,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 6,
+    "kills": 27,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 6
+      "kills": 27
      }
     ],
     "on_it_kills": [
@@ -3870,8 +3886,12 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 4,
+    "kills": 21,
     "kills_by": [
+     {
+      "player": "Caffeine Guy",
+      "kills": 17
+     },
      {
       "player": "SSora",
       "kills": 4
@@ -4079,11 +4099,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 6,
+    "kills": 27,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 6
+      "kills": 27
      }
     ],
     "on_it_kills": [
@@ -4178,8 +4198,13 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
+    "kills": 30,
+    "kills_by": [
+     {
+      "player": "Primal Sin",
+      "kills": 30
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -4536,7 +4561,7 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 176,
+    "kills": 206,
     "kills_by": [
      {
       "player": "SSora",
@@ -4544,7 +4569,7 @@
      },
      {
       "player": "Caffeine Guy",
-      "kills": 36
+      "kills": 66
      }
     ],
     "on_it_kills": [],
@@ -4564,8 +4589,13 @@
     "starred": false,
     "manual": true,
     "progress": "",
-    "kills": 0,
-    "kills_by": [],
+    "kills": 30,
+    "kills_by": [
+     {
+      "player": "Primal Sin",
+      "kills": 30
+     }
+    ],
     "on_it_kills": [],
     "state": "on",
     "on_it": [
@@ -4848,11 +4878,11 @@
   },
   {
    "boss": "Obor",
-   "kills": 96,
+   "kills": 107,
    "by": [
     {
      "player": "Primal Sin",
-     "kills": 96
+     "kills": 107
     }
    ]
   },
@@ -4868,11 +4898,11 @@
   },
   {
    "boss": "Araxxor",
-   "kills": 35,
+   "kills": 48,
    "by": [
     {
      "player": "Caffeine Guy",
-     "kills": 35
+     "kills": 48
     }
    ]
   },
@@ -4901,6 +4931,40 @@
    ]
   },
   {
+   "boss": "Yama",
+   "kills": 30,
+   "by": [
+    {
+     "player": "Primal Sin",
+     "kills": 30
+    }
+   ]
+  },
+  {
+   "boss": "Vorkath",
+   "kills": 27,
+   "by": [
+    {
+     "player": "Trobro12",
+     "kills": 27
+    }
+   ]
+  },
+  {
+   "boss": "Sarachnis",
+   "kills": 21,
+   "by": [
+    {
+     "player": "Caffeine Guy",
+     "kills": 17
+    },
+    {
+     "player": "SSora",
+     "kills": 4
+    }
+   ]
+  },
+  {
    "boss": "Vardorvis",
    "kills": 9,
    "by": [
@@ -4911,16 +4975,6 @@
     {
      "player": "Lasrgatr",
      "kills": 4
-    }
-   ]
-  },
-  {
-   "boss": "Vorkath",
-   "kills": 6,
-   "by": [
-    {
-     "player": "Trobro12",
-     "kills": 6
     }
    ]
   },
@@ -4940,16 +4994,6 @@
   },
   {
    "boss": "Duke Sucellus",
-   "kills": 4,
-   "by": [
-    {
-     "player": "SSora",
-     "kills": 4
-    }
-   ]
-  },
-  {
-   "boss": "Sarachnis",
    "kills": 4,
    "by": [
     {
@@ -5106,7 +5150,7 @@
   {
    "player": "Primal Sin",
    "board": "Little",
-   "kills": 507,
+   "kills": 548,
    "top": [
     {
      "name": "General Graardor",
@@ -5118,7 +5162,7 @@
     },
     {
      "name": "Obor",
-     "gain": 96
+     "gain": 107
     }
    ]
   },
@@ -5144,7 +5188,7 @@
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 383,
+   "kills": 404,
    "top": [
     {
      "name": "Brutus",
@@ -5156,7 +5200,7 @@
     },
     {
      "name": "Vorkath",
-     "gain": 6
+     "gain": 27
     }
    ]
   },
@@ -5182,19 +5226,19 @@
   {
    "player": "Caffeine Guy",
    "board": "Big",
-   "kills": 38,
+   "kills": 68,
    "top": [
     {
      "name": "Araxxor",
-     "gain": 35
+     "gain": 48
+    },
+    {
+     "name": "Sarachnis",
+     "gain": 17
     },
     {
      "name": "The Gauntlet",
      "gain": 2
-    },
-    {
-     "name": "Alchemical Hydra",
-     "gain": 1
     }
    ]
   },
