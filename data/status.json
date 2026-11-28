@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-28 01:56 UTC",
+ "checked": "2026-11-28 10:21 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -235,7 +235,7 @@
    "kc_gains": [
     {
      "name": "General Graardor",
-     "gain": 199
+     "gain": 255
     },
     {
      "name": "Brutus",
@@ -243,7 +243,7 @@
     },
     {
      "name": "Obor",
-     "gain": 114
+     "gain": 121
     },
     {
      "name": "The Royal Titans",
@@ -261,7 +261,7 @@
    "kc_all": [
     {
      "name": "General Graardor",
-     "gain": 199
+     "gain": 255
     },
     {
      "name": "Brutus",
@@ -269,7 +269,7 @@
     },
     {
      "name": "Obor",
-     "gain": 114
+     "gain": 121
     },
     {
      "name": "The Royal Titans",
@@ -442,7 +442,7 @@
     "Slayer": 74,
     "Agility": 66,
     "Herblore": 83,
-    "Overall": 1821
+    "Overall": 1822
    },
    "top_kc": [
     {
@@ -466,12 +466,12 @@
      "kc": 43
     },
     {
-     "name": "Dagannoth Rex",
-     "kc": 35
+     "name": "Vorkath",
+     "kc": 40
     },
     {
-     "name": "Vorkath",
-     "kc": 29
+     "name": "Dagannoth Rex",
+     "kc": 35
     },
     {
      "name": "Chambers of Xeric",
@@ -496,7 +496,7 @@
     },
     {
      "name": "Vorkath",
-     "gain": 29
+     "gain": 40
     },
     {
      "name": "Hespori",
@@ -514,7 +514,7 @@
     },
     {
      "name": "Vorkath",
-     "gain": 29
+     "gain": 40
     },
     {
      "name": "Hespori",
@@ -1899,7 +1899,7 @@
    "note": "",
    "sources": [
     "WikiSync",
-    "Hiscores (last known)"
+    "Hiscores"
    ],
    "combat": 126,
    "skills": {
@@ -2028,7 +2028,7 @@
     },
     {
      "name": "Araxxor",
-     "kc": 1122
+     "kc": 1134
     },
     {
      "name": "Brutus",
@@ -2065,7 +2065,7 @@
    "kc_gains": [
     {
      "name": "Araxxor",
-     "gain": 48
+     "gain": 60
     },
     {
      "name": "Sarachnis",
@@ -2083,7 +2083,7 @@
    "kc_all": [
     {
      "name": "Araxxor",
-     "gain": 48
+     "gain": 60
     },
     {
      "name": "Sarachnis",
@@ -3642,11 +3642,11 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 199,
+    "kills": 255,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 199
+      "kills": 255
      }
     ],
     "on_it_kills": [],
@@ -3804,11 +3804,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 115,
+    "kills": 122,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 114
+      "kills": 121
      },
      {
       "player": "DemonWolfy",
@@ -3861,11 +3861,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 29,
+    "kills": 40,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 29
+      "kills": 40
      }
     ],
     "on_it_kills": [
@@ -3913,11 +3913,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 199,
+    "kills": 255,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 199
+      "kills": 255
      }
     ],
     "on_it_kills": [
@@ -3936,11 +3936,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 201,
+    "kills": 257,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 199
+      "kills": 255
      },
      {
       "player": "SSora",
@@ -3990,11 +3990,11 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 199,
+    "kills": 255,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 199
+      "kills": 255
      }
     ],
     "on_it_kills": [],
@@ -4099,11 +4099,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 29,
+    "kills": 40,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 29
+      "kills": 40
      }
     ],
     "on_it_kills": [
@@ -4537,11 +4537,11 @@
     "starred": true,
     "manual": false,
     "progress": "",
-    "kills": 199,
+    "kills": 255,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 199
+      "kills": 255
      }
     ],
     "on_it_kills": [],
@@ -4561,7 +4561,7 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 206,
+    "kills": 218,
     "kills_by": [
      {
       "player": "SSora",
@@ -4569,7 +4569,7 @@
      },
      {
       "player": "Caffeine Guy",
-      "kills": 66
+      "kills": 78
      }
     ],
     "on_it_kills": [],
@@ -4819,6 +4819,16 @@
    ]
   },
   {
+   "boss": "General Graardor",
+   "kills": 255,
+   "by": [
+    {
+     "player": "Primal Sin",
+     "kills": 255
+    }
+   ]
+  },
+  {
    "boss": "The Royal Titans",
    "kills": 254,
    "by": [
@@ -4847,16 +4857,6 @@
    ]
   },
   {
-   "boss": "General Graardor",
-   "kills": 199,
-   "by": [
-    {
-     "player": "Primal Sin",
-     "kills": 199
-    }
-   ]
-  },
-  {
    "boss": "Maggot King",
    "kills": 189,
    "by": [
@@ -4878,11 +4878,11 @@
   },
   {
    "boss": "Obor",
-   "kills": 114,
+   "kills": 121,
    "by": [
     {
      "player": "Primal Sin",
-     "kills": 114
+     "kills": 121
     }
    ]
   },
@@ -4898,11 +4898,21 @@
   },
   {
    "boss": "Araxxor",
-   "kills": 48,
+   "kills": 60,
    "by": [
     {
      "player": "Caffeine Guy",
-     "kills": 48
+     "kills": 60
+    }
+   ]
+  },
+  {
+   "boss": "Vorkath",
+   "kills": 40,
+   "by": [
+    {
+     "player": "Trobro12",
+     "kills": 40
     }
    ]
   },
@@ -4937,16 +4947,6 @@
     {
      "player": "Primal Sin",
      "kills": 30
-    }
-   ]
-  },
-  {
-   "boss": "Vorkath",
-   "kills": 29,
-   "by": [
-    {
-     "player": "Trobro12",
-     "kills": 29
     }
    ]
   },
@@ -5150,11 +5150,11 @@
   {
    "player": "Primal Sin",
    "board": "Little",
-   "kills": 555,
+   "kills": 618,
    "top": [
     {
      "name": "General Graardor",
-     "gain": 199
+     "gain": 255
     },
     {
      "name": "Brutus",
@@ -5162,7 +5162,7 @@
     },
     {
      "name": "Obor",
-     "gain": 114
+     "gain": 121
     }
    ]
   },
@@ -5188,7 +5188,7 @@
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 407,
+   "kills": 418,
    "top": [
     {
      "name": "Brutus",
@@ -5200,7 +5200,7 @@
     },
     {
      "name": "Vorkath",
-     "gain": 29
+     "gain": 40
     }
    ]
   },
@@ -5226,11 +5226,11 @@
   {
    "player": "Caffeine Guy",
    "board": "Big",
-   "kills": 68,
+   "kills": 80,
    "top": [
     {
      "name": "Araxxor",
-     "gain": 48
+     "gain": 60
     },
     {
      "name": "Sarachnis",
