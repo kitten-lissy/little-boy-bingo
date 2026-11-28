@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-27 18:55 UTC",
+ "checked": "2026-11-28 01:56 UTC",
  "started": true,
  "start": "2026-11-20 01:00 UTC",
  "players": [
@@ -243,7 +243,7 @@
     },
     {
      "name": "Obor",
-     "gain": 110
+     "gain": 114
     },
     {
      "name": "The Royal Titans",
@@ -269,7 +269,7 @@
     },
     {
      "name": "Obor",
-     "gain": 110
+     "gain": 114
     },
     {
      "name": "The Royal Titans",
@@ -315,7 +315,7 @@
     },
     {
      "name": "Mad Angel",
-     "kc": 201
+     "kc": 205
     },
     {
      "name": "Wintertodt",
@@ -361,7 +361,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 200
+     "gain": 204
     },
     {
      "name": "The Royal Titans",
@@ -395,7 +395,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 200
+     "gain": 204
     },
     {
      "name": "The Royal Titans",
@@ -459,7 +459,7 @@
     },
     {
      "name": "Hespori",
-     "kc": 47
+     "kc": 48
     },
     {
      "name": "Bryophyta",
@@ -471,7 +471,7 @@
     },
     {
      "name": "Vorkath",
-     "kc": 27
+     "kc": 29
     },
     {
      "name": "Chambers of Xeric",
@@ -496,11 +496,11 @@
     },
     {
      "name": "Vorkath",
-     "gain": 27
+     "gain": 29
     },
     {
      "name": "Hespori",
-     "gain": 2
+     "gain": 3
     }
    ],
    "kc_all": [
@@ -514,11 +514,11 @@
     },
     {
      "name": "Vorkath",
-     "gain": 27
+     "gain": 29
     },
     {
      "name": "Hespori",
-     "gain": 2
+     "gain": 3
     }
    ]
   },
@@ -1899,7 +1899,7 @@
    "note": "",
    "sources": [
     "WikiSync",
-    "Hiscores"
+    "Hiscores (last known)"
    ],
    "combat": 126,
    "skills": {
@@ -3516,11 +3516,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 200,
+    "kills": 204,
     "kills_by": [
      {
       "player": "DemonWolfy",
-      "kills": 200
+      "kills": 204
      }
     ],
     "on_it_kills": [],
@@ -3804,11 +3804,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 111,
+    "kills": 115,
     "kills_by": [
      {
       "player": "Primal Sin",
-      "kills": 110
+      "kills": 114
      },
      {
       "player": "DemonWolfy",
@@ -3861,11 +3861,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 27,
+    "kills": 29,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 27
+      "kills": 29
      }
     ],
     "on_it_kills": [
@@ -4099,11 +4099,11 @@
     "starred": false,
     "manual": false,
     "progress": "",
-    "kills": 27,
+    "kills": 29,
     "kills_by": [
      {
       "player": "Trobro12",
-      "kills": 27
+      "kills": 29
      }
     ],
     "on_it_kills": [
@@ -4838,11 +4838,11 @@
   },
   {
    "boss": "Mad Angel",
-   "kills": 200,
+   "kills": 204,
    "by": [
     {
      "player": "DemonWolfy",
-     "kills": 200
+     "kills": 204
     }
    ]
   },
@@ -4878,11 +4878,11 @@
   },
   {
    "boss": "Obor",
-   "kills": 110,
+   "kills": 114,
    "by": [
     {
      "player": "Primal Sin",
-     "kills": 110
+     "kills": 114
     }
    ]
   },
@@ -4942,11 +4942,11 @@
   },
   {
    "boss": "Vorkath",
-   "kills": 27,
+   "kills": 29,
    "by": [
     {
      "player": "Trobro12",
-     "kills": 27
+     "kills": 29
     }
    ]
   },
@@ -5043,21 +5043,21 @@
    ]
   },
   {
+   "boss": "Hespori",
+   "kills": 3,
+   "by": [
+    {
+     "player": "Trobro12",
+     "kills": 3
+    }
+   ]
+  },
+  {
    "boss": "Tombs of Amascut: Expert Mode",
    "kills": 2,
    "by": [
     {
      "player": "DemonWolfy",
-     "kills": 2
-    }
-   ]
-  },
-  {
-   "boss": "Hespori",
-   "kills": 2,
-   "by": [
-    {
-     "player": "Trobro12",
      "kills": 2
     }
    ]
@@ -5131,7 +5131,7 @@
   {
    "player": "DemonWolfy",
    "board": "Little",
-   "kills": 880,
+   "kills": 884,
    "top": [
     {
      "name": "Brutus",
@@ -5139,7 +5139,7 @@
     },
     {
      "name": "Mad Angel",
-     "gain": 200
+     "gain": 204
     },
     {
      "name": "The Royal Titans",
@@ -5150,7 +5150,7 @@
   {
    "player": "Primal Sin",
    "board": "Little",
-   "kills": 551,
+   "kills": 555,
    "top": [
     {
      "name": "General Graardor",
@@ -5162,7 +5162,7 @@
     },
     {
      "name": "Obor",
-     "gain": 110
+     "gain": 114
     }
    ]
   },
@@ -5188,7 +5188,7 @@
   {
    "player": "Trobro12",
    "board": "Little",
-   "kills": 404,
+   "kills": 407,
    "top": [
     {
      "name": "Brutus",
@@ -5200,7 +5200,7 @@
     },
     {
      "name": "Vorkath",
-     "gain": 27
+     "gain": 29
     }
    ]
   },
